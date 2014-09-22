@@ -4,6 +4,11 @@
 
 @import "bootstrap/bootstrap/_variables";
 
+@font-face {
+    font-family: "Big Noodle Titling";
+    src: url("{{ '/fonts/big_noodle_titling.ttf' | prepend: site.baseurl }}");
+}
+
 $character-color-red: #900;
 $character-color-blue: #06B;
 $character-color-green: #191;
@@ -13,6 +18,21 @@ body {
     padding-top: $navbar-height;
 }
 
+body, html {
+    height: 100%;
+}
+
+.navbar-brand {
+    color: white !important;
+    text-transform: uppercase;
+    font-family: "Big Noodle Titling", sans;
+    font-size: 24pt;
+}
+
+.first-screen {
+    position: relative;
+    height: 100%;
+}
 
 .the-logo {
     text-align: center;
@@ -20,13 +40,12 @@ body {
 }
 
 .logo {
-    $logo-height: 24em;
-    $logo-margin: 3em;
-
     position: relative;
     display: inline-block;
-    margin: $logo-margin;
-    height: $logo-height;
+    margin: 3em;
+
+    width: 40%;
+
 
     /*
     transition: all 100ms;
@@ -42,7 +61,9 @@ body {
 
 
 
-.character-quotes {
+.the-quotes {
+    position: absolute;
+    bottom: 0;
     background: black;
     text-align: center;
 }

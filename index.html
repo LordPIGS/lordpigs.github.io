@@ -28,16 +28,18 @@ layout: base
 </nav>
 
 <!-- LOGO AND MAIN VIEW -->
-<div class="container-fluid the-logo">
-  <img class="logo" alt="The Lord of the P.I.G.S." src="{{ '/img/pigs-logo.png' | prepend: site.baseurl }}" />
-</div>
+<div class="first-screen">
+  <div class="container-fluid the-logo">
+    <img class="logo" alt="The Lord of the P.I.G.S." src="{{ '/img/pigs-logo.png' | prepend: site.baseurl }}" />
+  </div>
 
-<!-- THINGS CHARACTER SAY -->
-<div class="hidden-xs character-quotes">
-{% for quote in site.data.quotes %}
-  <div class="character-quote character-quote-{{ quote.class }}">{{ quote.text }}</div>
-{% endfor %}
-  <div class="character-quote">And much more&#8230;</div>
+  <!-- THINGS CHARACTER SAY -->
+  <div class="container-fluid hidden-xs the-quotes">
+  {% for quote in site.data.quotes %}
+    <div class="character-quote character-quote-{{ quote.class }}">{{ quote.text }}</div>
+  {% endfor %}
+    <div class="character-quote">And much more&#8230;</div>
+  </div>
 </div>
 
 <!-- THE GAME -->
