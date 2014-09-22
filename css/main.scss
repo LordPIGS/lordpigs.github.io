@@ -1,0 +1,81 @@
+---
+---
+@charset "utf-8";
+
+@import "bootstrap/bootstrap/_variables";
+
+$character-color-red: #900;
+$character-color-blue: #06B;
+$character-color-green: #191;
+$character-color-yellow: #A90;
+
+body {
+    padding-top: $navbar-height;
+}
+
+
+.the-logo {
+    text-align: center;
+    padding: 0;
+}
+
+.logo {
+    $logo-height: 24em;
+    $logo-margin: 3em;
+
+    position: relative;
+    display: inline-block;
+    margin: $logo-margin;
+    height: $logo-height;
+
+    /*
+    transition: all 100ms;
+
+    &:hover {
+        $logo-hover-extra: 0.1;
+        height: ($logo-height * (1 + $logo-hover-extra));
+        margin-top: ($logo-margin - $logo-height * $logo-hover-extra * 0.5);
+        margin-bottom: ($logo-margin - $logo-height * $logo-hover-extra * 0.5);
+    }
+    */
+}
+
+
+
+.character-quotes {
+    background: black;
+    text-align: center;
+}
+
+.character-quote {
+    display: inline-block;
+    margin: 0.6em;
+    padding: 0.6em 1.2em;
+    border-width: 0.2em;
+    border-style: solid;
+    border-radius: 0.5em;
+    border-color: #666;
+    color: white;
+    background: #333;
+}
+
+
+.character-quote-red {
+    background-color: darken($character-color-red, 10%);
+    border-color: $character-color-red;
+}
+
+.character-quote-blue {
+    background-color: darken($character-color-blue, 10%);
+    border-color: $character-color-blue;
+}
+
+.character-quote-green {
+    background-color: darken($character-color-green, 10%);
+    border-color: $character-color-green;
+}
+
+.character-quote-yellow {
+    background-color: darken($character-color-yellow, 10%);
+    border-color: $character-color-yellow;
+}
