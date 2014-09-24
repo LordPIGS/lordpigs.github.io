@@ -21,9 +21,15 @@ body, html {
 .parallax-container {
     position: relative;
     height: 100%;
-    perspective: 1px;
     overflow-x: hidden;
     overflow-y: auto;
+
+    /*
+    html.csstransforms3d & {
+                perspective: 1px;
+        -webkit-perspective: 1px;
+           -moz-perspective: 1px;
+    }*/
 }
 
 .navbar-brand {
@@ -39,26 +45,38 @@ body, html {
 }
 
 .the-logo {
-    transform: translateZ(-1px) scale(2);
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: hidden;
     z-index: -100;
+
+    /*
+    html.csstransforms3d & {
+                transform: translateZ(-1px) scale(2);
+        -webkit-transform: translateZ(-1px) scale(2);
+           -moz-transform: translateZ(-1px) scale(2);
+    }*/
 }
 
 .logo {
     position: absolute;
-    display: inline-block;
     margin: 3em;
+    left: 50%;
+    top: 50%;
+
     width: 350px;
     height: 355px;
     margin-left: -175px;
     margin-top: -230px;
-    left: 50%;
-    top: 50%;
+
+    @media (max-width: $screen-xs-max) {
+        width: (350px / 1.5);
+        height: (355px / 1.5);
+        margin-left: (-175px / 1.5);
+        margin-top: (-230px / 1.5);
+    }
 }
 
 .the-quotes {
@@ -69,7 +87,6 @@ body, html {
     right: 0;
     background: black;
     text-align: center;
-    transform: translateZ(0);
 }
 
 .character-quote {
