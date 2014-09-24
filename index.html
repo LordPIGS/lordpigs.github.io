@@ -1,5 +1,7 @@
 ---
 layout: base
+scripts:
+  - /js/character-quotes.js
 ---
 
 <!-- NAVIGATION -->
@@ -34,12 +36,11 @@ layout: base
   </div>
 
   <!-- THINGS CHARACTER SAY -->
-  <div class="container-fluid hidden-xs the-quotes">
+  <div class="container-fluid the-quotes">
   {% for quote in site.data.quotes %}
-    <div class="character-quote character-quote-{{ quote.class }}">{{ quote.text }}</div>
+    <div class="character-quote character-quote-{{ quote.class }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ quote.text }}</div>
   {% endfor %}
-    <div class="character-quote">And much more&#8230;</div>
-  </div>
+    </div>
 </div>
 
 <!-- THE GAME -->

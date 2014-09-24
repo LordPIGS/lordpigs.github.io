@@ -12,4 +12,7 @@
 
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="{{ "/js/bootstrap/bootstrap.js" | prepend: site.baseurl }}"></script>
+    {% for script in page.scripts %}
+    <script src="{{ script | prepend: site.baseurl }}"></script>
+    {% endfor %}
 </head>
