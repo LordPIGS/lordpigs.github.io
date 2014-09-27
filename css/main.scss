@@ -16,6 +16,44 @@ $character-color-yellow: #A90;
 
 body, html {
     height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.anchor {
+    margin-top: (-$navbar-height);
+    padding-top: $navbar-height;
+}
+
+.parallax-container .container-fluid {
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Big Noodle Titling";
+    font-size: 64px;
+    //font-variant: small-caps;
+
+    a, a:hover {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    &:before, &:after {
+        content: "—";
+        padding: 0.3em;
+    }
+}
+
+h2 {
+    font-family: "Big Noodle Titling";
+    font-size: 48px;
+    font-variant: small-caps;
+}
+
+p {
+    font-size: 20px;
 }
 
 .parallax-container {
@@ -37,6 +75,20 @@ body, html {
     text-transform: uppercase;
     font-family: "Big Noodle Titling", sans;
     font-size: 24pt;
+}
+
+.navbar-nav li {
+    text-transform: uppercase;
+    font-family: "Big Noodle Titling";
+    font-size: 18pt;
+
+    a {
+        color: #999 !important;
+
+        &:hover {
+            color: white !important;
+        }
+    }
 }
 
 .first-screen {
@@ -183,4 +235,61 @@ body, html {
 
 .the-game, .the-characters, .the-team, .the-store {
     background: white;
+}
+
+.team-members {
+    $picture-size: 256px;
+
+    padding: 0;
+    margin: 0;
+
+    .member {
+
+        display: block;
+        position: relative;
+        min-height: $picture-size;
+
+        list-style: none;
+        margin: 0;
+
+        img {
+            position: absolute;
+            top: 0;
+            width: $picture-size;
+            height: $picture-size;
+        }
+
+        .member-content {
+            padding-left: 1em;
+            padding-right: 1em;
+        }
+
+        h2 {
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+            margin-top: 0.8em;
+        }
+    }
+
+    .member-left {
+        img {
+            left: 0;
+        }
+        .member-content {
+            margin-left: $picture-size;
+        }
+    }
+
+    .member-right {
+        img {
+            right: 0;
+        }
+        .member-content {
+            margin-right: $picture-size;
+        }
+    }
 }
