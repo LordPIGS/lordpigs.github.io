@@ -18,6 +18,8 @@ body, html {
     height: 100%;
     margin: 0;
     padding: 0;
+
+    font-size: 18px;
 }
 
 .anchor {
@@ -25,7 +27,7 @@ body, html {
     padding-top: $navbar-height;
 }
 
-.parallax-container .container-fluid {
+.the-team > .container-fluid {
     padding: 0;
 }
 
@@ -50,10 +52,6 @@ h2 {
     font-family: "Big Noodle Titling";
     font-size: 48px;
     font-variant: small-caps;
-}
-
-p {
-    font-size: 20px;
 }
 
 .parallax-container {
@@ -112,23 +110,73 @@ p {
     }*/
 }
 
+$logo-size: 350px;
+$logo-width: $logo-size;
+$logo-height: $logo-size * 355 / 350;
+$logo-vertical-offset: -20px;
+$logo-xs-reduction: 1.5;
+$shine-size: ($logo-size * 2);
+
 .logo {
+    z-index: 0;
+
     position: absolute;
     margin: 3em;
     left: 50%;
     top: 50%;
 
-    width: 350px;
-    height: 355px;
-    margin-left: -175px;
-    margin-top: -230px;
+    width: $logo-width;
+    height: $logo-height;
+    margin-left: (-$logo-width / 2);
+    margin-top: (-$logo-height / 2) + $logo-vertical-offset;
 
     @media (max-width: $screen-xs-max) {
-        width: (350px / 1.5);
-        height: (355px / 1.5);
-        margin-left: (-175px / 1.5);
-        margin-top: (-230px / 1.5);
+        width: ($logo-width / $logo-xs-reduction);
+        height: ($logo-height / $logo-xs-reduction);
+        margin-left: (-$logo-width / (2 * $logo-xs-reduction));
+        margin-top: (-$logo-height / (2 * $logo-xs-reduction));
     }
+}
+
+.logo-shine {
+    z-index: -200;
+
+    position: absolute;
+    margin: 3em;
+    left: 50%;
+    top: 50%;
+
+    width: $shine-size;
+    height: $shine-size;
+    margin-left: -($shine-size / 2);
+    margin-top: -($shine-size / 2) + $logo-vertical-offset;
+
+    @media (max-width: $screen-xs-max) {
+        width: ($shine-size / $logo-xs-reduction);
+        height: ($shine-size / $logo-xs-reduction);
+        margin-left: (-$shine-size / (2 * $logo-xs-reduction));
+        margin-top: (-$shine-size / (2 * $logo-xs-reduction) + $logo-vertical-offset / $logo-xs-reduction);
+    }
+
+    /* Animation */
+    -webkit-animation-name: rotate;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@-webkit-keyframes rotate {
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(20deg);}
+}
+@keyframes rotate {
+    from {transform: rotate(0deg);}
+    to {transform: rotate(20deg);}
 }
 
 .the-quotes {
