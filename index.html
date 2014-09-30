@@ -49,7 +49,7 @@ scripts:
   <!-- THE GAME -->
   <div class="the-game">
     <h1><a class="anchor" id="game">The Game</a></h1>
-    <div class="container-fluid">
+    <div class="container">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
@@ -81,7 +81,9 @@ scripts:
       <ul class="team-members">
     {% for member in site.data.team %}
         <li class="member member-{% cycle 'left' %}">
-          <img alt="Picture: {{ member.name }}" src="{{ member.picture | prepend: site.baseurl }}"/>
+          <div class="member-picture">
+            <img alt="Picture: {{ member.name }}" src="{{ member.picture | prepend: site.baseurl }}"/>
+          </div>
           <div class="member-content">
             <h2 >{{ member.name }}</h2>
             {{ member.text | markdownify }}

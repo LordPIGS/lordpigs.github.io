@@ -23,6 +23,8 @@ body, html {
     padding: 0;
 
     font-size: 18px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .anchor {
@@ -54,6 +56,12 @@ h1 {
     &:before, &:after {
         content: "—";
         padding: 0.3em;
+    }
+}
+
+@media (max-width: $screen-xs-max) {
+    h1 {
+        font-size: 48px;
     }
 }
 
@@ -111,6 +119,8 @@ h2 {
     bottom: 0;
     z-index: -100;
 
+    overflow: hidden;
+
     /*
     html.csstransforms3d & {
                 transform: translateZ(-1px) scale(2);
@@ -122,8 +132,8 @@ h2 {
 $logo-size: 350px;
 $logo-width: $logo-size;
 $logo-height: $logo-size * 355 / 350;
-$logo-vertical-offset: -20px;
-$logo-xs-reduction: 1.5;
+$logo-vertical-offset: 0;
+$logo-xs-reduction: 0.75;
 $shine-size: ($logo-size * 2);
 
 .logo {
@@ -140,10 +150,10 @@ $shine-size: ($logo-size * 2);
     margin-top: (-$logo-height / 2) + $logo-vertical-offset;
 
     @media (max-width: $screen-xs-max) {
-        width: ($logo-width / $logo-xs-reduction);
-        height: ($logo-height / $logo-xs-reduction);
-        margin-left: (-$logo-width / (2 * $logo-xs-reduction));
-        margin-top: (-$logo-height / (2 * $logo-xs-reduction));
+        width: ($logo-width * $logo-xs-reduction);
+        height: ($logo-height * $logo-xs-reduction);
+        margin-left: (-$logo-width * $logo-xs-reduction / 2);
+        margin-top: (-$logo-height * $logo-xs-reduction / 2 + $logo-vertical-offset);
     }
 }
 
@@ -161,10 +171,10 @@ $shine-size: ($logo-size * 2);
     margin-top: -($shine-size / 2) + $logo-vertical-offset;
 
     @media (max-width: $screen-xs-max) {
-        width: ($shine-size / $logo-xs-reduction);
-        height: ($shine-size / $logo-xs-reduction);
-        margin-left: (-$shine-size / (2 * $logo-xs-reduction));
-        margin-top: (-$shine-size / (2 * $logo-xs-reduction) + $logo-vertical-offset / $logo-xs-reduction);
+        width: ($shine-size * $logo-xs-reduction);
+        height: ($shine-size * $logo-xs-reduction);
+        margin-left: (-$shine-size * $logo-xs-reduction / 2);
+        margin-top: (-$shine-size * $logo-xs-reduction / 2 + $logo-vertical-offset * $logo-xs-reduction);
     }
 
     /* Animation */
@@ -180,12 +190,12 @@ $shine-size: ($logo-size * 2);
 }
 
 @-webkit-keyframes rotate {
-    from {-webkit-transform: rotate(0deg);}
-    to {-webkit-transform: rotate(20deg);}
+    from {-webkit-transform: rotate(-10deg);}
+    to {-webkit-transform: rotate(10deg);}
 }
 @keyframes rotate {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(20deg);}
+    from {transform: rotate(-10deg);}
+    to {transform: rotate(10deg);}
 }
 
 .the-quotes {
@@ -295,12 +305,15 @@ $shine-size: ($logo-size * 2);
 
     h1 {
         margin-top: 0;
-        margin-bottom: 0;
     }
 }
 
 .the-characters, .the-team, .the-store {
     margin-top: 3em;
+}
+
+.the-team h1 {
+    margin-bottom: 0;
 }
 
 .team-members {
@@ -310,7 +323,6 @@ $shine-size: ($logo-size * 2);
     margin: 0;
 
     .member {
-
         display: block;
         position: relative;
         min-height: $picture-size;
@@ -318,11 +330,15 @@ $shine-size: ($logo-size * 2);
         list-style: none;
         margin: 0;
 
-        img {
+        .member-picture {
             position: absolute;
             top: 0;
             width: $picture-size;
             height: $picture-size;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
         }
 
         .member-content {
@@ -342,7 +358,7 @@ $shine-size: ($logo-size * 2);
     }
 
     .member-left {
-        img {
+        .member-picture {
             left: 0;
         }
         .member-content {
@@ -351,11 +367,65 @@ $shine-size: ($logo-size * 2);
     }
 
     .member-right {
-        img {
+        .member-picture {
             right: 0;
         }
         .member-content {
             margin-right: $picture-size;
+        }
+    }
+}
+
+@media (max-width: $screen-xs-max) {
+    .team-members {
+        $picture-height: 192px;
+
+        .member {
+            min-height: $picture-height;
+            padding-bottom: 1em;
+
+            .member-picture {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                width: 100%;
+                height: $picture-height;
+                z-index: 0;
+
+                img {
+                    margin-top: -20%;
+                }
+            }
+
+            .member-content {
+                position: relative;
+                padding-left: 1em;
+                padding-right: 1em;
+                z-index: 200;
+            }
+
+            h2 {
+                margin-top: 0;
+                margin-bottom: 0;
+                text-align: center;
+                color: white;
+                font-size: 64px;
+
+                text-shadow: 0 0 0.5em black;
+            }
+
+            p {
+                margin-bottom: 0;
+                margin-top: 0.8em;
+            }
+        }
+
+        .member-left, .member-right {
+            .member-content {
+                padding-top: $picture-height - 64px;
+                margin: 0;
+            }
         }
     }
 }
