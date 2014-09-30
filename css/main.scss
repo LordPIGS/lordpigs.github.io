@@ -206,6 +206,7 @@ $shine-size: ($logo-size * 2);
     right: 0;
     background: black;
     text-align: center;
+    z-index: 300;
 }
 
 .character-quote {
@@ -281,22 +282,22 @@ $shine-size: ($logo-size * 2);
 
 .character-quote-red {
     background-color: darken($character-color-red, 10%);
-    border-color: $character-color-red;
+    box-shadow: 0 0 2em 0 lighten($character-color-red, 10%) inset;
 }
 
 .character-quote-blue {
     background-color: darken($character-color-blue, 10%);
-    border-color: $character-color-blue;
+    box-shadow: 0 0 2em 0 lighten($character-color-blue, 10%) inset;
 }
 
 .character-quote-green {
     background-color: darken($character-color-green, 10%);
-    border-color: $character-color-green;
+    box-shadow: 0 0 2em 0 lighten($character-color-green, 10%) inset;
 }
 
 .character-quote-yellow {
     background-color: darken($character-color-yellow, 10%);
-    border-color: $character-color-yellow;
+    box-shadow: 0 0 2em 0 lighten($character-color-yellow, 10%) inset;
 }
 
 
