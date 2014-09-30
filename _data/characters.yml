@@ -1,6 +1,7 @@
 - name: Jenaro Strozzo
   class: blue
   text: |
+    **Jenaro Strozzo** 
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -10,6 +11,7 @@
 - name: Salvador Gomes de Sousa
   class: red
   text: |
+    **Salvador Gomes de Sousa**
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -19,6 +21,7 @@
 - name: Antonio Roberto Lieberman
   class: green
   text: |
+    **Antonio Roberto Lieberman**
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -28,6 +31,7 @@
 - name: Gustavo Mendez Uriz
   class: yellow
   text: |
+    **Gustavo Mendez Uriz**
     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

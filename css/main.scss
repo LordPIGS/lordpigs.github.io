@@ -46,7 +46,7 @@ h1 {
     background: $color-bg-darkred;
     color: $color-fg-white;
 
-    text-shadow: 0 -1px 2px black;
+    text-shadow: 0 -1px 1px black;
     
     a, a:hover {
         text-decoration: none;
@@ -179,23 +179,23 @@ $shine-size: ($logo-size * 2);
 
     /* Animation */
     -webkit-animation-name: rotate;
-    -webkit-animation-duration: 5s;
+    -webkit-animation-duration: 10s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 
     animation-name: rotate;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 @-webkit-keyframes rotate {
-    from {-webkit-transform: rotate(-10deg);}
-    to {-webkit-transform: rotate(10deg);}
+    from {-webkit-transform: rotate(-20deg);}
+    to {-webkit-transform: rotate(20deg);}
 }
 @keyframes rotate {
-    from {transform: rotate(-10deg);}
-    to {transform: rotate(10deg);}
+    from {transform: rotate(-20deg);}
+    to {transform: rotate(20deg);}
 }
 
 .the-quotes {
@@ -282,22 +282,22 @@ $shine-size: ($logo-size * 2);
 
 .character-quote-red {
     background-color: darken($character-color-red, 10%);
-    box-shadow: 0 0 2em 0 lighten($character-color-red, 10%) inset;
+    box-shadow: 0 0 2em -0.5em lighten($character-color-red, 10%) inset;
 }
 
 .character-quote-blue {
     background-color: darken($character-color-blue, 10%);
-    box-shadow: 0 0 2em 0 lighten($character-color-blue, 10%) inset;
+    box-shadow: 0 0 2em -0.5em lighten($character-color-blue, 10%) inset;
 }
 
 .character-quote-green {
     background-color: darken($character-color-green, 10%);
-    box-shadow: 0 0 2em 0 lighten($character-color-green, 10%) inset;
+    box-shadow: 0 0 2em -0.5em lighten($character-color-green, 10%) inset;
 }
 
 .character-quote-yellow {
     background-color: darken($character-color-yellow, 10%);
-    box-shadow: 0 0 2em 0 lighten($character-color-yellow, 10%) inset;
+    box-shadow: 0 0 2em -0.5em lighten($character-color-yellow, 10%) inset;
 }
 
 
