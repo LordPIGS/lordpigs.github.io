@@ -27,7 +27,7 @@
       <stop
          id="stop3932"
          offset="0.5"
-         style="stop-color:#fed100;stop-opacity:0.49803922;" />
+         style="stop-color:#fed100;stop-opacity:1;" />
       <stop
          style="stop-color:#feb300;stop-opacity:0;"
          offset="1"
@@ -70,7 +70,6 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
