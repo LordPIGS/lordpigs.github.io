@@ -117,7 +117,7 @@ h2 {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -100;
+    z-index: 100;
 
     overflow: hidden;
 
@@ -137,12 +137,12 @@ $logo-xs-reduction: 0.75;
 $shine-size: ($logo-size * 2);
 
 .logo {
-    z-index: 0;
-
     position: absolute;
     margin: 3em;
     left: 50%;
     top: 50%;
+
+    z-index: 50;
 
     width: $logo-width;
     height: $logo-height;
@@ -158,12 +158,12 @@ $shine-size: ($logo-size * 2);
 }
 
 .logo-shine {
-    z-index: -200;
-
     position: absolute;
     margin: 3em;
     left: 50%;
     top: 50%;
+
+    z-index: 20;
 
     width: $shine-size;
     height: $shine-size;
@@ -301,8 +301,6 @@ $shine-size: ($logo-size * 2);
 
 
 .the-game, .the-characters, .the-team, .the-store {
-    background: white;
-
     h1 {
         margin-top: 0;
     }
