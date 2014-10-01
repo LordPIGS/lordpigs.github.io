@@ -61,14 +61,15 @@ scripts:
   <!-- THE CHARACTERS -->
   <div class="the-characters">
     <h1><a class="anchor" id="characters">The Characters</a></h1>
-    <div class="container-fluid">
-      <ul class="character-descriptions">
+    <div class="container-fluid character-descriptions">
     {% for character in site.data.characters %}
-        <li>
-          {{ character.text | markdownify }}
-        </li>
+      <div class="pull-{% cycle 'left','right' %}">
+        <img src="{{ character.picture | prepend: site.baseurl }}" width="128" alt="{{ character.name }}"/>
+      </div>
+      <div class="character-description-{{ character.class }}">
+        {{ character.text | markdownify }}
+      </div>
     {% endfor %}
-      </ul>
     </div>
   </div>
 

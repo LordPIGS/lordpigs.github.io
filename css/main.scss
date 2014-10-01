@@ -311,6 +311,25 @@ $shine-size: ($logo-size * 2);
     margin-top: 3em;
 }
 
+.character-descriptions {
+    img {
+        margin: 0 1em;
+    }
+
+    .character-description-red strong {
+        color: darken($character-color-red, 5%);
+    }
+    .character-description-blue strong {
+        color: darken($character-color-blue, 5%);
+    }
+    .character-description-green strong {
+        color: darken($character-color-green, 5%);
+    }
+    .character-description-yellow strong {
+        color: darken($character-color-yellow, 5%);
+    }
+}
+
 .the-team h1 {
     margin-bottom: 0;
 }
