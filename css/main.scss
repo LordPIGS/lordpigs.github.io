@@ -354,8 +354,10 @@ $shine-size: ($logo-size * 2);
             width: $picture-size;
             height: $picture-size;
             overflow: hidden;
+
             img {
-                width: 100%;
+                width: 150%;
+                margin-left: -25%;
             }
         }
 
@@ -367,6 +369,7 @@ $shine-size: ($logo-size * 2);
         h2 {
             margin-top: 0;
             margin-bottom: 0;
+            padding-top: 0.1em;
         }
 
         p {
@@ -413,6 +416,8 @@ $shine-size: ($logo-size * 2);
 
                 img {
                     margin-top: -20%;
+                    margin-left: 0;
+                    width: 100%;
                 }
             }
 
@@ -424,6 +429,7 @@ $shine-size: ($logo-size * 2);
             }
 
             h2 {
+                padding-top: 0;
                 margin-top: 0;
                 margin-bottom: 0;
                 text-align: center;
