@@ -30,75 +30,73 @@ scripts:
 
 </nav>
 
-<div class="parallax-container">
-  <!-- LOGO AND MAIN VIEW -->
-  <div class="first-screen">
-    <div class="container-fluid the-logo">
-      <img id="shine" class="logo-shine" src="{{ '/img/shine.svg' | prepend: site.baseurl }}" />
-      <img class="logo" alt="The Lord of the P.I.G.S." src="{{ '/img/pigs-logo.png' | prepend: site.baseurl }}" />
-    </div>
-
-    <!-- THINGS CHARACTERS SAY -->
-    <div class="container-fluid the-quotes">
-    {% for quote in site.data.quotes %}
-      <div class="character-quote character-quote-{{ quote.class }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ quote.text }}</div>
-    {% endfor %}
-      </div>
+<!-- LOGO AND MAIN VIEW -->
+<div class="first-screen">
+  <div class="container-fluid the-logo">
+    <img id="shine" class="logo-shine" src="{{ '/img/shine2.svg' | prepend: site.baseurl }}" />
+    <img class="logo" alt="The Lord of the P.I.G.S." src="{{ '/img/pigs-logo.png' | prepend: site.baseurl }}" />
   </div>
 
-  <!-- THE GAME -->
-  <div class="the-game">
-    <h1><a class="anchor" id="game">The Game</a></h1>
-    <div class="container">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <!-- THINGS CHARACTERS SAY -->
+  <div class="container-fluid the-quotes">
+  {% for quote in site.data.quotes %}
+    <div class="character-quote character-quote-{{ quote.class }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ quote.text }}</div>
+  {% endfor %}
     </div>
-  </div>
-
-  <!-- THE CHARACTERS -->
-  <div class="the-characters">
-    <h1><a class="anchor" id="characters">The Characters</a></h1>
-    <div class="container-fluid character-descriptions">
-    {% for character in site.data.characters %}
-      <div class="pull-{% cycle 'left','right' %}">
-        <img src="{{ character.picture | prepend: site.baseurl }}" width="128" alt="{{ character.name }}"/>
-      </div>
-      <div class="character-description-{{ character.class }}">
-        {{ character.text | markdownify }}
-      </div>
-    {% endfor %}
-    </div>
-  </div>
-
-  <!-- THE TEAM -->
-  <div class="the-team">
-    <h1><a class="anchor" id="team">The Team</a></h1>
-
-    <div class="container-fluid">
-      <ul class="team-members">
-    {% for member in site.data.team %}
-        <li class="member member-{% cycle 'left' %}">
-          <div class="member-picture">
-            <img alt="Picture: {{ member.name }}" src="{{ member.picture | prepend: site.baseurl }}"/>
-          </div>
-          <div class="member-content">
-            <h2 >{{ member.name }}</h2>
-            {{ member.text | markdownify }}
-          </div>
-        </li>
-    {% endfor %}
-      </ul>
-    </div>
-
-  <!-- THE STORE -->
-  <!--<div class="the-store">
-    <h1><a class="anchor" id="store">The Store</a></h1>
-
-    <div class="container-fluid">
-    </div>
-
-  </div>-->
 </div>
+
+<!-- THE GAME -->
+<div class="the-game">
+  <h1><a class="anchor" id="game">The Game</a></h1>
+  <div class="container">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
+
+<!-- THE CHARACTERS -->
+<div class="the-characters">
+  <h1><a class="anchor" id="characters">The Characters</a></h1>
+  <div class="container-fluid character-descriptions">
+  {% for character in site.data.characters %}
+    <div class="pull-{% cycle 'left','right' %}">
+      <img src="{{ character.picture | prepend: site.baseurl }}" width="128" alt="{{ character.name }}"/>
+    </div>
+    <div class="character-description-{{ character.class }}">
+      {{ character.text | markdownify }}
+    </div>
+  {% endfor %}
+  </div>
+</div>
+
+<!-- THE TEAM -->
+<div class="the-team">
+  <h1><a class="anchor" id="team">The Team</a></h1>
+
+  <div class="container-fluid">
+    <ul class="team-members">
+  {% for member in site.data.team %}
+      <li class="member member-{% cycle 'left' %}">
+        <div class="member-picture">
+          <img alt="Picture: {{ member.name }}" src="{{ member.picture | prepend: site.baseurl }}"/>
+        </div>
+        <div class="member-content">
+          <h2 >{{ member.name }}</h2>
+          {{ member.text | markdownify }}
+        </div>
+      </li>
+  {% endfor %}
+    </ul>
+  </div>
+
+<!-- THE STORE -->
+<!--<div class="the-store">
+  <h1><a class="anchor" id="store">The Store</a></h1>
+
+  <div class="container-fluid">
+  </div>
+
+</div>-->

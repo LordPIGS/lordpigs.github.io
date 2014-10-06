@@ -23,7 +23,6 @@ body, html {
     padding: 0;
 
     font-size: 18px;
-    overflow-y: auto;
     overflow-x: hidden;
 }
 
@@ -69,20 +68,6 @@ h2 {
     font-family: "Big Noodle Titling";
     font-size: 48px;
     font-variant: small-caps;
-}
-
-.parallax-container {
-    position: relative;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: auto;
-
-    /*
-    html.csstransforms3d & {
-                perspective: 1px;
-        -webkit-perspective: 1px;
-           -moz-perspective: 1px;
-    }*/
 }
 
 .navbar-brand {
@@ -179,23 +164,23 @@ $shine-size: ($logo-size * 2);
 
     /* Animation */
     -webkit-animation-name: rotate;
-    -webkit-animation-duration: 10s;
+    -webkit-animation-duration: 90s;
     -webkit-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
 
     animation-name: rotate;
-    animation-duration: 10s;
+    animation-duration: 90s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
 @-webkit-keyframes rotate {
-    from {-webkit-transform: rotate(-20deg);}
-    to {-webkit-transform: rotate(20deg);}
+    from {-webkit-transform: rotate(0deg);}
+    to {-webkit-transform: rotate(360deg);}
 }
 @keyframes rotate {
-    from {transform: rotate(-20deg);}
-    to {transform: rotate(20deg);}
+    from {transform: rotate(0deg);}
+    to {transform: rotate(360deg);}
 }
 
 .the-quotes {
