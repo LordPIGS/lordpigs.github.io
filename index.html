@@ -40,7 +40,9 @@ scripts:
   <!-- THINGS CHARACTERS SAY -->
   <div class="container-fluid the-quotes">
   {% for quote in site.data.quotes %}
-    <div class="character-quote character-quote-{{ quote.class }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ quote.text }}</div>
+    <a href="#character-{{ quote.class }}">
+      <div class="character-quote character-quote-{{ quote.class }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ quote.text }}</div>
+    </a>
   {% endfor %}
     </div>
 </div>
@@ -60,7 +62,7 @@ scripts:
 <!-- THE CHARACTERS -->
 <div class="the-characters">
   <h1><a class="anchor" id="characters">The Characters</a></h1>
-  <div class="container-fluid character-descriptions">
+  <div class="container character-descriptions">
   {% for character in site.data.characters %}
     <div class="pull-{% cycle 'left','right' %}">
       <img src="{{ character.picture | prepend: site.baseurl }}" width="128" alt="{{ character.name }}"/>
