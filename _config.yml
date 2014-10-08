@@ -2,7 +2,7 @@
 title: The Lord of the P.I.G.S.
 email: lordpigs2015@gmail.com
 description: "A mobile, multiplayer, card-based game"
-baseurl: "/lordpigs" # the subpath of your site, e.g. /blog/
+baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://darkhogg.es" # the base hostname & protocol for your site
 
 # Build settings
