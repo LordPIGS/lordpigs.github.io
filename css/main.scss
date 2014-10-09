@@ -8,7 +8,7 @@
     font-family: "Big Noodle Titling";
     src: url("{{ '/fonts/big-noodle-titling.ttf' | prepend: site.baseurl }}");
 }
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,700,400&subset=latin);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400);
 
 $character-color-red: #900;
 $character-color-blue: #06B;
