@@ -1,0 +1,25 @@
+<div class="the-characters">
+  <h1><a class="anchor" id="characters">The Characters</a></h1>
+  <div class="container character-descriptions">
+  {% for character in site.data.characters %}
+    {% capture evenodd %}{% cycle 'odd','even' %}{% endcapture %}
+    {% if evenodd == 'odd' %}
+      <div class="row">
+        <div class="col-md-2 hidden-xs hidden-sm character-picture-container">
+          <img alt="{{ character.name }}" src="{{ character.picture | prepend: site.baseurl }}"/>
+        </div>
+        <div class="col-md-8">
+    {% endif %}
+    <div class="character-description-{{ character.class }}">
+      {{ character.text | markdownify }}
+    </div>
+    {% if evenodd == 'even' %}
+        </div>
+        <div class="col-md-2 hidden-xs hidden-sm character-picture-container">
+          <img alt="{{ character.name }}" src="{{ character.picture | prepend: site.baseurl }}"/>
+        </div>
+      </div>
+    {% endif %}
+  {% endfor %}
+  </div>
+</div>

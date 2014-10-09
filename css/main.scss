@@ -301,10 +301,6 @@ $shine-size: ($logo-size * 2);
 }
 
 .character-descriptions {
-    img {
-        margin: 0 1em;
-    }
-
     .character-description-red strong {
         color: darken($character-color-red, 5%);
     }
@@ -317,6 +313,21 @@ $shine-size: ($logo-size * 2);
     .character-description-yellow strong {
         color: darken($character-color-yellow, 5%);
     }
+}
+
+.character-descriptions .row {
+    display: table;
+}
+
+.character-descriptions [class^='col-'] {
+    display: table-cell;
+    vertical-align: top;
+    float: none;
+}
+
+.character-picture-container {
+    text-align: center;
+    vertical-align: middle !important;
 }
 
 .the-team h1 {
