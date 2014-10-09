@@ -7,3 +7,5 @@ url: "http://www.thelordofthepigs.com" # the base hostname & protocol for your s
 
 # Build settings
 markdown: kramdown
+
+permalink: ":year-:month-:day/:title/"

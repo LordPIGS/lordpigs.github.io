@@ -1,34 +1,12 @@
 ---
 layout: base
+permalink: /
 scripts:
   - /js/character-quotes.js
 ---
 
 <!-- NAVIGATION -->
-<nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
-
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">The Lord of the P.I.G.S.</a>
-    </div>
-
-    <div class="collapse navbar-collapse" id="navbar-collapse">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#game">Game</a></li>
-        <li><a href="#characters">Characters</a></li>
-        <li><a href="#team">Team</a></li>
-        <!--<li><a href="#store">Store</a></li>-->
-      </ul>
-    </div>
-  </div>
-
-</nav>
+{% include navbar.html %}
 
 <!-- LOGO AND MAIN VIEW -->
 <div class="first-screen">
