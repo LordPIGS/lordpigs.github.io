@@ -50,7 +50,7 @@ body, html {
     padding: 0;
 }
 
-h1 {
+h1.full-header {
     text-align: center;
     font-family: "Big Noodle Titling";
     font-size: 64px;
@@ -74,7 +74,7 @@ h1 {
 }
 
 @media (max-width: $screen-xs-max) {
-    h1 {
+    h1.full-header {
         font-size: 48px;
     }
 }
@@ -88,7 +88,7 @@ h2 {
 .navbar-brand {
     color: white !important;
     text-transform: uppercase;
-    font-family: "Big Noodle Titling", sans;
+    font-family: "Big Noodle Titling", sans-serif;
     font-size: 24pt;
 }
 
@@ -468,4 +468,22 @@ $shine-size: ($logo-size * 2);
             }
         }
     }
+}
+
+/* === BLOG-SPECIFIC === */
+
+.post-excerpt {
+    h1 {
+        font-family: "Big Noodle Titling", sans-serif;
+        font-size: 42pt;
+        color: black;
+
+        small {
+            margin-left: 0.25em;
+        }
+    }
+}
+
+.post-excerpt, .post {
+    
 }

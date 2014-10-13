@@ -1,0 +1,29 @@
+---
+layout: base
+permalink: /blog/
+redirect_from:
+  - /blog/page-1/
+---
+
+<!-- NAVIGATION -->
+{% include navbar.html %}
+
+<!-- POSTS -->
+{% for post in paginator.posts %}
+{% if forloop.index0 != 0 %}<hr/>{% endif %}
+<article class="post-excerpt container">
+    <a href="{{ post.url }}"><h1>{{ post.title }} <small>{{ post.date | date: '%B %d, %Y' }}</small></h1></a>
+    {{ post.excerpt }}
+    <a href="{{ post.url }}"><p class="read-more">Read More &raquo;</p></a>
+</article>
+{% endfor %}
+
+{{ paginator.page }}
+
+{% if paginator.next_page %}
+<a href="{{ paginator.next_page_path }}">Older Posts &raquo;</a>
+{% endif %}
+
+{% if paginator.previous_page %}
+<a href="{{ paginator.previous_page_path }}">&laquo; Newer Posts</a>
+{% endif %}

@@ -24,7 +24,7 @@ scripts:
 
 <!-- THE GAME -->
 <div class="the-game">
-  <h1><a class="anchor" id="game">The Game</a></h1>
+  <h1 class="full-header"><a class="anchor" id="game">The Game</a></h1>
   <div class="container">{{ site.data.texts.gameDescription | markdownify }}</div>
 </div>
 
@@ -32,7 +32,7 @@ scripts:
 {% include characters.html %}
 
 <!-- THE TEAM -->
-{% include team.html %}
+<!--{% include team.html %}-->
 
 <!-- THE STORE -->
-<!--{% include store.html %}-->
+{% include store.html %}
