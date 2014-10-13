@@ -1,30 +1,72 @@
 gameDescription: |
-    *Have you ever wondered what it would be like to be an economic bigwig?
-    Do the economic headlines sound like a foreign, archaic language to you?
-    Do you like social games?*
+    WELCOME TO MERIDIA
+    ------------------
 
-    If you answered yes to any of the above, you've come to the right place!
+    *Despite the predictions of the national gurus, the economic downturn has
+    hit the sunny lands of Meridia! And it has hit hard, so hard that the
+    Republic's bigwigs have fled the country for the greener pastures of
+    diverse fiscal paradises, taking their ill-gotten fortunes with them.
+    The country is in disarray, in dire need of new leaders...*
 
-    The Lord of the P.I.G.S. is a fast-paced multiplayer economy simulation
-    game set up in the fictional Republic of Meridia, a melting pot of the
-    southern european countries.  You and your friends will take the role of
-    Meridia's bigwigs and will vie for economic supremacy through presentation
-    meetings, voting sessions, public opinion polls, unexpected events and
-    widespread backstabbing.
+    *And that's where you come in. Will you rekindle the fire of Meridia's
+    economy, while assuring the quality of life of its citizens? Or will you
+    use your privileged position to amass a personal fortune?*
 
-    The Lord of the P.I.G.S. is a game for 4 players and takes between 20
-    minutes and 30 minutes to complete, depending on how the players act and
-    react.
+    <center><em><strong>Up to you to decide!</strong></em></center>
 
-    The Lord of the P.I.G.S. will come in a convenient, portable box that holds
-    all the contents you need to play, anytime, anywhere:
+    -----
 
-      + 4 different Action decks (1 for each Character) of 29 cards each, for a total of 116 cards
-      + 1 Event deck with 20 cards
-      + 1 Board, with 5 score markers
+    Lord of the P.I.G.S. is a fast-paced multiplayer economy simulation game
+    set in the fictional Republic of Meridia, a melting pot of southern
+    European countries. You and your friends will take the role of Meridia's
+    leaders and will vie for economic supremacy through presentation meetings,
+    voting sessions, public opinion polls, unexpected events and widespread
+    backstabbing.
 
-    The game is not ready to ship yet, and it's being funded
-    [via Kickstarter][kickstarter], where you can help it become a reality and
-    get your copy of the game and many extra content!
+    The game is not ready to ship yet, and it’s going to be funded soon via
+    Kickstarter, where you can help it become a reality and get your copy
+    of the game and many extra content!
 
-      [kickstarter]: https://www.kickstarter.com/projects/1031232934
+gameGameplay: |
+    GAMEPLAY
+    --------
+
+    The Lord of the P.I.G.S. is a game for 4 players and takes up to 30 minutes
+    to complete. It will come in a convenient, portable box that holds all
+    the contents you need to play, anytime, anywhere:
+
+    + 4 different Action decks (1 for each Character) of 29 cards each, for a
+      total of 116 cards.
+    + 1 Event deck with 20 cards.
+    + 1 Board, with 5 score markers.
+
+    Each player takes up the role of one of the economy's pillars: President
+    of the Republic, Chief Banker, Corporate Director and Energy Tycoon.
+    Each pillar, or Character, has an associated variable, that represents its
+    interests. There's a 5<sup>th</sup> non playable Actor that represents the
+    interests of the People, with its own variable associated. Your goal: 
+
+    **Further your own interests and decide the fate of the masses!**
+
+    The game is based around 2 central mechanics:
+
+    + **SUBMITTING ACTIONS**: The players submit Actions to alter the economy
+    and mold it to their interests. Each Action has a support threshold to be
+    activated.
+    + **VOTING ACTIONS**: The players choose to which submitted Actions they
+    will give their support through Voting. Once a submitted Action reaches its
+    Votes threshold, it is activated and influences the 5 Ratings.
+
+    However, to spice things up, the game contains 2 secondary mechanics to
+    ensure plenty of suprises and backstabbing in each gaming session:
+
+    + **SPECIAL ACTION CARDS**: Some Action cards can be used for a special
+    effect, in addition to the normal uses of submitting and voting. Some let
+    you rig the voting system at the last minute, while others let you modify
+    the effects of activated Actions. Enjoy!
+    + **EVENT CARDS**: The Event deck contains cards that represent
+    unpredictable occurrences in the economy and society. Those Events change
+    the gameplay, forcing the players to adapt.
+
+    You can [download the PDF with the full rules](extra/rules.pdf) for more
+    details.

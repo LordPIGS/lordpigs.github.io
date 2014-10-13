@@ -25,7 +25,12 @@ scripts:
 <!-- THE GAME -->
 <div class="the-game">
   <h1 class="full-header"><a class="anchor" id="game">The Game</a></h1>
-  <div class="container">{{ site.data.texts.gameDescription | markdownify }}</div>
+  <div class="container">
+    {{ site.data.texts.gameDescription | markdownify }}
+    {% include support-us-big.html %}
+    <hr/>
+    {{ site.data.texts.gameGameplay | markdownify }}
+    </div>
 </div>
 
 <!-- THE CHARACTERS -->
