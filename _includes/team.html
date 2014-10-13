@@ -1,0 +1,19 @@
+<div class="the-team">
+  <h1><a class="anchor" id="team">The Team</a></h1>
+
+  <div class="container-fluid">
+    <ul class="team-members">
+  {% for member in site.data.team %}
+      <li class="member member-{% cycle 'left' %}">
+        <div class="member-picture">
+          <img alt="Picture: {{ member.name }}" src="{{ member.picture | prepend: site.baseurl }}"/>
+        </div>
+        <div class="member-content">
+          <h2 >{{ member.name }}</h2>
+          {{ member.text | markdownify }}
+        </div>
+      </li>
+  {% endfor %}
+    </ul>
+  </div>
+</div>
