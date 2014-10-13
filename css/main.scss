@@ -470,6 +470,45 @@ $shine-size: ($logo-size * 2);
     }
 }
 
+.the-store {
+    .store-container {
+        position: relative;
+    }
+
+    .store-item {
+        opacity: 0.7;
+    }
+
+    .coming-soon-stamp {
+        position: absolute;
+
+        top: 50%;
+        height: 120px;
+        line-height: 105px;
+        margin-top: -60px;
+
+        left: 50%;
+        width: 600px;
+        margin-left: -300px;
+
+        text-align: center;
+        overflow: visible;
+
+        font-size: 64pt;
+        font-family: "Big Noodle Titling";
+        color: red;
+        text-transform: uppercase;
+        border: 0.1em solid red;
+        border-radius: 0.3em;
+
+        background: white;
+        transform: rotate(-8deg);
+
+        box-shadow: 0 0 2em 0.5em white;
+        opacity: 0.7;
+    }
+}
+
 /* === BLOG-SPECIFIC === */
 
 .post-excerpt {
@@ -485,5 +524,5 @@ $shine-size: ($logo-size * 2);
 }
 
 .post-excerpt, .post {
-    
+
 }
