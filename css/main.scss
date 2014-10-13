@@ -18,6 +18,10 @@ $character-color-yellow: #A90;
 $color-bg-darkred: #7f1020;
 $color-fg-white: #FDD;
 
+a, a:hover {
+    text-decoration: none;
+}
+
 body, html {
     height: 100%;
     margin: 0;
@@ -504,8 +508,29 @@ $shine-size: ($logo-size * 2);
         background: white;
         transform: rotate(-8deg);
 
-        box-shadow: 0 0 2em 0.5em white;
+        //box-shadow: 0 0 1em 0.5em white;
         opacity: 0.7;
+    }
+}
+
+.kickstarter {
+    margin: 1em;
+    text-align: center;
+
+    .ks-text {
+        font-weight: bold;
+        font-size: 32pt;
+        text-transform: uppercase;
+        color: #0f2105;
+    }
+
+    .ks-text-green {
+        @extend .ks-text;
+        color: #2bde73;
+    }
+
+    .ks-logo {
+        max-width: 100%;
     }
 }
 

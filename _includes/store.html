@@ -4,12 +4,21 @@
   <div class="container store-container">
 {% for item in site.data.store %}
     <div class="store-item">
-        <h2>{{ item.title }} <small>for {{ item.price }}</h2>
+        <h2>{{ item.title }}</h2>
         {{ item.description | markdownify }}
     </div>
 {% endfor %}
 
     <div class="coming-soon-stamp">Coming Soon</div>
   </div>
+
+  <a href="{{ site.kickstarter }}" target="_blank">
+      <div class="kickstarter">
+        <div class="ks-text">
+            <span class="ks-text-green">Support</span> us on
+        </div>
+        <img class="ks-logo" alt="Kickstarter" src="{{ '/img/kickstarter.png' | prepend: site.baseurl }}" />
+      </div>
+  </a>
 
 </section>
