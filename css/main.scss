@@ -34,6 +34,18 @@ body, html {
     font-size: 16pt;
 }
 
+@media (max-width: $screen-sm-max) {
+    body, html {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: $screen-xs-max) {
+    body, html {
+        font-size: 16px;
+    }
+}
+
 .navbar {
     margin: 0;
 }
@@ -321,16 +333,27 @@ $shine-size: ($logo-size * 2);
 }
 
 .character-descriptions {
-    .character-description-red strong {
+    .character-name-and-title {
+        text-align: center;
+        margin-top: 1em;
+    }
+    a {
+        color: inherit;
+        font-weight: bold;
+    }
+    .character-name {
+        font-size: 110%;
+    }
+    .character-description-red .character-name {
         color: darken($character-color-red, 5%);
     }
-    .character-description-blue strong {
+    .character-description-blue .character-name {
         color: darken($character-color-blue, 5%);
     }
-    .character-description-green strong {
+    .character-description-green .character-name {
         color: darken($character-color-green, 5%);
     }
-    .character-description-yellow strong {
+    .character-description-yellow .character-name {
         color: darken($character-color-yellow, 5%);
     }
 }

@@ -1,45 +1,58 @@
-- name: Jenaro Strozzo
-  class: blue
-  picture: /img/ch-blue.sm.png
-  text: |
-    **Jenaro Strozzo**, representative of the Corporate sector, a Harvard MBA
-    and MIT engineer belongs to the well known Strozzo family, one of the
-    richest in Meridia, whose industrial empire begun in the late XIX century
-    and extends to different countries around the world. Only in Meridia, they
-    have a wide control over most of the economic sectors including telecoms,
-    production, import and retail of mass consumption good and even the
-    automotive and other technological industries.
-- name: Salvador Gomes de Sousa
+- name: Silvio do Espírito Santo
+  title: The President of the Republic
   class: red
   picture: /img/ch-red.sm.png
   text: |
-    **Salvador Gomes de Sousa**, President of Meridia, comes from a humble
-    family in the suburbs of an industrial city in the west of the country.
-    After a sky-rocketting career in modelling and acting, he begun to invest
-    in the leisure & tourism sectors proving a smell for investments providing
-    high yields in short time. Missing the lights & flashes, he decided 10
-    years ago to fund a political party. Thanks to his populist speech, the
-    populace granted him the Presidence of the Government in the past elections.
-- name: Antonio Roberto Lieberman
+    There's nothing in this life that you prefer to the lights and flashes of
+    the cameras.  They make you feel important, and are a nice reminiscence of
+    your old days, when you were a star of the screen.  Well... maybe that's
+    not true.  Since you became Head of State, you've found something better in
+    the masses roaring your name: "PRESIDENT! PRESIDENT!!" So your absolute
+    priority is to secure your reelection for another term, and you know how to
+    achieve it.  Populist speeches, expensive Meridian tailored suits, and your
+    best weapon: the combo of your perfect tanned skin and your pristine smile.
+    The next election will be a cakewalk.
+
+- name: Aristoteles D’Aquila
+  title: The Corporate Director
+  class: blue
+  picture: /img/ch-blue.sm.png
+  text: |
+    You remember it clearly: "He's not going to make it", "Nobody can save the
+    Holding from fading into oblivion", "Meridia's position in the global
+    economy is an unsurmountable hindrance"... And despite it all, you saved
+    your family's business, and even expanded into new sectors.
+    Yes, some sacrifices were needed, but that concerned mostly third parties.
+    Acceptable losses, of course.  You have got big plans for the future, as
+    the world is full of opportunities if you know where to look: new markets,
+    new product lines, and so on.
+    The masses are eager for more trinkets and you are happy to oblige...
+
+- name: Emilio Papadopoulos
+  title: The Chief Banker
   class: green
   picture: /img/ch-green.sm.png
   text: |
-    **Antonio Roberto Lieberman** owns the Bank of Quenca, among the top five
-    banks of the world. The Liebermans have been a family of bankers for the
-    last three centuries, surviving all the Meridian crisis. They are well
-    known for their ability of maintaining excellent relationships with the
-    successive Meridian monarchies, democratic republics and dictatorships.
-    Having studied in the most prestigious economics schools of US and England,
-    Antonio maintains strong links to most of the world's fortunes and decision
-    makers. 
-- name: Gustavo Mendez Uriz
+    "Money is the key to the world, and finance is the key to money" your
+    father used to say.  And you've adopted his wisdom as your motto.
+    While some brand your practices as questionable at best, it is crystal
+    clear that they work.  Your finance empire grows every day, and as a result
+    you have one finger in every pie, in Meridia and in a lot of countries
+    worldwide.  The crisis, while scary at first, has yielded a positive
+    balance in your accounts after you pushed the correct buttons.
+    Because when used properly, finance is not only a key, it is also a leash. 
+
+- name: Rui Fernández
+  title: The Energy Tycoon 
   class: yellow
   picture: /img/ch-yellow.sm.png
   text: |
-    To talk about **Gustavo Mendez Uriz** means to talk about energy in Meridia.
-    He is the son of Borja Mendez, owner of the most of the hydroelectric
-    production and Adele Uriz, whose family owned the Meridian oil & gas
-    importer, producer and distributor. Gustavo's romances have topped the
-    tabloids often, and most of the "beautiful people" attend his summer
-    parties in his idillic island in the Mediterranean. But Gustavo is not a
-    rich playboy, he knows his business and takes good care to grow it. 
+    Meridia is full of jealous people!  They envy everything you own: the
+    mansions, the yachts, the cars, the select parties and friends... And they
+    have the nerve to say that you don't deserve it all! Well, OK, there's been
+    some insider information here and there, some occasional deceptive billing
+    and sometimes you've held monopolostic positions, true. But hey! That's how
+    business works! And the future looks even brighter, now that the foolish,
+    short-lived energy efficiency hype has died... not to mention new energy
+    sources in both the renewable and fossil fronts. You can't stop progress,
+    that's for sure!
