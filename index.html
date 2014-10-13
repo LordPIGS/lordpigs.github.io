@@ -5,9 +5,6 @@ scripts:
   - /js/character-quotes.js
 ---
 
-<!-- NAVIGATION -->
-{% include navbar.html %}
-
 <!-- LOGO AND MAIN VIEW -->
 <div class="first-screen">
   <div class="container-fluid the-logo">
@@ -35,30 +32,7 @@ scripts:
 {% include characters.html %}
 
 <!-- THE TEAM -->
-<div class="the-team">
-  <h1><a class="anchor" id="team">The Team</a></h1>
-
-  <div class="container-fluid">
-    <ul class="team-members">
-  {% for member in site.data.team %}
-      <li class="member member-{% cycle 'left' %}">
-        <div class="member-picture">
-          <img alt="Picture: {{ member.name }}" src="{{ member.picture | prepend: site.baseurl }}"/>
-        </div>
-        <div class="member-content">
-          <h2 >{{ member.name }}</h2>
-          {{ member.text | markdownify }}
-        </div>
-      </li>
-  {% endfor %}
-    </ul>
-  </div>
+{% include team.html %}
 
 <!-- THE STORE -->
-<!--<div class="the-store">
-  <h1><a class="anchor" id="store">The Store</a></h1>
-
-  <div class="container-fluid">
-  </div>
-
-</div>-->
+<!--{% include store.html %}-->
