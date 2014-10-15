@@ -338,10 +338,22 @@ $shine-size: ($logo-size * 2);
 }
 
 .character-descriptions {
-    .character-name-and-title {
-        text-align: center;
+    .character-title {
         margin-top: 1em;
     }
+    .character-title-even {
+        text-align: right;
+    }
+    .character-title-odd {
+        text-align: left;
+    }
+
+    @media (max-width: $screen-xs-max) {
+        .character-title, .character-title-even, .character-title-odd {
+            text-align: center;
+        }
+    }
+
     a {
         color: inherit;
         font-weight: bold;
@@ -362,7 +374,7 @@ $shine-size: ($logo-size * 2);
         color: darken($character-color-yellow, 5%);
     }
 }
-
+/*
 .character-descriptions .row {
     display: table;
 }
@@ -371,7 +383,7 @@ $shine-size: ($logo-size * 2);
     display: table-cell;
     vertical-align: top;
     float: none;
-}
+}*/
 
 .character-picture-container {
     text-align: center;
