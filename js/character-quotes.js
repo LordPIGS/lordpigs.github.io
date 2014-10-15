@@ -3,7 +3,7 @@
 function shuffle(o){ //v1.0
     for(var j, x, i = o.length; i; j = Math.floor(Math.random() * i), x = o[--i], o[i] = o[j], o[j] = x);
     return o;
-};
+}
 
 $(function () {
     var intervalTime = 1200;
@@ -31,7 +31,7 @@ $(function () {
     var nextIndex = 0;
     var intervalFunc = function () {
         /* If there are no more elements left, get some more */
-        if (elemsLeft.length == 0) {
+        if (elemsLeft.length === 0) {
             elemsLeft = shuffle($('.' + classBase + '.' + classHidden).toArray());
             console.log(elemsLeft);
         }
