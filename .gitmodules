@@ -2,3 +2,6 @@
 	path = _vendor/bootstrap
 	url = https://github.com/twbs/bootstrap-sass.git
 
+[submodule "_vendor/rrssb"]
+	path = _vendor/rrssb
+	url = git://github.com/kni-labs/rrssb.git

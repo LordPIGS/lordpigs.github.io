@@ -154,7 +154,7 @@ h2 {
 $logo-size: 350px;
 $logo-width: $logo-size;
 $logo-height: $logo-size * 355 / 350;
-$logo-vertical-offset: 0;
+$logo-vertical-offset: -18px;
 $logo-xs-reduction: 0.75;
 $shine-size: ($logo-size * 2);
 
@@ -218,6 +218,27 @@ $shine-size: ($logo-size * 2);
 @keyframes rotate {
     from {transform: rotate(0deg);}
     to {transform: rotate(360deg);}
+}
+
+$social-width: 400px;
+
+.social-buttons {
+    position: absolute;
+    bottom: $navbar-height + 4px;
+    left: 50%;
+    margin-left: -$social-width / 2;
+    width: $social-width;
+    text-align: center;
+    z-index: 300;
+}
+
+@media (max-width: $social-width) {
+    .social-buttons {
+        width: 100%;
+        margin-left: 0;
+        left: 0;
+        right: 0;
+    }
 }
 
 .the-quotes {
@@ -562,6 +583,10 @@ $shine-size: ($logo-size * 2);
         font-size: 32pt;
         text-transform: uppercase;
         color: #0f2105;
+
+        @media (max-width: $screen-xs-max) {
+            font-size: 24pt;
+        }
     }
 
     .ks-text-green {
@@ -576,18 +601,33 @@ $shine-size: ($logo-size * 2);
 
 /* === BLOG-SPECIFIC === */
 
+hr {
+    margin: 0.5em;
+}
+
 .post-excerpt {
     h1 {
         font-family: "Big Noodle Titling", sans-serif;
         font-size: 42pt;
         color: black;
 
+        a, a:hover {
+            color: inherit;
+        }
+
         small {
             margin-left: 0.25em;
         }
     }
+
+    .read-more::after {
+        content: "»";
+        padding-left: 0.3em;
+    }
 }
 
-.post-excerpt, .post {
-
+.post-excerpt-short {
+    h1 {
+        margin-top: 0.1em;
+    }
 }

@@ -3,6 +3,7 @@ layout: base
 permalink: /
 scripts:
   - /js/character-quotes.js
+  - /js/rrssb.min.js
 ---
 
 <!-- LOGO AND MAIN VIEW -->
@@ -12,6 +13,9 @@ scripts:
     <img class="logo" alt="The Lord of the P.I.G.S." src="{{ '/img/pigs-logo.svg' | prepend: site.baseurl }}" />
   </div>
 
+  <!-- Social Buttons -->
+  {% include social-buttons.html %}
+
   <!-- THINGS CHARACTERS SAY -->
   <div class="container-fluid the-quotes">
   {% for quote in site.data.quotes %}
@@ -20,6 +24,7 @@ scripts:
     </a>
   {% endfor %}
     </div>
+
 </div>
 
 <!-- THE GAME -->
