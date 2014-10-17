@@ -546,12 +546,14 @@ $social-width: 400px;
     }
 
     .coming-soon-stamp {
+        $height: 180px;
+
         position: absolute;
 
         top: 50%;
-        height: 120px;
-        line-height: 105px;
-        margin-top: -60px;
+        height: $height;
+        line-height: 100px;
+        margin-top: -$height / 2;
 
         left: 50%;
         width: 600px;
@@ -573,6 +575,14 @@ $social-width: 400px;
         //box-shadow: 0 0 1em 0.5em white;
         opacity: 0.8;
         transition: opacity 500ms;
+
+        small {
+            font-size: 60%;
+            line-height: 32px;
+
+            position: relative;
+            top: -0.8em;
+        }
     }
 
     .store-container:hover, .store-container-fade {
