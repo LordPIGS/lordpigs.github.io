@@ -541,7 +541,8 @@ $social-width: 400px;
     }
 
     .store-item {
-        opacity: 0.7;
+        opacity: 0.5;
+        transition: opacity 500ms;
     }
 
     .coming-soon-stamp {
@@ -570,7 +571,17 @@ $social-width: 400px;
         transform: rotate(-8deg);
 
         //box-shadow: 0 0 1em 0.5em white;
-        opacity: 0.7;
+        opacity: 0.8;
+        transition: opacity 500ms;
+    }
+
+    .store-container:hover, .store-container-fade {
+        .store-item {
+            opacity: 1;
+        }
+        .coming-soon-stamp {
+            opacity: 0.15;
+        }
     }
 }
 

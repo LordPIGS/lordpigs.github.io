@@ -1,15 +1,16 @@
 <section class="the-store">
   <h1 class="full-header"><a class="anchor" id="store">The Store</a></h1>
 
-  <div class="container store-container">
-{% for item in site.data.store %}
+  <div class="container store-container"><div class="store-item">
+    {{ site.data.texts.storeInfo | markdownify }}
+<!--{% for item in site.data.store %}
     <div class="store-item">
         <h2>{{ item.title }}</h2>
         {{ item.description | markdownify }}
     </div>
-{% endfor %}
+{% endfor %}-->
 
-    <div class="coming-soon-stamp">Coming Soon</div>
+    </div><div class="coming-soon-stamp">Coming Soon</div>
   </div>
 
 </section>
