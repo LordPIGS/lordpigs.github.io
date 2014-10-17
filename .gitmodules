@@ -4,4 +4,4 @@
 
 [submodule "_vendor/rrssb"]
 	path = _vendor/rrssb
-	url = git://github.com/kni-labs/rrssb.git
+	url = https://github.com/kni-labs/rrssb.git
