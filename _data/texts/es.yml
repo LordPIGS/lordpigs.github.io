@@ -10,108 +10,175 @@ titles:
   store: La Tienda
   blog: El Blog
 
+
+support:
+  support: Apóyanos
+  us_on: en
+
 stamp:
   coming_soon: Próximamente
   on_ks: en Kickstarter
 
 gameDescription: |
-  WELCOME TO MERIDIA
+  BIENVENIDO A MERIDIA
   ------------------
-  
-  *Despite the predictions of the national gurus, the economic downturn has
-  hit the sunny lands of Meridia! And it has hit hard, so hard that the
-  Republic's bigwigs have fled the country for the greener pastures of
-  diverse fiscal paradises, taking their ill-gotten fortunes with them.
-  The country is in disarray, in dire need of new leaders...*
-  
-  *And that's where you come in. Will you rekindle the fire of Meridia's
-  economy, while assuring the quality of life of its citizens? Or will you
-  use your privileged position to amass a personal fortune?*
-  
-  <center><em><strong>Up to you to decide!</strong></em></center>
+
+  *Las predicciones de los gurús económicos y los tertulianos más pesimistas de
+  la tele se han cumplido.  ¡La crisis económica global ha llegado a Meridia!
+  Y sus consecuencias han sido tan graves que la mayoría de las fortunas del
+  país han emigrado a sus paraísos fiscales preferidos.  La sociedad se
+  descompone sin un líder que la guíe...*
+
+  *Y aquí es donde entras tú. ¿Conseguirás reactivar la economía del país y
+  mejorar la calidad de vida de la población? ¿O utilizarás tu privilegiada
+  posición para hacer crecer tu fortuna e influencia?*
+
+  <center><em><strong>¡Tú decides!</strong></em></center>
   
   -----
   
-  Lord of the P.I.G.S. is a fast-paced multiplayer economy simulation game
-  set in the fictional Republic of Meridia, a melting pot of southern
-  European countries. You and your friends will take the role of Meridia's
-  leaders and will vie for economic supremacy through presentation meetings,
-  voting sessions, public opinion polls, unexpected events and widespread
-  backstabbing.
-  
-  The game is not ready to ship yet, and it’s going to be funded soon via
-  **Kickstarter**, where you can help it become a reality and get your copy
-  of the game and many extra content!
+  The Lord of the P.I.G.S. es un juego de simulación económico-política para
+  varios jugadores en la ficticia república de Meridia.  Este bonito país es
+  una amalgama que representa el sur de Europa (Portugal + Italia + Grecia +
+  eSpaña), que como sabréis fueron bautizados por nuestros apreciados colegas
+  del norte de Europa como P.I.G.S.
+
+  Tú y tus amigos deberéis escoger entre uno de los líderes de la economía de
+  Meridia para pelear por la supremacía económica del país.  Cualquier medio es
+  bueno: lanzar campañas de comunicación, hacer lobby, forjar (y romper)
+  alianzas, manipular encuestas…todo ello en medio de una situación económica
+  delicada, con una elevadísima tasa de paro.
+
+  El juego no está disponible todavía para la venta, pues esperamos poder
+  conseguir la financiación necesaria a través de Kickstarter, donde puedes
+  ayudarnos a que se convierta en una realidad ¡y conseguir una copia del juego
+  con muuucho contenido extra!
 
 gameGameplay: |
-  GAMEPLAY
+  MECÁNICA
   --------
   
-  The Lord of the P.I.G.S. is a game for 4 players and takes up to 30 minutes
-  to complete. It will come in a convenient, portable box that holds all
-  the contents you need to play, anytime, anywhere:
+  The Lord of the P.I.G.S. es un juego de mesa para 4 jugadores en el que cada
+  partida dura alrededor de 30 minutos.  Lo recibirás en una caja que incluye
+  todo lo que necesitas para jugar:
+
+    + 4 barajas de acciones (1 para cada jugador), con 29 cartas por baraja
+    + 1 baraja de eventos, con 20 cartas
+    + 1 tablero y 5 marcadores para las puntuaciones
+
+  Cada jugador escoge uno de los 4 personajes del juego: el presidente del
+  gobierno, el banquero jefe, el director corporativo y el magnate energético.
+  Cada personaje tiene una variable asociada que representa sus intereses.
+  Adicionalmente, hay una 5ª variable, no jugable, que representa la
+  estabilidad social del país. El objetivo del juego es simple:
   
-  + 4 different Action decks (1 for each Character) of 29 cards each, for a
-    total of 116 cards.
-  + 1 Event deck with 20 cards.
-  + 1 Board, with 5 score markers.
-  
-  Each player takes up the role of one of the economy's pillars: President
-  of the Republic, Chief Banker, Corporate Director and Energy Tycoon.
-  Each pillar, or Character, has an associated variable, that represents its
-  interests. There's a 5<sup>th</sup> non playable Actor that represents the
-  interests of the People, with its own variable associated. Your goal: 
-  
-  <center><strong><em>Further your own interests and decide the fate of the
-  masses!</em></strong></center>
+  <center><strong><em>¡Cuida de tus intereses mientras decides el destino de
+  las masas de Meridia!</em></strong></center>
   
   -----
   
-  The game is based around 2 central mechanics:
+  El juego se desarrolla a través de dos mecánicas:
+  
+    + **PROPONER ACCIONES**: Los jugadores proponen acciones que alteran la
+      economía y, por tanto, las puntuaciones de cada uno de los actores y de
+      la estabilidad social.  Cada acción necesita una serie de votos para que
+      se active su efecto.
+    + **VOTAR ACCIONES**: Los jugadores escogen cuál de las acciones propuestas
+    deciden apoyar mediante votaciones.  Cuando una acción consigue los votos
+    necesarios, su efecto se activa, modificando las puntuaciones de los cuatro
+    jugadores y de la estabilidad social.
+  
+  El juego contiene dos mecánicas suplementarias que añadirán muchas sorpresas
+  y alguna que otra decepción en cada turno:
+  
+    + **CARTAS DE ACCIÓN ESPECIALES**: Algunas cartas de acciones pueden ser
+    usadas para realizar efectos especiales además de su uso normal
+    (proposición y/o votación).  Algunas te permiten amañar el resultado de las
+    votaciones, mientras otras te permiten modificar los efectos de una acción
+    activada.  ¡Disfruta sorprendiendo a tus adversarios!
+    + **CARTAS DE EVENTOS**: La baraja de eventos contiene cartas que
+    representan sucesos impredecibles de la política y economía, tanto de
+    Meridia como del resto del mundo.  Estos eventos podrán modificar algunas
+    puntuaciones y otros elementos del juego.
+  
+  Puedes [descargar las reglas completas del juego](extra/rules.pdf) para más
+  detalles.
 
-  + **SUBMITTING ACTIONS**: The players submit Actions to alter the economy
-  and mold it to their interests. Each Action has a support threshold to be
-  activated.
-  + **VOTING ACTIONS**: The players choose to which submitted Actions they
-  will give their support through Voting. Once a submitted Action reaches its
-  Votes threshold, it is activated and influences the 5 Ratings.
-  
-  However, to spice things up, the game contains 2 secondary mechanics to
-  ensure plenty of suprises and backstabbing in each gaming session:
-  
-  + **SPECIAL ACTION CARDS**: Some Action cards can be used for a special
-  effect, in addition to the normal uses of submitting and voting. Some let
-  you rig the voting system at the last minute, while others let you modify
-  the effects of activated Actions. Enjoy!
-  + **EVENT CARDS**: The Event deck contains cards that represent
-  unpredictable occurrences in the economy and society. Those Events change
-  the gameplay, forcing the players to adapt.
-  
-  You can [download the PDF with the full rules](extra/rules.pdf) for more
-  details.
+characters:
+  intro: |
+    En The Lord of the P.I.G.S. actuarás como uno de los poderes fácticos de
+    Meridia.  Pero antes de escoger con qué personaje jugar, quizás te interese
+    conocer algo más sobre su historia y sus planes para el futuro.
 
-charactersIntro: |
-  In The Lord of the P.I.G.S. you'll act as of one of the cornerstones of
-  Meridia's economy. But before choosing your role, you may be interested in
-  knowing more about their goals and how they intend to attain them. 
-  
-  _**DISCLAIMER**: All characters appearing in this work are fictitious. Any
-  resemblance to real persons, living or dead, is purely coincidental...
-  Or is it?_
+    _**DESCARGO DE RESPONSABILIDAD**: Todos los personajes que aparecen en este
+    juego son ficticios.  Cualquier parecido con personas reales, vivas o
+    muertas, es pura coincidencia... ¿O no?_
+
+  red:
+    title: el Presidente de la República
+    text: |
+      No hay nada en el mundo que te guste más que las cámaras y los flashes.
+      Te hacen sentir como si los viejos tiempos, cuando eras una estrella de
+      cine y cantante de éxito, no hubieran acabado.  Pero desde que ganaste
+      las elecciones has encontrado algo todavía mejor: las masas aclamándote.
+      Por tanto, tu absoluta prioridad es asegurarte la reelección, y sabes
+      cómo conseguirlo.  Buenas dosis de populismo, aderezadas con trajes
+      impecables y tus mayores activos: un bronceado permanente y esa sonrisa
+      que encandila... Si juegas bien bien tus cartas, tu reelección es pan
+      comido.
+
+  blue:
+    title: el Director Corporativo
+    text: |
+      Aún recuerdas lo que decían: *"No lo conseguirá"*, *"nadie podría salvar
+      el holding familiar más famoso de Meridia"*... y a pesar de todo,
+      salvaste el negocio de tu familia y lo expandiste y diversificaste.
+      Por supuesto, hubo algún que otro sacrificio, pero concernían
+      mayoritariamente a terceros: Llamémoslo pérdidas aceptables.
+      Tus planes para el futuro: más productos, desde coches a yogures, de
+      construcción de autopistas a servicios de consultoría.  Las masas quieren
+      nuevos juguetes, y tú estás encantado de ofrecérselos... a su justo
+      precio, ni que decir tiene.
+
+  green:
+    title: el Banquero Jefe
+    text: |
+      Desde pequeño, tu padre te ha repetido: *"Quien controla el dinero,
+      controla el país; y la llave del dinero son las finanzas"*, y tú lo has
+      convertido en tu lema.  Aunque algunos cuestionen tus prácticas, está
+      claro que funcionan.  Tu imperio financiero crece día tras día, y tus
+      tentáculos llegan más lejos de lo que muchos piensan, tanto en Meridia
+      como en el extranjero.  La gente temía la crisis financiera, tú por el
+      contrario sabías como aprovechar las oportunidades que se te ofrecerían.
+      Resulta que las finanzas no sólo son la llave, sino la palanca hacia la
+      puerta de un futuro dorado...
+
+  yellow:
+    title: el Magnate Energético
+    text: |
+      ¡Meridia está llena de envidiosos! Critican tus mansiones, tus yates, tus
+      coches... incluso tus selectas fiestas de famoseo en Ibiza.  ¡Pero lo que
+      más te revienta es que digan que no te lo mereces!  Ya pueden hablar de
+      información privilegiada, de abusar de los usuarios en la facturación o
+      de una situación cuasi-monopolística... ¡¡Los negocios son así!!
+      Desde tu posición de poder, el futuro pinta fantásticamente ahora que la
+      gente se va olvidando de la eficiencia energética y se preocupa más de la
+      seguridad de suministro, que asegurarás a un precio "justo" y
+      "de mercado". O casi...
 
 storeInfo: |
-  The Lord of The P.I.G.S. comes in a convenient, portable box that holds all
-  the contents you need to play, anytime, anywhere:
+  The Lord of The P.I.G.S. viene en una cómoda caja para que puedas juegar
+  donde quieras y cuando quieras, que contiene:
   
-  - 1 card deck for the **President of the Republic** with 29 cards.
-  - 1 card deck for the **Corporate Director** with 29 cards.
-  - 1 card deck for the **Chief Banker** with 29 cards.
-  - 1 card deck for the **Energy Tycoon** with 29 cards.
-  - 1 card deck for the **Events** with 20 cards.
-  - 1 board and 5 score markers.
+  - 1 mazo de cartas del **Presidente de la República** con 29 cartas.
+  - 1 mazo de cartas del **Director Corporativo** con 29 cartas.
+  - 1 mazo de cartas del **Banquero Jefe** con 29 cartas.
+  - 1 mazo de cartas del **Magnate Energético** con 29 cartas.
+  - 1 mazo de cartas de **Eventos** con 20 cartas.
+  - 1 tablero y 5 marcadores de puntuación.
   
-  All cards are standard 2.5&times;3,5 inches (6.35&times;8.8 cm).
-  The board is 20&times;20 inches (50.8&times;50.8 cm) and can be folded to fit
-  in the box, which is 10.7&times;10.7&times;1.5 inches
-  (27.18&times;27.18&times;3.81 cm).  Score markers are circular, about
-  1.5 inches (3.81 cm) diameter wide.
+  Todas las cartas son de tamaño 2.5&times;3,5 pulgadas (6.35&times;8.8 cm).
+  El tablero es de 20&times;20 pulgadas (50.8&times;50.8 cm) y se puede doblar
+  para guardar en la caja, de 10.7&times;10.7&times;1.5 pulgadas
+  (27.18&times;27.18&times;3.81 cm).  Los marcadores de puntuación son
+  circulares, de unas 1.5 pulgadas (3.81 cm) de diámetro.

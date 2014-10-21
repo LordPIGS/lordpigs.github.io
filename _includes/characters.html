@@ -1,7 +1,7 @@
 <div class="the-characters">
   <h1 class="full-header"><a class="anchor" id="characters">{{ site.data.texts[page.lang].titles.characters }}</a></h1>
   <div class="container">
-    {{ site.data.texts[page.lang].charactersIntro | markdownify }}
+    {{ site.data.texts[page.lang].characters.intro | markdownify }}
     <hr/>
     <div class="character-descriptions">
     {% for character in site.data.characters %}
@@ -15,9 +15,10 @@
         <div class="col-sm-10">
           <div class="character-description-{{ character.class }}">
             <p class="character-title character-title-{{ evenodd }}"><a class="anchor" id="character-{{ character.class }}">
-              <strong class="character-name">{{ character.name }}</strong>, {{ character.title }}
+              <strong class="character-name">{{ character.name }}</strong>,
+            {{ site.data.texts[page.lang].characters[character.class].title }}
             </a></p>
-            {{ character.text | markdownify }}
+            {{ site.data.texts[page.lang].characters[character.class].text | markdownify }}
           </div>
         </div>
 
