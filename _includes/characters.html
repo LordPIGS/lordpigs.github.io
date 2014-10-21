@@ -1,7 +1,7 @@
 <div class="the-characters">
-  <h1 class="full-header"><a class="anchor" id="characters">The Characters</a></h1>
+  <h1 class="full-header"><a class="anchor" id="characters">{{ site.data.texts[page.lang].titles.characters }}</a></h1>
   <div class="container">
-    {{ site.data.texts.charactersIntro | markdownify }}
+    {{ site.data.texts[page.lang].charactersIntro | markdownify }}
     <hr/>
     <div class="character-descriptions">
     {% for character in site.data.characters %}

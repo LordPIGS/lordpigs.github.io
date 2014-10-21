@@ -22,6 +22,10 @@ excerpt_separator: '<!--more-->'
 
 defaults:
   - scope:
+      path: ""
+    values:
+      lang: en
+  - scope:
       type: "posts"
     values:
       layout: "post"

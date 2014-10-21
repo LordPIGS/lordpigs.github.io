@@ -1,6 +1,5 @@
 ---
 layout: base
-permalink: /
 scripts:
   - /js/character-quotes.js
   - /js/rrssb.min.js
@@ -29,12 +28,12 @@ scripts:
 
 <!-- THE GAME -->
 <div class="the-game">
-  <h1 class="full-header"><a class="anchor" id="game">The Game</a></h1>
+  <h1 class="full-header"><a class="anchor" id="game">{{ site.data.texts[page.lang].titles.game }}</a></h1>
   <div class="container">
-    {{ site.data.texts.gameDescription | markdownify }}
+    {{ site.data.texts[page.lang].gameDescription | markdownify }}
     {% include support-us-big.html %}
     <hr/>
-    {{ site.data.texts.gameGameplay | markdownify }}
+    {{ site.data.texts[page.lang].gameGameplay | markdownify }}
     </div>
 </div>
 

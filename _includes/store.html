@@ -1,8 +1,8 @@
 <section class="the-store">
-  <h1 class="full-header"><a class="anchor" id="store">The Store</a></h1>
+  <h1 class="full-header"><a class="anchor" id="store">{{ site.data.texts[page.lang].titles.store }}</a></h1>
 
   <div class="container store-container"><div class="store-item">
-    {{ site.data.texts.storeInfo | markdownify }}
+    {{ site.data.texts[page.lang].storeInfo | markdownify }}
 <!--{% for item in site.data.store %}
     <div class="store-item">
         <h2>{{ item.title }}</h2>
@@ -13,8 +13,8 @@
     </div>
 
     <div class="coming-soon-stamp">
-        Coming Soon<br/>
-        <small>on Kickstarter</small>
+        {{ site.data.texts[page.lang].stamp.coming_soon }}<br/>
+        <small>{{ site.data.texts[page.lang].stamp.on_ks }}</small>
     </div>
   </div>
 
