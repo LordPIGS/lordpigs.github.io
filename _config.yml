@@ -11,6 +11,12 @@ social:
     facebook: 
     googleplus: 118328327260331017054
 
+langs:
+  - code: en
+    name: English
+  - code: es
+    name: Español
+
 # Build settings
 markdown: kramdown
 
