@@ -1,30 +1,63 @@
-- class: green
-  text: Change the interest rates!
-- class: yellow
-  text: Regulate markets!
-- class: red
-  text: Tailor the laws!
-- class: blue
-  text: Create new goods!
-- class: yellow
-  text: Find new energy sources!
-- class: blue
-  text: Increase production!
-- class: red
-  text: Appease the populace!
-- class: green
-  text: Gamble on futures!
-- class: red
-  text: Plan new infrastructures!
-- class: blue
-  text: Appoint new CEOs!
-- class: red
-  text: Stablish alliances!
-- class: green
-  text: Buy and sell shares!
-- class: blue
-  text: Obtain public contracts!
-- class: yellow
-  text: Lobby for higher prices!
-- class: green
-  text: Finance campaigns!
+en:
+  - class: green
+    text: Change the interest rates!
+  - class: yellow
+    text: Regulate markets!
+  - class: red
+    text: Tailor the laws!
+  - class: blue
+    text: Create new goods!
+  - class: yellow
+    text: Find new energy sources!
+  - class: blue
+    text: Increase production!
+  - class: red
+    text: Appease the populace!
+  - class: green
+    text: Gamble on futures!
+  - class: red
+    text: Plan new infrastructures!
+  - class: blue
+    text: Appoint new CEOs!
+  - class: red
+    text: Stablish alliances!
+  - class: green
+    text: Buy and sell shares!
+  - class: blue
+    text: Obtain public contracts!
+  - class: yellow
+    text: Lobby for higher prices!
+  - class: green
+    text: Finance campaigns!
+
+es:
+  - class: green
+    text: ¡Cambia los tipos de interés!
+  - class: yellow
+    text: ¡Regula los mercados!
+  - class: red
+    text: ¡Adapta las leyes!
+  - class: blue
+    text: ¡Crea nuevos productos!
+  - class: yellow
+    text: ¡Encuentra nuevas energías!
+  - class: blue
+    text: ¡Aumenta la producción!
+  - class: red
+    text: ¡Calma a las masas!
+  - class: green
+    text: ¡Apuesta en futuros!
+  - class: red
+    text: ¡Planea nuevas infraestructuras!
+  - class: blue
+    text: ¡Elige nuevos CEOs!
+  - class: red
+    text: ¡Establece alianzas!
+  - class: green
+    text: ¡Compra y vende acciones!
+  - class: blue
+    text: ¡Obtén contratos públicos!
+  - class: yellow
+    text: ¡Presiona para subir los precios!
+  - class: green
+    text: ¡Financia campañas!

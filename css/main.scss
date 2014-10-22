@@ -220,6 +220,24 @@ $shine-size: ($logo-size * 2);
     to {transform: rotate(360deg);}
 }
 
+.languages {
+    position: absolute;
+
+    top: $navbar-height - 10px;
+    left: 0;
+    right: 0;
+
+    text-align: right;
+    padding: 8px;
+
+    z-index: 150;
+
+    li {
+        padding: 0;
+        display: inline-block;
+    }
+}
+
 $social-width: 400px;
 
 .social-buttons {

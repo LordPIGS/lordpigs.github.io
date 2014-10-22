@@ -1,6 +1,5 @@
 ---
 layout: base
-permalink: /
 scripts:
   - /js/character-quotes.js
   - /js/rrssb.min.js
@@ -13,12 +12,23 @@ scripts:
     <img class="logo" alt="The Lord of the P.I.G.S." src="{{ '/img/pigs-logo.svg' | prepend: site.baseurl }}" />
   </div>
 
+  <!-- Languages -->
+  <ul class="languages">
+  {% for lang in site.langs %}
+    <li class="language language-{{ lang.code }}{% if page.lang == lang.code %} language-selected{% endif %}">
+      <a href="/{{ lang.code }}">
+        <img alt="{{ lang.name }}" title="{{ lang.name }}" src="{{ site.baseurl }}/img/lang-{{ lang.code }}.png"/>
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+
   <!-- Social Buttons -->
   {% include social-buttons.html %}
 
   <!-- THINGS CHARACTERS SAY -->
   <div class="container-fluid the-quotes">
-  {% for quote in site.data.quotes %}
+  {% for quote in site.data.quotes[page.lang] %}
     <a href="#character-{{ quote.class }}">
       <div id="character-quote-{{ forloop.index0 }}" class="character-quote character-quote-{{ quote.class }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ quote.text }}</div>
     </a>
@@ -29,12 +39,12 @@ scripts:
 
 <!-- THE GAME -->
 <div class="the-game">
-  <h1 class="full-header"><a class="anchor" id="game">The Game</a></h1>
+  <h1 class="full-header"><a class="anchor" id="game">{{ site.data.texts[page.lang].titles.game }}</a></h1>
   <div class="container">
-    {{ site.data.texts.gameDescription | markdownify }}
+    {{ site.data.texts[page.lang].gameDescription | markdownify }}
     {% include support-us-big.html %}
     <hr/>
-    {{ site.data.texts.gameGameplay | markdownify }}
+    {{ site.data.texts[page.lang].gameGameplay | markdownify }}
     </div>
 </div>
 

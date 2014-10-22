@@ -11,6 +11,12 @@ social:
     facebook: thelordofthepigs
     googleplus: 118328327260331017054
 
+langs:
+  - code: en
+    name: English
+  - code: es
+    name: Español
+
 # Build settings
 markdown: kramdown
 
@@ -21,6 +27,10 @@ permalink: "/post/:title/"
 excerpt_separator: '<!--more-->'
 
 defaults:
+  - scope:
+      path: ""
+    values:
+      lang: en
   - scope:
       type: "posts"
     values:
