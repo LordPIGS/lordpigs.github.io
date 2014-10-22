@@ -32,32 +32,32 @@ en:
 
 es:
   - class: green
-    text: ¡Change the interest rates!
+    text: ¡Cambia los tipos de interés!
   - class: yellow
-    text: ¡Regulate markets!
+    text: ¡Regula los mercados!
   - class: red
-    text: ¡Tailor the laws!
+    text: ¡Adapta las leyes!
   - class: blue
-    text: ¡Create new goods!
+    text: ¡Crea nuevos productos!
   - class: yellow
-    text: ¡Find new energy sources!
+    text: ¡Encuentra nuevas energías!
   - class: blue
-    text: ¡Increase production!
+    text: ¡Aumenta la producción!
   - class: red
-    text: ¡Appease the populace!
+    text: ¡Calma a las masas!
   - class: green
-    text: ¡Gamble on futures!
+    text: ¡Apuesta en futuros!
   - class: red
-    text: ¡Plan new infrastructures!
+    text: ¡Planea nuevas infraestructuras!
   - class: blue
-    text: ¡Appoint new CEOs!
+    text: ¡Elige nuevos CEOs!
   - class: red
-    text: ¡Stablish alliances!
+    text: ¡Establece alianzas!
   - class: green
-    text: ¡Buy and sell shares!
+    text: ¡Compra y vende acciones!
   - class: blue
-    text: ¡Obtain public contracts!
+    text: ¡Obtén contratos públicos!
   - class: yellow
-    text: ¡Lobby for higher prices!
+    text: ¡Presiona para subir los precios!
   - class: green
-    text: ¡Finance campaigns!
+    text: ¡Financia campañas!
