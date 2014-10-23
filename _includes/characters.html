@@ -8,11 +8,11 @@
       {% capture evenodd %}{% cycle 'odd','even' %}{% endcapture %}
       <div class="row">
       {% if evenodd == 'odd' %}
-        <div class="col-sm-2 hidden-xs character-picture-container">
+        <div class="col-sm-4 col-md-2 hidden-xs character-picture-container">
           <img alt="{{ character.name }}" src="{{ character.picture | prepend: site.baseurl }}"/>
         </div>
       {% endif %}
-        <div class="col-sm-10">
+        <div class="col-sm-8 col-md-10">
           <div class="character-description-{{ character.class }}">
             <p class="character-title character-title-{{ evenodd }}"><a class="anchor" id="character-{{ character.class }}">
               <strong class="character-name">{{ character.name }}</strong>,
@@ -23,7 +23,7 @@
         </div>
 
       {% if evenodd == 'even' %}
-        <div class="col-sm-2 hidden-xs character-picture-container">
+        <div class="col-sm-4 col-md-2 hidden-xs character-picture-container">
           <img alt="{{ character.name }}" src="{{ character.picture | prepend: site.baseurl }}"/>
         </div>
       {% endif %}
