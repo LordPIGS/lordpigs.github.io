@@ -12,6 +12,11 @@ scripts:
     <img class="logo" alt="The Lord of the P.I.G.S." src="{{ '/img/pigs-logo.svg' | prepend: site.baseurl }}" />
   </div>
 
+  <!-- characters -->
+{% for character in site.data.characters %}
+    <img class="character-header character-header-{{ character.class }}" alt="{{ character-name }}" src="{{ site.baseurl }}{{ character.picture }}"/>
+{% endfor %}
+
   <!-- Languages -->
   <ul class="languages">
   {% for lang in site.langs %}
