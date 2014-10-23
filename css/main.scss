@@ -604,6 +604,8 @@ $social-width: 400px;
 }
 
 .the-store {
+    overflow-x: hidden;
+
     .store-container {
         position: relative;
     }
