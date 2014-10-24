@@ -2,6 +2,7 @@
 layout: base
 scripts:
   - /js/character-quotes.js
+  - /js/language-select.js
   - /js/rrssb.min.js
 ---
 
@@ -21,7 +22,7 @@ scripts:
   <ul class="languages">
   {% for lang in site.langs %}
     <li class="language language-{{ lang.code }}{% if page.lang == lang.code %} language-selected{% endif %}">
-      <a href="/{{ lang.code }}">
+      <a href="/{{ lang.code }}" class="language-change" data-language="{{ lang.code }}">
         <img alt="{{ lang.name }}" title="{{ lang.name }}" src="{{ site.baseurl }}/img/lang-{{ lang.code }}.png"/>
       </a>
     </li>

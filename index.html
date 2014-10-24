@@ -1,6 +1,7 @@
 ---
 layout: html
 scripts:
+  - /js/language-select.js
   - /js/rrssb.min.js
 ---
 <div class="lang-select">
@@ -8,7 +9,7 @@ scripts:
 
     <ul>
         {% for lang in site.langs %}
-        <a href="/{{ lang.code }}/"><li class="lang-item">{{ lang.name }}</li></a>
+        <a href="/{{ lang.code }}/" class="language-select" data-language="{{ lang.code }}"><li class="lang-item">{{ lang.name }}</li></a>
         {% endfor %}
     </ul>
 
@@ -21,8 +22,6 @@ scripts:
     var lang = null;
 
     function selectLang (langs) {
-        console.log(langs);
-
         for (var i in langs) {
             var lang = langs[i];
             if (LANGUAGES.indexOf(langs[i])) {
@@ -47,7 +46,7 @@ scripts:
 
     /* If a language was selected, jump to it */
     if (lang) {
-        //window.location = window.location + lang + '/';
+        window.location = window.location + lang + '/';
     }
 })(window);
 </script>
