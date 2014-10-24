@@ -23,7 +23,7 @@ scripts:
 
     function selectLang (langs) {
         for (var i in langs) {
-            var lang = langs[i];
+            var lang = langs[i].substring(0, 2);
             if (LANGUAGES.indexOf(langs[i])) {
                 return lang;
             }
