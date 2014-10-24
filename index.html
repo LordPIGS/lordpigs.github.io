@@ -1,0 +1,53 @@
+---
+layout: html
+scripts:
+  - /js/rrssb.min.js
+---
+<div class="lang-select">
+    <h1>The Lord of the P.I.G.S</h1>
+
+    <ul>
+        {% for lang in site.langs %}
+        <a href="/{{ lang.code }}/"><li class="lang-item">{{ lang.name }}</li></a>
+        {% endfor %}
+    </ul>
+
+    {% include social-buttons.html %}
+</div>
+
+<script>
+(function(window){
+    var LANGUAGES = [{% for lang in site.langs %}'{{ lang.code }}'{% if forloop.last == false %}, {% endif %}{% endfor %}];
+    var lang = null;
+
+    function selectLang (langs) {
+        console.log(langs);
+
+        for (var i in langs) {
+            var lang = langs[i];
+            if (LANGUAGES.indexOf(langs[i])) {
+                return lang;
+            }
+        }
+
+        return null;
+    }
+
+    /* Check for previously selected language */
+    lang = window.localStorage.getItem('language');
+
+    if (!lang) {
+        /* Find the browser language */
+        if (navigator.languages) {
+            lang = selectLang(navigator.languages);
+        } else {
+            lang = selectLang([navigator.language, navigator.browserLanguage]);
+        }
+    }
+
+    /* If a language was selected, jump to it */
+    if (lang) {
+        //window.location = window.location + lang + '/';
+    }
+})(window);
+</script>

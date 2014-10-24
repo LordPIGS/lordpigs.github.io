@@ -51,6 +51,37 @@ body, html {
     }
 }
 
+
+.lang-select {
+    position: relative;
+    background-color: $color-bg-darkred;
+    margin: 0;
+    height: 100%;
+
+    h1 {
+        font-family: "Big Noodle Titling";
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 56pt;
+        color: white;
+
+        margin-top: 0;
+        padding-top: 0.25em;
+    }
+
+    li.lang-item {
+        list-style: none;
+        text-align: center;
+
+        font-family: "Big Noodle Titling";
+        text-transform: uppercase;
+        font-size: 32pt;
+
+        color: $color-fg-white;
+    }
+}
+
+
 .navbar {
     margin: 0;
 }
@@ -302,12 +333,16 @@ $social-width: 400px;
 
 .social-buttons {
     position: absolute;
-    bottom: $navbar-height + 4px;
     left: 50%;
+    bottom: 8px;
     margin-left: -$social-width / 2;
     width: $social-width;
     text-align: center;
     z-index: 300;
+}
+
+.first-screen .social-buttons {
+    bottom: $navbar-height + 4px;
 }
 
 @media (max-width: $social-width) {
