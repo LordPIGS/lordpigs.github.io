@@ -1,0 +1,10 @@
+<hr/>
+
+<footer class="page-footer container">
+  <p>&copy; {{ 'now' | date: '%Y' }} {{ site.copyright }}</p>
+  <ul>
+{% for lang in site.langs %}
+    <li><a href="{% if page.path contains '_posts' %}/{{ lang[0] }}/blog/{% else %}{{ page.url | replace_first: page.lang, lang[0] }}{% endif %}">{{ lang[1] }}</a></li>
+{% endfor %}
+  </ul>
+</footer>

@@ -1,5 +1,6 @@
 # Site settings
 title: The Lord of the P.I.G.S.
+copyright: The Lord of the P.I.G.S.
 email: lordpigs2015@gmail.com
 description: "Fast-paced simulation game for 4 players, where you decide the economic fate of the Republic of Meridia."
 baseurl: "" # the subpath of your site, e.g. /blog/
