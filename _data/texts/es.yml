@@ -19,6 +19,14 @@ stamp:
   coming_soon: Próximamente
   on_ks: en Kickstarter
 
+blogWarn: |
+  **Nota**: Esta página muestra las publicaciones escritas en *Español*, pero
+  algunas pueden no estar disponibles y se mostrarán en otro idioma.
+
+postLangs: |
+  Esta publicación está escrita en **Español**, pero también está disponible
+  en los siguientes idiomas:
+
 gameDescription: |
   BIENVENIDO A MERIDIA
   ------------------

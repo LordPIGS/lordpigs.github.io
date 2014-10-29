@@ -18,6 +18,14 @@ stamp:
   coming_soon: Coming soon
   on_ks: on Kickstarter
 
+blogWarn: |
+  **Note**: This page is showing posts written in *English*, but some posts may
+  not be available and will be shown in a different language.
+
+postLangs: |
+  This post is written in **English**, but it's also available in the following
+  languages:
+
 gameDescription: |
   WELCOME TO MERIDIA
   ------------------

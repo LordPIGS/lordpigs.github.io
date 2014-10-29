@@ -9,7 +9,7 @@ scripts:
 
     <ul>
         {% for lang in site.langs %}
-        <a href="/{{ lang.code }}/" class="language-select" data-language="{{ lang.code }}"><li class="lang-item">{{ lang.name }}</li></a>
+        <a href="/{{ lang[0] }}/" class="language-select" data-language="{{ lang[0] }}"><li class="lang-item">{{ lang[1] }}</li></a>
         {% endfor %}
     </ul>
 
@@ -18,7 +18,7 @@ scripts:
 
 <script>
 (function(window){
-    var LANGUAGES = [{% for lang in site.langs %}'{{ lang.code }}'{% if forloop.last == false %}, {% endif %}{% endfor %}];
+    var LANGUAGES = [{% for lang in site.langs %}'{{ lang[0] }}'{% if forloop.last == false %}, {% endif %}{% endfor %}];
     var lang = null;
 
     function selectLang (langs) {

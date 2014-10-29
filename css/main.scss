@@ -90,7 +90,7 @@ body, html {
     height: 0;
     padding: 0;
     margin: 0;
-    margin-bottom: $navbar-height;
+    height: $navbar-height;
 }
 
 .anchor {
@@ -727,6 +727,14 @@ $social-width: 400px;
 
 /* === BLOG-SPECIFIC === */
 
+.blog-lang-warning, .post-lang-warning {
+    font-size: 12pt;
+}
+
+.blog-lang-warning {
+    margin-top: 1em;
+}
+
 hr {
     margin: 0.5em;
 }
@@ -756,4 +764,8 @@ hr {
     h1 {
         margin-top: 0.1em;
     }
+}
+
+.post .full-header {
+    margin-top: 0;
 }

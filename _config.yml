@@ -12,10 +12,9 @@ social:
     googleplus: 112175587856430848445
 
 langs:
-  - code: en
-    name: English
-  - code: es
-    name: Español
+  en: English
+  es: Español
+  pt: Português
 
 # Build settings
 markdown: kramdown

@@ -2,17 +2,39 @@
 layout: base
 ---
 
-<!-- NAVIGATION -->
-{% include navbar.html %}
+<div class="container">
+  <div class="alert alert-info blog-lang-warning">{{ site.data.texts[page.lang].blogWarn | markdownify }}</div>
+</div>
 
 <!-- POSTS -->
 {% for post in site.posts %}
-{% if forloop.index0 != 0 %}<hr/>{% endif %}
-<article class="post-excerpt container{% if forloop.index0 >= site.numPosts %} post-excerpt-short{% endif %}">
-    <h1><a href="{{ post.url }}">{{ post.title }} <small>{{ post.date | date: '%B %d, %Y' }}</small></a></h1>
-    {% if forloop.index0 < site.numPosts %}
+  {% assign show_post = false %}
+
+  {% if post.lang == page.lang %}
+    {% assign show_post = true %}
+  {% else %}
+    {% if post.is_main %}{% unless post.langs[page.lang] %}
+      {% assign show_post = true %}
+    {% endunless %}{% endif %}
+  {% endif %}
+
+
+  {% if show_post %}
+    {% capture currentPost %}{% increment renderedPosts %}{% endcapture %}
+    {% if renderedPosts != 0 %}<hr/>{% endif %}
+
+    <article class="post-excerpt container{% if forloop.index0 >= site.numPosts %} post-excerpt-short{% endif %}">
+      <h1><a href="{{ post.url }}">
+        {{ post.title }}
+        <small>
+          {{ post.date | date: '%B %d, %Y' }}
+        </small>
+      </a></h1>
+      {% if renderedPosts < site.numPosts %}
         {{ post.excerpt }}
         <a href="{{ post.url }}"><p class="read-more">Read More</p></a>
-    {% endif %}
-</article>
+      {% endif %}
+    </article>
+  {% endif %}
+
 {% endfor %}
