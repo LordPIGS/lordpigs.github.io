@@ -7,13 +7,13 @@
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
     <!-- OpenGraph Tags -->
-    <meta property="og:title" name="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
-    <meta property="og:description" name="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
-    <meta property="og:url" name="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+    <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}" />
+    <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% elsif page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}" />
+    <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
     <!-- Twitter Card Tags -->
-    <meta property="twitter:card" name="twitter:card" content="content" />
-    <meta property="twitter:site" name="twitter:site" content="@ThLordOfThePigs" />
+    <meta property="twitter:card" content="content" />
+    <meta property="twitter:site" content="@ThLordOfThePigs" />
 
 
     <link rel="shortcut icon" href="{{ '/favicon.ico' | prepend: site.baseurl }}" />
