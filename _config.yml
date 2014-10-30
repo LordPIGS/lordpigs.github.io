@@ -48,7 +48,7 @@ media: img/posts
 metadata:
   _posts:
 
-    # Post title
+    # Post Title
     - name: title
       field:
         element: text
@@ -79,3 +79,11 @@ metadata:
         help: Is this post the main one?
         on: Yes
         off: No
+
+    # Post Permalink
+    - name: permalink
+      field:
+        element: text
+        label: permalink
+        help: Permalink (should include language: /en/post/title-of-the-post/)
+        placeholder: Post Permalink (/LANG/post/TITLE/)
