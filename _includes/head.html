@@ -31,4 +31,6 @@
     {% for script in page.scripts %}
     <script src="{{ script | prepend: site.baseurl }}"></script>
     {% endfor %}
+
+    {% include google-analytics.html %}
 </head>
