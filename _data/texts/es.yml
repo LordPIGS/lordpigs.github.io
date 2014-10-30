@@ -27,6 +27,27 @@ postLangs: |
   Esta publicación está escrita en **Español**, pero también está disponible
   en los siguientes idiomas:
 
+quotes:
+  red:
+    - ¡Adapta las leyes!
+    - ¡Calma a las masas!
+    - ¡Planea nuevas infraestructuras!
+    - ¡Establece alianzas!
+  blue:
+    - ¡Crea nuevos productos!
+    - ¡Aumenta la producción!
+    - ¡Elige nuevos CEOs!
+    - ¡Obtén contratos públicos!
+  green:
+    - ¡Cambia los tipos de interés!
+    - ¡Apuesta en futuros!
+    - ¡Compra y vende acciones!
+    - ¡Financia campañas!
+  yellow:
+    - ¡Regula los mercados!
+    - ¡Encuentra nuevas energías!
+    - ¡Presiona para subir los precios!
+
 gameDescription: |
   BIENVENIDO A MERIDIA
   ------------------

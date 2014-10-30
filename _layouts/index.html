@@ -34,10 +34,12 @@ scripts:
 
   <!-- THINGS CHARACTERS SAY -->
   <div class="container-fluid the-quotes">
-  {% for quote in site.data.quotes[page.lang] %}
-    <a href="#character-{{ quote.class }}">
-      <div id="character-quote-{{ forloop.index0 }}" class="character-quote character-quote-{{ quote.class }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ quote.text }}</div>
+  {% for quote in site.data.texts[page.lang].quotes %}
+  {% for qtxt in quote[1] %}
+    <a href="#character-{{ quote[0] }}">
+      <div id="character-quote-{{ forloop.index0 }}" class="character-quote character-quote-{{ quote[0] }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ qtxt }}</div>
     </a>
+  {% endfor %}
   {% endfor %}
     </div>
 
