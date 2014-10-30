@@ -40,3 +40,42 @@ defaults:
 
 gems:
   - jekyll-redirect-from
+
+
+# Prose.IO configuration
+rooturl: _posts
+media: img/posts
+metadata:
+  _posts:
+
+    # Post title
+    - name: title
+      field:
+        element: text
+        label: title
+        help: Post Title
+        placeholder: Post Title
+
+    # Post Language
+    - name: lang
+      field:
+        element: select
+        label: lang
+        help: Post Lnaguage
+        placeholder: Post Lnaguage
+        options:
+          - name: English
+            value: en
+          - name: Spanish
+            value: es
+          - name: Portuguese
+            value: pt
+
+    # Is Main?
+    - name: is_main
+      field:
+        element: button
+        label: is_main
+        help: Is this post the main one?
+        on: Yes
+        off: No
