@@ -7,6 +7,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://www.thelordofthepigs.com" # the base hostname & protocol for your site
 kickstarter: "http://kickstarter.com/the-lord-of-the-pigs"
 
+googleAnalytics: UA-56278601-1
 social:
     twitter: ThLordOfThePIGS
     facebook: thelordofthepigs
