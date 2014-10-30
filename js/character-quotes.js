@@ -33,7 +33,6 @@ $(function () {
         /* If there are no more elements left, get some more */
         if (elemsLeft.length === 0) {
             elemsLeft = shuffle($('.' + classBase + '.' + classHidden).toArray());
-            console.log(elemsLeft);
         }
 
         /* Take the first from the list and change it for the next class */
