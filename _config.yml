@@ -86,5 +86,5 @@ prose:
         field:
           element: text
           label: permalink
-          help: Permalink (should include language: /en/post/title-of-the-post/)
-          placeholder: Post Permalink (/LANG/post/TITLE/)
+          help: "Permalink (should include language: /en/post/title-of-the-post/)"
+          placeholder: "Post Permalink (/LANG/post/TITLE/)"
