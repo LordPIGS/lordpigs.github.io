@@ -1,6 +1,9 @@
 <div id="disqus_thread"></div>
 <script type="text/javascript">
     var disqus_shortname = '{{ site.social.disqus }}';
+    var disqus_identifier = '{{ page.url }}';
+    var disqus_title = '{{ page.title }}';
+    var disqus_url = '{{ page.url | prepend: site.url }}';
 
     /* * * DON'T EDIT BELOW THIS LINE * * */
     (function() {
