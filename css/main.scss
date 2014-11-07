@@ -763,10 +763,6 @@ hr {
     margin: 0.5em;
 }
 
-.post {
-    font-size: 12pt;
-}
-
 .post-excerpt {
     h1 {
         font-family: "Big Noodle Titling", sans-serif;
@@ -794,11 +790,37 @@ hr {
     }
 }
 
-.post .full-header {
-    margin-top: 0;
-    font-size: 28pt;
-}
+.post {
+    font-size: 12pt;
 
+    .full-header {
+        margin-top: 0;
+        font-size: 28pt;
+    }
+
+    .social-share {
+        background: #EEE;
+        padding: 3px 0.5px;
+        border: 2px solid #AAA;
+
+        border-radius: 2px;
+
+        .share-text {
+            background: #999;
+            color: white;
+
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            font-size: 14px;
+            text-transform: uppercase;
+            text-align: center;
+
+            margin: 0 2.5px 4px;
+            padding: 2px 5px;
+            border-radius: 2px;
+        }
+    }
+}
 
 .page-footer {
     font-size: 11pt;
