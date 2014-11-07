@@ -13,8 +13,11 @@
     </div>
 
     <div class="coming-soon-stamp">
-        {{ site.data.texts[page.lang].stamp.coming_soon }}<br/>
-        <small>{{ site.data.texts[page.lang].stamp.on_ks }}</small>
+        {{ site.data.texts[page.lang].stamp.on_ks_pre }}
+        <br/>
+        <img alt="Kickstarter" src="{{ '/img/kickstarter.png' | prepend: site.baseurl }}" height="56"/>
+        <br/>
+        {{ site.data.texts[page.lang].stamp.on_ks_post }}
     </div>
   </div>
 

@@ -15,8 +15,8 @@ support:
   us_on: us on
 
 stamp:
-  coming_soon: Coming soon
-  on_ks: on Kickstarter
+  on_ks_pre: Available after our
+  on_ks_post: campaign
 
 blogWarn: |
   **Note**: This page is showing posts written in *English*, but some posts may

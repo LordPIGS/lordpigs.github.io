@@ -3,8 +3,8 @@ layout: base
 
 ---
 <article class="post">
-  <h1 class="full-header">{{ page.title }}</h1>
   <div class="container"><div class="row"><div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+    <h1 class="full-header">{{ page.title }}</h1>
     {% if page.langs %}
       <aside class="alert alert-info post-lang-warning"><p>
         {{ site.data.texts[page.lang].postLangs | markdownify | remove: '<p>' | remove: '</p>'}}

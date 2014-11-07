@@ -675,13 +675,13 @@ $social-width: 500px;
     }
 
     .coming-soon-stamp {
-        $height: 180px;
+        $height: 230px;
 
         position: absolute;
 
         top: 50%;
         height: $height;
-        line-height: 100px;
+        line-height: 72px;
         margin-top: -$height / 2;
 
         left: 50%;
@@ -691,7 +691,7 @@ $social-width: 500px;
         text-align: center;
         overflow: visible;
 
-        font-size: 64pt;
+        font-size: 48pt;
         font-family: "Big Noodle Titling";
         color: $color-bg-darkred;
         text-transform: uppercase;
@@ -763,6 +763,10 @@ hr {
     margin: 0.5em;
 }
 
+.post {
+    font-size: 12pt;
+}
+
 .post-excerpt {
     h1 {
         font-family: "Big Noodle Titling", sans-serif;
@@ -792,6 +796,7 @@ hr {
 
 .post .full-header {
     margin-top: 0;
+    font-size: 28pt;
 }
 
 

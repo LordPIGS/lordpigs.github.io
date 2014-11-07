@@ -16,8 +16,8 @@ support:
   us_on: en
 
 stamp:
-  coming_soon: Próximamente
-  on_ks: en Kickstarter
+  on_ks_pre: Disponible tras<br/>nuestra campaña de
+  on_ks_post:
 
 blogWarn: |
   **Nota**: Esta página muestra las publicaciones escritas en *Español*, pero
