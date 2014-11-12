@@ -49,6 +49,11 @@ prose:
   media: img/posts
   metadata:
     _posts:
+      - name: title
+        field:
+          element: text
+          label: Post Title
+
       - name: lang
         field:
           element: select
