@@ -53,6 +53,7 @@ prose:
         field:
           element: select
           label: Post Language
+          help: Language in which the post it written.
           options:
             - name: English
               value: en
@@ -64,12 +65,13 @@ prose:
         field:
           element: checkbox
           label: Main Post
+          help: Check if this post should be the main of the group.
           value: false
       - name: permalink
         field:
           element: text
-          label: permalink
+          label: Permalink
           help: |
-            Post path. Use format /lang/posts/title
-            (e.g., /en/posts/the-final-countdown)
+            Post path. Use format /&lt;lang&gt;/posts/&lt;title&gt;
+            (without the angle brackets)
           placeholder: /__/posts/__________
