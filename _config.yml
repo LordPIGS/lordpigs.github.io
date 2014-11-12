@@ -47,3 +47,16 @@ gems:
 prose:
   rooturl: _posts
   media: img/posts
+  metadata:
+    _posts:
+      - name: lang
+        field:
+          element: select
+          help: Post Language
+          options:
+            - name: English
+              value: en
+            - name: Portuguese
+              value: pt
+            - name: Spanish
+              value: es
