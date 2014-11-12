@@ -52,7 +52,7 @@ prose:
       - name: lang
         field:
           element: select
-          help: Post Language
+          label: Post Language
           options:
             - name: English
               value: en
@@ -60,3 +60,8 @@ prose:
               value: pt
             - name: Spanish
               value: es
+      - name: is_main
+        field:
+          element: checkbox
+          label: Main post
+          value: false
