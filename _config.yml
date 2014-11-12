@@ -63,5 +63,13 @@ prose:
       - name: is_main
         field:
           element: checkbox
-          label: Main post
+          label: Main Post
           value: false
+      - name: permalink
+        field:
+          element: text
+          label: permalink
+          help: |
+            Post path. Use format /<lang>/posts/<title>
+            (e.g., /en/posts/the-final-countdown)
+          placeholder: /__/posts/__________
