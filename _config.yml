@@ -70,6 +70,6 @@ prose:
           element: text
           label: permalink
           help: |
-            Post path. Use format /<lang>/posts/<title>
+            Post path. Use format /lang/posts/title
             (e.g., /en/posts/the-final-countdown)
           placeholder: /__/posts/__________
