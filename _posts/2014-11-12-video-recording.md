@@ -1,8 +1,9 @@
 ---
+title: "Video Recording"
 published: false
 lang: en
 is_main: true
-parmalink: "/en/posts/video-recording"
+permalink: "/en/posts/video-recording"
 ---
 
 Yesterday we spent the whole afternoon with Mikel Agirrezabalaga ([Twitter](https://twitter.com/MAgirrezabalaga), [Facebook](https://facebook.com/mikel.agirrezabalagacantera)), having fun and recording the videos for our upcoming Kickstarter campaign.
