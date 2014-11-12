@@ -1,6 +1,6 @@
 ---
-title: "Video Recording"
-published: false
+title: Video Recording
+published: true
 lang: en
 is_main: true
 permalink: "/en/posts/video-recording"
