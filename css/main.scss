@@ -822,6 +822,13 @@ hr {
     }
 }
 
+.post, .post-excerpt {
+    img {
+        max-width: 100%;
+        padding: 1em 3em;
+    }
+}
+
 .page-footer {
     font-size: 11pt;
     color: #777;
