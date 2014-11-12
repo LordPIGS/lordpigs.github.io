@@ -72,37 +72,37 @@ prose:
           element: text
           label: Permalink
           help: |
-            Post path. Use format /&lt;lang&gt;/posts/&lt;title&gt;
-            (without the angle brackets)
-          placeholder: /__/posts/__________
+            Post path. Use format /&lt;lang&gt;/posts/&lt;title&gt;/
+            (without the angle brackets). ALWAYS ADD A TRAILING SLASH.
+          placeholder: /__/posts/__________/
 
       # One per language
       - name: lang_en_link
         field:
           element: text
-          label: English Permalink
+          label: English Version Permalink
           help: |
             The permalink of the English version of this post.
             If this is the English version or the post does not have
-            an English vearsion, leave blank
-          placeholder: /en/posts/__________
+            an English vearsion, leave blank. ALWAYS ADD A TRAILING SLASH.
+          placeholder: /en/posts/__________/
 
       - name: lang_es_link
         field:
           element: text
-          label: Spanish Permalink
+          label: Spanish Version Permalink
           help: |
             The permalink of the Spanish version of this post.
             If this is the Spanish version or the post does not have
-            an Spanish vearsion, leave blank
-          placeholder: /es/posts/__________
+            an Spanish vearsion, leave blank. ALWAYS ADD A TRAILING SLASH.
+          placeholder: /es/posts/__________/
 
       - name: lang_pt_link
         field:
           element: text
-          label: Portuguese Permalink
+          label: Portuguese Version Permalink
           help: |
             The permalink of the Portuguese version of this post.
             If this is the Portuguese version or the post does not have
-            an Portuguese vearsion, leave blank
-          placeholder: /pt/posts/__________
+            an Portuguese vearsion, leave blank. ALWAYS ADD A TRAILING SLASH.
+          placeholder: /pt/posts/__________/
