@@ -46,7 +46,7 @@ gems:
 # Prose.IO configuration
 prose:
   rooturl: _posts
-  media: img/posts
+  media: media
   metadata:
     _posts:
       - name: title
