@@ -1,6 +1,6 @@
 ---
 title: Video Recording
-published: true
+published: false
 lang: en
 is_main: true
 permalink: "/en/posts/video-recording"
