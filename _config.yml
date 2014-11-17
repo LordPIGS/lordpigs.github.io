@@ -19,7 +19,7 @@ langs:
   en: English
   es: Español
   pt: Português
-#  it: Italiano
+  it: Italiano
 
 # Build settings
 markdown: kramdown
