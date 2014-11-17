@@ -30,161 +30,171 @@ share_this: Share this post
 
 quotes:
   red:
-    - Tailor the laws!
-    - Appease the populace!
-    - Plan new infrastructures!
-    - Stablish alliances!
+    - Aplaca o povo!
+    - Privatiza empresas públicas!
+    - Regula os mercados!
+    - Passa novas leis!
   blue:
-    - Create new goods!
-    - Increase production!
-    - Appoint new CEOs!
-    - Obtain public contracts!
+    - Aponta novos Administradores!
+    - Obtém contratos públicos!
+    - Optimiza a tua mão-de-obra!
+    - Cria novos bens!
   green:
-    - Change the interest rates!
-    - Gamble on futures!
-    - Buy and sell shares!
-    - Finance campaigns!
+    - Defende os teus investmentos!
+    - Compra e vende ações!
+    - Muda os tipos de interesse!
+    - Joga em operações a prazo!
   yellow:
-    - Regulate markets!
-    - Find new energy sources!
-    - Lobby for higher prices!
+    - Investe em energia verde!
+    - Explora novos recursos!
+    - Pressiona para aumentar os preços!
+    - Cria nova infra-estrutura!
+
 
 gameDescription: |
-  WELCOME TO MERIDIA
-  ------------------
+  BEM-VINDO A MERÍDIA
+  -------------------
 
-  *Despite the predictions of the national gurus, the economic downturn has
-  hit the sunny lands of Meridia! And it has hit hard, so hard that the
-  Republic's bigwigs have fled the country for the greener pastures of
-  diverse fiscal paradises, taking their ill-gotten fortunes with them.
-  The country is in disarray, in dire need of new leaders...*
+  *As previsões dos gurus da economia e dos comentadores televisivos mais
+  pessimistas verificaram-se.  A crise económica global chegou a Merídia!
+  As suas consequências foram tão graves que a maioria das fortunas do país
+  emigraram para paraísos fiscais.  A sociedade desmonta-se sem um líder que
+  a guie...*
 
-  *And that's where you come in. Will you rekindle the fire of Meridia's
-  economy, while assuring the quality of life of its citizens? Or will you
-  use your privileged position to amass a personal fortune?*
+  *E aqui é onde entras tu!  Será que vais conseguir reactivar a economia do
+  país e melhorar a qualidade de vida da população?  Ou vais utilizar a tua
+  posição privilegiada para fazer crescer a tua própria fortuna e influência?*
 
-  <center><em><strong>Up to you to decide!</strong></em></center>
+  <center><em><strong>Tu decides!</strong></em></center>
 
   -----
 
-  Lord of the P.I.G.S. is a fast-paced multiplayer economy simulation game
-  set in the fictional Republic of Meridia, a melting pot of southern
-  European countries. You and your friends will take the role of Meridia's
-  leaders and will vie for economic supremacy through presentation meetings,
-  voting sessions, public opinion polls, unexpected events and widespread
-  backstabbing.
+  O The Lord of the P.I.G.S. é um jogo de simulação economico-política para
+  vários jogadores na república fictícia de Merídia.  Este bonito país é uma
+  mistura de culturas dos países do sul da Europa
+  (Portugal+Itália+Grécia+Espanha), que como saberás foram baptizados como
+  P.I.G.S. pelos nossos apreciados amigos do norte da Europa.
 
-  The game is not ready to ship yet, and it’s going to be funded soon via
-  **Kickstarter**, where you can help it become a reality and get your copy
-  of the game and many extra content!
+  Tu e os teus amigos deverão escolher entre um dos líderes da economia de
+  Merídia para lutar pela supremacia económica.  Vale tudo: lançar campanhas de
+  comunicação, fazer lobby, fazer (e romper) alianças, manipular sondagens...
+  num ambiente económico delicado incluindo uma taxa de desemprego
+  elevadíssima.
+
+  O jogo ainda não está disponível para venda, pois ainda estamos à espera de
+  conseguir o financiamento necessário através de **Kickstarter**.
+  Neste site poderás ajudar-nos a tornar este jogo realidade e obter uma cópia
+  do jogo com muuuuitos conteúdos extra!
 
 gameGameplay: |
-  GAMEPLAY
-  --------
+  O JOGO
+  ------
 
-  The Lord of the P.I.G.S. is a game for 4 players and takes up to 30 minutes
-  to complete. It will come in a convenient, portable box that holds all
-  the contents you need to play, anytime, anywhere:
+  O The Lord of the P.I.G.S. é um jogo de mesa para 4 jogadores em que cada
+  jogo dura cerca de 30 minutos.  Irás receber uma caixa que inclui tudo o que
+  necessitas para jogar:
 
-  + 4 different Action decks (1 for each Character) of 29 cards each, for a
-    total of 116 cards.
-  + 1 Event deck with 20 cards.
-  + 1 Board, with 5 score markers.
+  + 4 baralhos de acções (1 para cada jogador) com 29 cartas por baralho.
+  + 1 baralho de eventos com 20 cartas.
+  + 1 tabuleiro e 5 marcadores para as pontuações.
 
-  Each player takes up the role of one of the economy's pillars: President
-  of the Republic, Chief Banker, Corporate Director and Energy Tycoon.
-  Each pillar, or Character, has an associated variable, that represents its
-  interests. There's a 5<sup>th</sup> non playable Actor that represents the
-  interests of the People, with its own variable associated. Your goal: 
+  Cada jogador escolhe uma das 4 personagens do jogo: presidente da república,
+  administrador do banco, director executivo ou magnata do sector energético.
+  Cada personagem tem uma variável associada que representa os seus interesses.
+  Há ainda uma variável não jogável que representa a estabilidade social do
+  país.  O objectivo é simples:
 
-  <center><strong><em>Further your own interests and decide the fate of the
-  masses!</em></strong></center>
+  <center><strong><em>Desenvolve os teus interesses enquanto decides o destino
+  das massas de Merídia!</em></strong></center>
 
   -----
 
-  The game is based around 2 central mechanics:
+  O jogo desenvolve-se através de 2 formas:
 
-  + **SUBMITTING ACTIONS**: The players submit Actions to alter the economy
-  and mold it to their interests. Each Action has a support threshold to be
-  activated.
-  + **VOTING ACTIONS**: The players choose to which submitted Actions they
-  will give their support through Voting. Once a submitted Action reaches its
-  Votes threshold, it is activated and influences the 5 Ratings.
+  + Os jogadores propõem acções que alteram a economia e, consequentemente, as
+    pontuações de cada um dos jogadores e da estabilidade social.  Cada acção
+    necessita de uma certa quantidade de votos para activar o seu efeito.
+  + Votar acções: Os jogadores decidem apoiar uma das acções propostas através
+    de votações.  Quando uma acção obtém os votos necessários, activa-se o seu
+    efeito, modificando as pontuações de cada um dos jogadores e daestabilidade
+    social.
 
-  However, to spice things up, the game contains 2 secondary mechanics to
-  ensure plenty of suprises and backstabbing in each gaming session:
+  O jogo tem ainda outras surpresas (boas e más) em cada turno:
 
-  + **SPECIAL ACTION CARDS**: Some Action cards can be used for a special
-  effect, in addition to the normal uses of submitting and voting. Some let
-  you rig the voting system at the last minute, while others let you modify
-  the effects of activated Actions. Enjoy!
-  + **EVENT CARDS**: The Event deck contains cards that represent
-  unpredictable occurrences in the economy and society. Those Events change
-  the gameplay, forcing the players to adapt.
+  + Cartas de acção especial: Algumas cartas de acções podem ser usadas para
+    realizar efeitos especiais além do seu uso normal (propor e/ou votar).
+    Algumas permitem alterar o resultado das votações, enquanto outras permitem
+    modificar os efeitos de uma acção que já tenha sido activada.
+    Surpreende os teus adversários!
+  + Cartas de eventos: as cartas de eventos contêm sucessos imprevisíveis da
+    política e economia, de Merídia ou do resto do mundo.  Estes eventos podem
+    alterar algumas pontuações e outros elementos do jogo.
 
-  You can [download the PDF with the full rules](/extra/rules.pdf) for more
-  details.
+  Podes [descarregar as regras completas do jogo em PDF](/extra/rules.pdf) para
+  mais detalhes.
 
 characters:
   intro: |
-    In The Lord of the P.I.G.S. you'll act as of one of the cornerstones of
-    Meridia's economy. But before choosing your role, you may be interested in
-    knowing more about their goals and how they intend to attain them. 
-
-    _**DISCLAIMER**: All characters appearing in this work are fictitious. Any
-    resemblance to real persons, living or dead, is purely coincidental...
-    Or is it?_
+    Em The Lord of the P.I.G.S. tu serás um dos poderosos da economia de
+    Merídia. Mas antes de escolheres a tua personagem, damos-te a conhecer um
+    pouco da história de cada uma delas e dos seus planos para o futuro.
+    
+    _**Exoneração de responsabilidade**: Todas as personagens deste jogo são
+    fictícias.  Qualquer semelhança com personagens reais, vivas ou mortas, é
+    pura coincidência… Ou não!_
 
   red:
-    title: the President of the Republic
+    title: Presidente da República
     text: |
-      There's nothing in this life that you prefer to the lights and flashes of
-      the cameras.  They make you feel important, and are a nice reminiscence of
-      your old days, when you were a star of the screen.  Well... maybe that's
-      not true.  Since you became Head of State, you've found something better in
-      the masses roaring your name: *"PRESIDENT! PRESIDENT!!"* So your absolute
-      priority is to secure your reelection for another term, and you know how to
-      achieve it.  Populist speeches, expensive Meridian tailored suits, and your
-      best weapon: the combo of your perfect tanned skin and your pristine smile.
-      The next election will be a cakewalk.
+      Não há nada no mundo que gostes mais do que das cámaras e dos flashes.
+      Fazem-te sentir como se os velhos tempos, de estrela de cinema e cantor
+      de éxito, não tivessem acabado.  Mas desde que ganhaste as eleições
+      descobriste uma coisa ainda melhor: as massas aclamando-te.  Portanto, a
+      tua prioridade absoluta é assegurar que serás reeleito, e sabes como
+      consegui-lo.  Boas doses de populismo, embelezadas com roupas impecáveis
+      e os teus maiores activos: um bronze permamente e um sorriso que
+      encandeia... Se jogares bem as tuas cartas, a tua reeleição está
+      garantida.
 
   blue:
-    title: the Corporate Director
+    title: Director Executivo
     text: |
-      You remember it clearly: *"He's not going to make it"*, *"Nobody can save
-      the Holding from fading into oblivion"*, *"Meridia's position in the global
-      economy is an unsurmountable hindrance"*... And despite it all, you saved
-      your family's business, and even expanded into new sectors.
-      Yes, some sacrifices were needed, but that concerned mostly third parties.
-      Acceptable losses, of course.  You have got big plans for the future, as
-      the world is full of opportunities if you know where to look: new markets,
-      new product lines, and so on.
-      The masses are eager for more trinkets and you are happy to oblige...
+      Ainda te lembras quando diziam: *"Não vai conseguir, ninguém vai
+      conseguir salvar a holding familiar mais famosa de Merídia"*...
+      e apesar de tudo, salvaste o negócio da tua família, expandiste-o e
+      diversificaste-o.  Mas foi preciso fazer sacrifícios, e naturalmente
+      cedeste esta responsabilidade a terceiros: chamemos-lhes perdas
+      aceitáveis.  Os teus planos para o futuro: mais produtos, desde
+      automóveis a iogurtes, passando por construção de auto-estradas e
+      serviços de consultoria.  As massas querem novos brinquedos, e tu terás
+      muito prazer em disponibilizá-los... a um preço justo.
 
   green:
-    title: the Chief Banker
+    title: Administrador do Banco
     text: |
-      *"Money is the key to the world, and finance is the key to money"* your
-      father used to say.  And you've adopted his wisdom as your motto.
-      While some brand your practices as questionable at best, it is crystal
-      clear that they work.  Your finance empire grows every day, and as a result
-      you have one finger in every pie, in Meridia and in a lot of countries
-      worldwide.  The crisis, while scary at first, has yielded a positive
-      balance in your accounts after you pushed the correct buttons.
-      Because when used properly, finance is not only a key, it is also a leash.
+      Desde pequenino o teu pai repetiu-te: *"Quem controla o dinheiro,
+      controla o país; e o segredo do dinheiro são as finanças"*, e tu
+      convertes-te esta frase no teu lema.  Ainda que alguns questionem as tuas
+      práticas, é obvio que funcionam.  O teu império financeiro cresce cada
+      dia, e os teus tentáculos chegam mais longe do que muitos pensam, tanto
+      em Merídia como no estrangeiro.  A população temiam a crise financeira,
+      tu pelo contrário, soubeste aproveitar as oportunidades que se
+      apresentaram. Resulta que as finanças não só são o segredo, mas também a
+      alavanca para um futuro dourado...
 
   yellow:
-    title: the Energy Tycoon
+    title: Magnata do Sector Energético
     text: |
-      Meridia is full of jealous people!  They envy everything you own: the
-      mansions, the yachts, the cars, the select parties and friends... And they
-      have the nerve to say that you don't deserve it all! Well, OK, there's been
-      some insider information here and there, some occasional deceptive billing
-      and sometimes you've held monopolostic positions, true. But hey! That's how
-      business works! And the future looks even brighter, now that the foolish,
-      short-lived energy efficiency hype has died... not to mention new energy
-      sources in both the renewable and fossil fronts. You can't stop progress,
-      that's for sure!
+      Merídia está cheia de invejosos! Criticam as tuas mansões, os teus iates,
+      os teus carros... até as tuas festas selectas com o jet set em Ibiza.
+      Mas o que mais te irrita é que digam que não mereces!
+      Podem falar de informação previligiada, de abusar dos consumidores na
+      facturação ou de uma situação quase-monopolista... Mas o negócio é assim!
+      Na tua posição o futuro promete ser fantástico, principalmente agora que
+      as pessoas se vão esquecendo da eficiência energética e se preocupam mais
+      com a segurança do abastecimento, que tu garantirás a um preço "justo" e
+      "de mercado".  Ou quase...
+
 
 storeInfo: |
   The Lord of The P.I.G.S. comes in a convenient, portable box that holds all

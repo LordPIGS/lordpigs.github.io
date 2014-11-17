@@ -19,6 +19,7 @@ langs:
   en: English
   es: Español
   pt: Português
+#  it: Italiano
 
 # Build settings
 markdown: kramdown
@@ -62,6 +63,8 @@ prose:
           options:
             - name: English
               value: en
+            - name: Italian
+              value: it
             - name: Portuguese
               value: pt
             - name: Spanish
@@ -89,7 +92,7 @@ prose:
           help: |
             The permalink of the English version of this post.
             If this is the English version or the post does not have
-            an English vearsion, leave blank. ALWAYS ADD A TRAILING SLASH.
+            an English version, leave blank. ALWAYS ADD A TRAILING SLASH.
           placeholder: /en/posts/__________/
 
       - name: lang_es_link
@@ -99,7 +102,7 @@ prose:
           help: |
             The permalink of the Spanish version of this post.
             If this is the Spanish version or the post does not have
-            an Spanish vearsion, leave blank. ALWAYS ADD A TRAILING SLASH.
+            an Spanish version, leave blank. ALWAYS ADD A TRAILING SLASH.
           placeholder: /es/posts/__________/
 
       - name: lang_pt_link
@@ -109,5 +112,15 @@ prose:
           help: |
             The permalink of the Portuguese version of this post.
             If this is the Portuguese version or the post does not have
-            an Portuguese vearsion, leave blank. ALWAYS ADD A TRAILING SLASH.
+            an Portuguese version, leave blank. ALWAYS ADD A TRAILING SLASH.
           placeholder: /pt/posts/__________/
+
+      - name: lang_it_link
+        field:
+          element: text
+          label: Italian Version Permalink
+          help: |
+            The permalink of the Italian version of this post.
+            If this is the Italian version or the post does not have
+            an Italian version, leave blank. ALWAYS ADD A TRAILING SLASH.
+          placeholder: /it/posts/__________/
