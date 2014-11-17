@@ -18,8 +18,8 @@ social:
 langs:
   en: English
   es: Español
-  pt: Português
   it: Italiano
+  pt: Português
 
 # Build settings
 markdown: kramdown
