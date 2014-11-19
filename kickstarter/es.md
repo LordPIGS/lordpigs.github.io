@@ -3,7 +3,7 @@ layout: kickstarter
 permalink: /kickstarter/es/
 ---
 
-<!-- video de presentación -->
+{% include youtube.html video='R3i4dyt_mco' %}
 
 <p class="ks-intro-question">
 ¿Alguna vez te has preguntado cómo sería convertirte en un pez gordo de la economía?
@@ -17,7 +17,7 @@ permalink: /kickstarter/es/
 ¡Si has respondido que sí a alguna de las anteriores, estás en el lugar adecuado!
 </p>
 
-<!-- video jordi&alvaro -->
+{% include youtube.html video='kZ8wRiqo9pE' %}
 
 The Lord of the P.I.G.S. es un dinámico juego sobre la política y economía de la ficticia República
 de Meridia, un país que recoge las características de los países del sur de Europa.  Tú y tus
@@ -57,7 +57,7 @@ gente"...
   ¡Pon tu cara cogiendo el nivel de aporte <em>Cabecilla</em>!
 </p>
 
-<!-- video reglas -->
+{% include youtube.html video='???????????' %}
 
 Los intereses de cada jugador son de naturaleza diferente (al Presidente, por ejemplo, le interesa
 la Opinión Pública), y cada uno se representa con una puntuación que va de 0 a 10.  El objetivo del

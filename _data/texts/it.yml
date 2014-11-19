@@ -31,24 +31,26 @@ share_this: Share this post
 
 quotes:
   red:
-    - Tailor the laws!
-    - Appease the populace!
-    - Plan new infrastructures!
-    - Stablish alliances!
+    - Calma le masse!
+    - Privatizza le aziende pubbliche!
+    - Regola i mercati!
+    - Adatta le leggi!
+    - Costruisci partnership!
   blue:
-    - Create new goods!
-    - Increase production!
-    - Appoint new CEOs!
-    - Obtain public contracts!
+    - Seleziona nuovi amministratori delegati!
+    - Fallo con contratti pubblici!
+    - Ottimizza la forza lavoro!
+    - Riduci i tuoi costi di produzione!
   green:
-    - Change the interest rates!
-    - Gamble on futures!
-    - Buy and sell shares!
-    - Finance campaigns!
+    - Difendi i tuoi investimenti!
+    - Acquista e vendi azioni!
+    - Modifica i tassi di interesse!
   yellow:
-    - Regulate markets!
-    - Find new energy sources!
-    - Lobby for higher prices!
+    - Investi in energia pulita!
+    - Sfrutta nuove risorse!
+    - Insisti per aumentare i prezzi!
+    - Crea nuove infrastrutture!
+
 
 gameDescription: |
   BENVENUTO A MERIDIA!
