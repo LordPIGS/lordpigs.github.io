@@ -35,9 +35,11 @@ The Lord of the P.I.G.S. fue seleccionado finalista para un concurso
 internacional de juegos de mesa organizada por Korea Board Games en
 Board Game Geek:
 
-[![Korea Board Games]()][kbg]
-
-  [kbg]: http://boardgamegeek.com/thread/1174850/kbg-design-contest-2014-1600-prize-pool/page/3
+<center>
+<a href="http://boardgamegeek.com/thread/1174850/kbg-design-contest-2014-1600-prize-pool/page/3">
+<img alt="Korea Board Games" src="{{ site.baseurl }}/kickstarter/es-info-kbg.png" />
+</a>
+</center>
 
 
 ![Gameplay]({{ site.baseurl }}/kickstarter/es-title-gameplay.png)
@@ -57,7 +59,7 @@ gente"...
   ¡Pon tu cara cogiendo el nivel de aporte <em>Cabecilla</em>!
 </p>
 
-{% include youtube.html video='???????????' %}
+{% include youtube.html video='YyPbCkklEp0' %}
 
 Los intereses de cada jugador son de naturaleza diferente (al Presidente, por ejemplo, le interesa
 la Opinión Pública), y cada uno se representa con una puntuación que va de 0 a 10.  El objetivo del
@@ -83,9 +85,9 @@ juego! Te recomendamos que hagas todo lo que esté en tu mano para "dirigir" los
 jugadores... O sea que recuerda: Para sobrevivir en la traicionera jungla de la economía de Meridia
 necesitarás finura, adulación y mano dura, según convenga.
 
-<!--
-collage de 4 fotos d'algú amb cara de interès, decepció, sorpresa o triomf i les cartes a la mà
--->
+<p class="ks-pic">
+  <img src="{{ site.baseurl }}/kickstarter/es-pic-jordi.jpg"/>
+</p>
 
 Pero para cada Acción, hay una reacción... La estabilidad social de Meridia está presente del
 juego, como un rol no jugable, pero con su propia puntuación, modificada también por las cartas de
@@ -123,7 +125,7 @@ ofrecer The Lord of the P.I.G.S. a tus amigos y familia!
 </p>
 
 Puedes consultar el precio de tu aprotación en € utilizando esta aplicación:
-[XE CURRENCY](http://www.xe.com/en/currencyconverter/)
+[XE CURRENCY](http://www.xe.com/currencyconverter/convert/?From=GBP&To=EUR)
 
 
 ### Ciudadano de Meridia (£1 o más)
