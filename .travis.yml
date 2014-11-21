@@ -11,3 +11,7 @@ script:
   - bundle exec jekyll build -d "$TRAVIS_BUILD_DIR"/_site
 
 after_success: bash _scripts/deploy
+
+env:
+  global:
+    secure: jTZS7l9R9kA5G4ugmL5bvqJ7HT/rGALcKg2up7z+aJo0iy1KkbJmJ95kfhM5V8V44xhsExEvJbD3tJMMKdW90sh8MfsHcTxn0XdGxweZ6efzU4k2IeX8wHIO2wyKMbxzlKJq+RIV0Iq6tizpcCRGN9/UBqMMnHYSUiXvcXZsTkA=
