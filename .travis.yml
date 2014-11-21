@@ -1,0 +1,13 @@
+language: ruby
+cache: bundler
+rvm:
+  - 2.1
+
+branches:
+  except:
+    - master
+
+script:
+  - bundle exec jekyll build -d "$TRAVIS_BUILD_DIR"/_site
+
+after_success: bash _scripts/deploy

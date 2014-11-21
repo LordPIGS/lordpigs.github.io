@@ -1,0 +1,21 @@
+if [ "$TRAVIS_BRANCH" = "source" ] && \
+   [ "$TRAVIS_REPO_SLUG" == "LordPIGS/lordpigs.github.io" ] && \
+   [ "$TRAVIS_PULL_REQUEST" == "false" ];
+then
+
+    git config --global user.email "travis@travis-ci.org"
+    git config --global user.name "travis-ci"
+
+    git clone --quiet --branch=master \
+        https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG} _deploy
+
+    cd _deploy
+
+    git rm -rf ./*
+    cp -rf "$TRAVIS_BUILD_DIR"/_site/* .
+    touch .nojekyll
+
+    git add -f .
+    git commit -m "Travis CI build ${TRAVIS_BUILD_NUMBER} for ${TRAVIS_COMMIT} at $(date -Is -u)"
+    git push -fq origin master
+fi
