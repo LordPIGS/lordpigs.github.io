@@ -48,7 +48,7 @@ exclude: [Gemfile, vendor, '_vendor']
 
 # Prose.IO configuration
 prose:
-#  rooturl: _posts
+  rooturl: _posts
   media: media
   metadata:
     _posts:
