@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>The Lord of the P.I.G.S.</title>
+    <meta name="description" content="Fast-paced simulation game for 4 players, where you decide the economic fate of the Republic of Meridia.">
+
+    <!-- OpenGraph Tags -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="The Lord of the P.I.G.S." />
+    <meta property="og:description" content="Fast-paced simulation game for 4 players, where you decide the economic fate of the Republic of Meridia." />
+    <meta property="og:url" content="http://www.thelordofthepigs.com/en/" />
+
+    <!-- Twitter Card Tags -->
+    <meta property="twitter:card" content="content" />
+    <meta property="twitter:site" content="@ThLordOfThePigs" />
+
+
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/rrssb.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="canonical" href="http://www.thelordofthepigs.com/en/">
+
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.js"></script>
+    <script src="/js/rrssb.min.js"></script>
+
+    
+    <script src="/js/character-quotes.js"></script>
+    
+    <script src="/js/language-select.js"></script>
+    
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create','UA-56278601-1','auto');
+  ga('send','pageview');
+</script>
+</head>
+
+  <body>
+    <nav class="navbar navbar-fixed-top navbar-inverse" role="navigation">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/en/#">The Lord of the P.I.G.S.</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/en/#game">Game</a></li>
+        <li><a href="/en/#characters">Characters</a></li>
+        <li><a href="/en/#store">Store</a></li>
+        <li><a href="/en/blog/#">Blog</a></li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+
+<div class="navbar-padding"></div>
+<!-- LOGO AND MAIN VIEW -->
+<div class="first-screen">
+  <div class="container-fluid the-logo">
+    <img id="shine" class="logo-shine" src="/img/shine2.svg" />
+    <img class="logo" alt="The Lord of the P.I.G.S." src="/img/pigs-logo.svg" />
+  </div>
+
+  <!-- characters -->
+
+    <img class="character-header character-header-red" alt="" src="/img/ch-red.sm.png"/>
+
+    <img class="character-header character-header-blue" alt="" src="/img/ch-blue.sm.png"/>
+
+    <img class="character-header character-header-green" alt="" src="/img/ch-green.sm.png"/>
+
+    <img class="character-header character-header-yellow" alt="" src="/img/ch-yellow.sm.png"/>
+
+
+  <!-- Languages -->
+  <ul class="languages">
+  
+    <li class="language language-en language-selected">
+      <a href="/en" class="language-change" data-language="en">
+        <img alt="English" title="English" src="/img/lang-en.png"/>
+      </a>
+    </li>
+  
+    <li class="language language-es">
+      <a href="/es" class="language-change" data-language="es">
+        <img alt="Español" title="Español" src="/img/lang-es.png"/>
+      </a>
+    </li>
+  
+    <li class="language language-it">
+      <a href="/it" class="language-change" data-language="it">
+        <img alt="Italiano" title="Italiano" src="/img/lang-it.png"/>
+      </a>
+    </li>
+  
+    <li class="language language-pt">
+      <a href="/pt" class="language-change" data-language="pt">
+        <img alt="Português" title="Português" src="/img/lang-pt.png"/>
+      </a>
+    </li>
+  
+  </ul>
+
+  <!-- Social Buttons -->
+  <div class="social-buttons">
+  <ul class="rrssb-buttons clearfix">
+    <li class="rrssb-facebook">
+      <!-- Replace with your URL. For best results, make sure you page has the proper FB Open Graph tags in header:
+      https://developers.facebook.com/docs/opengraph/howtos/maximizing-distribution-media-content/ -->
+      <a href="https://facebook.com/thelordofthepigs" target="_blank">
+        <span class="rrssb-icon">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+            <path d="M27.825,4.783c0-2.427-2.182-4.608-4.608-4.608H4.783c-2.422,0-4.608,2.182-4.608,4.608v18.434
+              c0,2.427,2.181,4.608,4.608,4.608H14V17.379h-3.379v-4.608H14v-1.795c0-3.089,2.335-5.885,5.192-5.885h3.718v4.608h-3.726
+              c-0.408,0-0.884,0.492-0.884,1.236v1.836h4.609v4.608h-4.609v10.446h4.916c2.422,0,4.608-2.188,4.608-4.608V4.783z"/>
+          </svg>
+        </span>
+        <span class="rrssb-text">facebook</span>
+      </a>
+    </li>
+    <li class="rrssb-twitter">
+      <!-- Replace href with your Meta and URL information  -->
+      <a href="https://twitter.com/ThLordOfThePIGS" target="_blank">
+        <span class="rrssb-icon">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+             width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+          <path d="M24.253,8.756C24.689,17.08,18.297,24.182,9.97,24.62c-3.122,0.162-6.219-0.646-8.861-2.32
+            c2.703,0.179,5.376-0.648,7.508-2.321c-2.072-0.247-3.818-1.661-4.489-3.638c0.801,0.128,1.62,0.076,2.399-0.155
+            C4.045,15.72,2.215,13.6,2.115,11.077c0.688,0.275,1.426,0.407,2.168,0.386c-2.135-1.65-2.729-4.621-1.394-6.965
+            C5.575,7.816,9.54,9.84,13.803,10.071c-0.842-2.739,0.694-5.64,3.434-6.482c2.018-0.623,4.212,0.044,5.546,1.683
+            c1.186-0.213,2.318-0.662,3.329-1.317c-0.385,1.256-1.247,2.312-2.399,2.942c1.048-0.106,2.069-0.394,3.019-0.851
+            C26.275,7.229,25.39,8.196,24.253,8.756z"/>
+          </svg>
+         </span>
+        <span class="rrssb-text">twitter</span>
+      </a>
+    </li>
+    <li class="rrssb-googleplus">
+      <!-- Replace href with your meta and URL information.  -->
+      <a href="https://plus.google.com/112175587856430848445" rel="publisher" target="_blank">
+        <span class="rrssb-icon">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+            <g>
+              <g>
+                <path d="M14.703,15.854l-1.219-0.948c-0.372-0.308-0.88-0.715-0.88-1.459c0-0.748,0.508-1.223,0.95-1.663
+                  c1.42-1.119,2.839-2.309,2.839-4.817c0-2.58-1.621-3.937-2.399-4.581h2.097l2.202-1.383h-6.67c-1.83,0-4.467,0.433-6.398,2.027
+                  C3.768,4.287,3.059,6.018,3.059,7.576c0,2.634,2.022,5.328,5.604,5.328c0.339,0,0.71-0.033,1.083-0.068
+                  c-0.167,0.408-0.336,0.748-0.336,1.324c0,1.04,0.551,1.685,1.011,2.297c-1.524,0.104-4.37,0.273-6.467,1.562
+                  c-1.998,1.188-2.605,2.916-2.605,4.137c0,2.512,2.358,4.84,7.289,4.84c5.822,0,8.904-3.223,8.904-6.41
+                  c0.008-2.327-1.359-3.489-2.829-4.731H14.703z M10.269,11.951c-2.912,0-4.231-3.765-4.231-6.037c0-0.884,0.168-1.797,0.744-2.511
+                  c0.543-0.679,1.489-1.12,2.372-1.12c2.807,0,4.256,3.798,4.256,6.242c0,0.612-0.067,1.694-0.845,2.478
+                  c-0.537,0.55-1.438,0.948-2.295,0.951V11.951z M10.302,25.609c-3.621,0-5.957-1.732-5.957-4.142c0-2.408,2.165-3.223,2.911-3.492
+                  c1.421-0.479,3.25-0.545,3.555-0.545c0.338,0,0.52,0,0.766,0.034c2.574,1.838,3.706,2.757,3.706,4.479
+                  c-0.002,2.073-1.736,3.665-4.982,3.649L10.302,25.609z"/>
+                <polygon points="23.254,11.89 23.254,8.521 21.569,8.521 21.569,11.89 18.202,11.89 18.202,13.604 21.569,13.604 21.569,17.004
+                  23.254,17.004 23.254,13.604 26.653,13.604 26.653,11.89      "/>
+              </g>
+            </g>
+          </svg>
+        </span>
+        <span class="rrssb-text">google+</span>
+      </a>
+    </li>
+    <li class="rrssb-youtube">
+      <a href="http://youtube.com/channel/UCCCYHxBCl9jTglaodnwKyXQ" target="_blank">
+        <span class="rrssb-icon">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="28px" height="28px" viewBox="0 0 28 28" enable-background="new 0 0 28 28" xml:space="preserve">
+            <path d="M27.688,8.512c0-2.268-1.825-4.093-4.106-4.093H4.389c-2.245,0-4.076,1.825-4.076,4.093v10.976 c0,2.268,1.825,4.093,4.076,4.093h19.192c2.274,0,4.106-1.825,4.106-4.093V8.512z M11.263,18.632V8.321l7.817,5.155L11.263,18.632z" />
+          </svg>
+        </span>
+        <span class="rrssb-text">youtube</span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+  <!-- THINGS CHARACTERS SAY -->
+  <div class="container-fluid the-quotes">
+  
+  
+    <a href="#character-red">
+      <div id="character-quote-0" class="character-quote character-quote-red character-quote-first">Tailor the laws!</div>
+    </a>
+  
+    <a href="#character-red">
+      <div id="character-quote-1" class="character-quote character-quote-red character-quote-second">Appease the populace!</div>
+    </a>
+  
+    <a href="#character-red">
+      <div id="character-quote-2" class="character-quote character-quote-red character-quote-third">Plan new infrastructures!</div>
+    </a>
+  
+    <a href="#character-red">
+      <div id="character-quote-3" class="character-quote character-quote-red character-quote-fourth">Stablish alliances!</div>
+    </a>
+  
+  
+  
+    <a href="#character-blue">
+      <div id="character-quote-0" class="character-quote character-quote-blue character-quote-first">Create new goods!</div>
+    </a>
+  
+    <a href="#character-blue">
+      <div id="character-quote-1" class="character-quote character-quote-blue character-quote-second">Increase production!</div>
+    </a>
+  
+    <a href="#character-blue">
+      <div id="character-quote-2" class="character-quote character-quote-blue character-quote-third">Appoint new CEOs!</div>
+    </a>
+  
+    <a href="#character-blue">
+      <div id="character-quote-3" class="character-quote character-quote-blue character-quote-fourth">Obtain public contracts!</div>
+    </a>
+  
+  
+  
+    <a href="#character-green">
+      <div id="character-quote-0" class="character-quote character-quote-green character-quote-first">Change the interest rates!</div>
+    </a>
+  
+    <a href="#character-green">
+      <div id="character-quote-1" class="character-quote character-quote-green character-quote-second">Gamble on futures!</div>
+    </a>
+  
+    <a href="#character-green">
+      <div id="character-quote-2" class="character-quote character-quote-green character-quote-third">Buy and sell shares!</div>
+    </a>
+  
+    <a href="#character-green">
+      <div id="character-quote-3" class="character-quote character-quote-green character-quote-fourth">Finance campaigns!</div>
+    </a>
+  
+  
+  
+    <a href="#character-yellow">
+      <div id="character-quote-0" class="character-quote character-quote-yellow character-quote-first">Regulate markets!</div>
+    </a>
+  
+    <a href="#character-yellow">
+      <div id="character-quote-1" class="character-quote character-quote-yellow character-quote-second">Find new energy sources!</div>
+    </a>
+  
+    <a href="#character-yellow">
+      <div id="character-quote-2" class="character-quote character-quote-yellow character-quote-third">Lobby for higher prices!</div>
+    </a>
+  
+  
+    </div>
+
+</div>
+
+<!-- THE GAME -->
+<div class="the-game">
+  <h1 class="full-header"><a class="anchor" id="game">The Game</a></h1>
+  <div class="container">
+    <h2 id="welcome-to-meridia">WELCOME TO MERIDIA</h2>
+
+<p><em>Despite the predictions of the national gurus, the economic downturn has
+hit the sunny lands of Meridia! And it has hit hard, so hard that the
+Republic’s bigwigs have fled the country for the greener pastures of
+diverse fiscal paradises, taking their ill-gotten fortunes with them.
+The country is in disarray, in dire need of new leaders…</em></p>
+
+<p><em>And that’s where you come in. Will you rekindle the fire of Meridia’s
+economy, while assuring the quality of life of its citizens? Or will you
+use your privileged position to amass a personal fortune?</em></p>
+
+<center><em><strong>Up to you to decide!</strong></em></center>
+
+<hr />
+
+<p>Lord of the P.I.G.S. is a fast-paced multiplayer economy simulation game
+set in the fictional Republic of Meridia, a melting pot of southern
+European countries. You and your friends will take the role of Meridia’s
+leaders and will vie for economic supremacy through presentation meetings,
+voting sessions, public opinion polls, unexpected events and widespread
+backstabbing.</p>
+
+<p>The game is not ready to ship yet, and it’s going to be funded soon via
+<strong>Kickstarter</strong>, where you can help it become a reality and get your copy
+of the game and many extra content!</p>
+
+    <a href="http://kickstarter.com/the-lord-of-the-pigs" target="_blank">
+  <div class="kickstarter">
+    <div class="ks-text">
+        <span class="ks-text-green">Support</span>
+        us on
+    </div>
+    <img class="ks-logo" alt="Kickstarter" src="/img/kickstarter.png" />
+  </div>
+</a>
+    <hr/>
+    <h2 id="gameplay">GAMEPLAY</h2>
+
+<p>The Lord of the P.I.G.S. is a game for 4 players and takes up to 30 minutes
+to complete. It will come in a convenient, portable box that holds all
+the contents you need to play, anytime, anywhere:</p>
+
+<ul>
+  <li>4 different Action decks (1 for each Character) of 29 cards each, for a
+total of 116 cards.</li>
+  <li>1 Event deck with 20 cards.</li>
+  <li>1 Board, with 5 score markers.</li>
+</ul>
+
+<p>Each player takes up the role of one of the economy’s pillars: President
+of the Republic, Chief Banker, Corporate Director and Energy Tycoon.
+Each pillar, or Character, has an associated variable, that represents its
+interests. There’s a 5<sup>th</sup> non playable Actor that represents the
+interests of the People, with its own variable associated. Your goal: </p>
+
+<center><strong><em>Further your own interests and decide the fate of the
+masses!</em></strong></center>
+
+<hr />
+
+<p>The game is based around 2 central mechanics:</p>
+
+<ul>
+  <li><strong>SUBMITTING ACTIONS</strong>: The players submit Actions to alter the economy
+and mold it to their interests. Each Action has a support threshold to be
+activated.</li>
+  <li><strong>VOTING ACTIONS</strong>: The players choose to which submitted Actions they
+will give their support through Voting. Once a submitted Action reaches its
+Votes threshold, it is activated and influences the 5 Ratings.</li>
+</ul>
+
+<p>However, to spice things up, the game contains 2 secondary mechanics to
+ensure plenty of suprises and backstabbing in each gaming session:</p>
+
+<ul>
+  <li><strong>SPECIAL ACTION CARDS</strong>: Some Action cards can be used for a special
+effect, in addition to the normal uses of submitting and voting. Some let
+you rig the voting system at the last minute, while others let you modify
+the effects of activated Actions. Enjoy!</li>
+  <li><strong>EVENT CARDS</strong>: The Event deck contains cards that represent
+unpredictable occurrences in the economy and society. Those Events change
+the gameplay, forcing the players to adapt.</li>
+</ul>
+
+<p>You can <a href="/extra/rules.pdf">download the PDF with the full rules</a> for more
+details.</p>
+
+    </div>
+</div>
+
+<!-- THE CHARACTERS -->
+<div class="the-characters">
+  <h1 class="full-header"><a class="anchor" id="characters">The Characters</a></h1>
+  <div class="container">
+    <p>In The Lord of the P.I.G.S. you’ll act as of one of the cornerstones of
+Meridia’s economy. But before choosing your role, you may be interested in
+knowing more about their goals and how they intend to attain them. </p>
+
+<p><em><strong>DISCLAIMER</strong>: All characters appearing in this work are fictitious. Any
+resemblance to real persons, living or dead, is purely coincidental…
+Or is it?</em></p>
+
+    <hr/>
+    <div class="character-descriptions">
+    
+      
+      <div class="row">
+      
+        <div class="col-sm-4 col-md-2 hidden-xs character-picture-container">
+          <img alt="Silvio do Espírito Santo" src="/img/ch-red.sm.png"/>
+        </div>
+      
+        <div class="col-sm-8 col-md-10">
+          <div class="character-description-red">
+            <p class="character-title character-title-odd"><a class="anchor" id="character-red">
+              <strong class="character-name">Silvio do Espírito Santo</strong>,
+            the President of the Republic
+            </a></p>
+            <p>There’s nothing in this life that you prefer to the lights and flashes of
+the cameras.  They make you feel important, and are a nice reminiscence of
+your old days, when you were a star of the screen.  Well… maybe that’s
+not true.  Since you became Head of State, you’ve found something better in
+the masses roaring your name: <em>“PRESIDENT! PRESIDENT!!”</em> So your absolute
+priority is to secure your reelection for another term, and you know how to
+achieve it.  Populist speeches, expensive Meridian tailored suits, and your
+best weapon: the combo of your perfect tanned skin and your pristine smile.
+The next election will be a cakewalk.</p>
+
+          </div>
+        </div>
+
+      
+      </div>
+    
+      
+      <div class="row">
+      
+        <div class="col-sm-8 col-md-10">
+          <div class="character-description-blue">
+            <p class="character-title character-title-even"><a class="anchor" id="character-blue">
+              <strong class="character-name">Aristoteles D’Aquila</strong>,
+            the Corporate Director
+            </a></p>
+            <p>You remember it clearly: <em>“He’s not going to make it”</em>, <em>“Nobody can save
+the Holding from fading into oblivion”</em>, <em>“Meridia’s position in the global
+economy is an unsurmountable hindrance”</em>… And despite it all, you saved
+your family’s business, and even expanded into new sectors.
+Yes, some sacrifices were needed, but that concerned mostly third parties.
+Acceptable losses, of course.  You have got big plans for the future, as
+the world is full of opportunities if you know where to look: new markets,
+new product lines, and so on.
+The masses are eager for more trinkets and you are happy to oblige…</p>
+
+          </div>
+        </div>
+
+      
+        <div class="col-sm-4 col-md-2 hidden-xs character-picture-container">
+          <img alt="Aristoteles D’Aquila" src="/img/ch-blue.sm.png"/>
+        </div>
+      
+      </div>
+    
+      
+      <div class="row">
+      
+        <div class="col-sm-4 col-md-2 hidden-xs character-picture-container">
+          <img alt="Emilio Papadopoulos" src="/img/ch-green.sm.png"/>
+        </div>
+      
+        <div class="col-sm-8 col-md-10">
+          <div class="character-description-green">
+            <p class="character-title character-title-odd"><a class="anchor" id="character-green">
+              <strong class="character-name">Emilio Papadopoulos</strong>,
+            the Chief Banker
+            </a></p>
+            <p><em>“Money is the key to the world, and finance is the key to money”</em> your
+father used to say.  And you’ve adopted his wisdom as your motto.
+While some brand your practices as questionable at best, it is crystal
+clear that they work.  Your finance empire grows every day, and as a result
+you have one finger in every pie, in Meridia and in a lot of countries
+worldwide.  The crisis, while scary at first, has yielded a positive
+balance in your accounts after you pushed the correct buttons.
+Because when used properly, finance is not only a key, it is also a leash.</p>
+
+          </div>
+        </div>
+
+      
+      </div>
+    
+      
+      <div class="row">
+      
+        <div class="col-sm-8 col-md-10">
+          <div class="character-description-yellow">
+            <p class="character-title character-title-even"><a class="anchor" id="character-yellow">
+              <strong class="character-name">Rui Fernández</strong>,
+            the Energy Tycoon
+            </a></p>
+            <p>Meridia is full of jealous people!  They envy everything you own: the
+mansions, the yachts, the cars, the select parties and friends… And they
+have the nerve to say that you don’t deserve it all! Well, OK, there’s been
+some insider information here and there, some occasional deceptive billing
+and sometimes you’ve held monopolostic positions, true. But hey! That’s how
+business works! And the future looks even brighter, now that the foolish,
+short-lived energy efficiency hype has died… not to mention new energy
+sources in both the renewable and fossil fronts. You can’t stop progress,
+that’s for sure!</p>
+
+          </div>
+        </div>
+
+      
+        <div class="col-sm-4 col-md-2 hidden-xs character-picture-container">
+          <img alt="Rui Fernández" src="/img/ch-yellow.sm.png"/>
+        </div>
+      
+      </div>
+    
+    </div>
+</div>
+
+<!-- THE TEAM -->
+<!--<div class="the-team">
+  <h1 class="full-header"><a class="anchor" id="team">The Team</a></h1>
+
+  <div class="container-fluid">
+    <ul class="team-members">
+  
+      <li class="member member-left">
+        <div class="member-picture">
+          <img alt="Picture: Jordi Rodríguez" src="/img/tm-jordirodriguez.jpg"/>
+        </div>
+        <div class="member-content">
+          <h2 >Jordi Rodríguez</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </li>
+  
+      <li class="member member-left">
+        <div class="member-picture">
+          <img alt="Picture: Álvaro Lerma" src="/img/tm-alvarolerma.jpg"/>
+        </div>
+        <div class="member-content">
+          <h2 >Álvaro Lerma</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </li>
+  
+      <li class="member member-left">
+        <div class="member-picture">
+          <img alt="Picture: Daniel Escoz" src="/img/tm-danielescoz.jpg"/>
+        </div>
+        <div class="member-content">
+          <h2 >Daniel Escoz</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </li>
+  
+      <li class="member member-left">
+        <div class="member-picture">
+          <img alt="Picture: Jordi Tura" src="/img/tm-jorditura.jpg"/>
+        </div>
+        <div class="member-content">
+          <h2 >Jordi Tura</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </li>
+  
+      <li class="member member-left">
+        <div class="member-picture">
+          <img alt="Picture: Ibán Malangré" src="/img/tm-ibanmalangre.jpg"/>
+        </div>
+        <div class="member-content">
+          <h2 >Ibán Malangré</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        </div>
+      </li>
+  
+    </ul>
+  </div>
+</div>-->
+
+<!-- THE STORE -->
+<section class="the-store">
+  <h1 class="full-header"><a class="anchor" id="store">The Store</a></h1>
+
+  <div class="container store-container"><div class="store-item">
+    <p>The Lord of The P.I.G.S. comes in a convenient, portable box that holds all
+the contents you need to play, anytime, anywhere:</p>
+
+<ul>
+  <li>1 card deck for the <strong>President of the Republic</strong> with 29 cards.</li>
+  <li>1 card deck for the <strong>Corporate Director</strong> with 29 cards.</li>
+  <li>1 card deck for the <strong>Chief Banker</strong> with 29 cards.</li>
+  <li>1 card deck for the <strong>Energy Tycoon</strong> with 29 cards.</li>
+  <li>1 card deck for the <strong>Events</strong> with 20 cards.</li>
+  <li>1 board and 5 score markers.</li>
+</ul>
+
+<p>All cards are standard 2.5×3,5 inches (6.35×8.8 cm).
+The board is 20×20 inches (50.8×50.8 cm) and can be folded to fit
+in the box, which is 10.7×10.7×1.5 inches
+(27.18×27.18×3.81 cm).  Score markers are circular, about
+1.5 inches (3.81 cm) diameter wide.</p>
+
+<!--
+    <div class="store-item">
+        <h2>P.I.G.S. Set</h2>
+        <p>Set with 4 decks of 29 cards each (one deck per character), an event
+deck with 20 cards, a board and score tokens.</p>
+
+    </div>
+
+    <div class="store-item">
+        <h2>Kickstarter Special Edition</h2>
+        <p>Set with 4 decks of 29 cards each (one deck per character), an event
+deck with 20 cards, a board and score tokens.<br />
+Includes one A5 illustration of  the character of your choosing.</p>
+
+    </div>
+-->
+
+    </div>
+
+    <div class="coming-soon-stamp">
+        Available after our
+        <br/>
+        <img alt="Kickstarter" src="/img/kickstarter.png" height="56"/>
+        <br/>
+        campaign
+    </div>
+  </div>
+
+</section>
+
+<hr/>
+
+<footer class="page-footer container">
+  <p>&copy; 2014 The Lord of the P.I.G.S.</p>
+  <ul>
+
+    <li><a href="/en/">English</a></li>
+
+    <li><a href="/es/">Español</a></li>
+
+    <li><a href="/it/">Italiano</a></li>
+
+    <li><a href="/pt/">Português</a></li>
+
+  </ul>
+</footer>
+
+  </body>
+</html>

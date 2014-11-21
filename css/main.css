@@ -1,0 +1,587 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,700,400);
+* {
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Big Noodle Titling";
+  src: url("/fonts/big-noodle-titling.ttf"); }
+a, a:hover {
+  text-decoration: none; }
+
+body {
+  overflow-x: hidden; }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt; }
+
+@media (max-width: 991px) {
+  body, html {
+    font-size: 17px; } }
+@media (max-width: 767px) {
+  body, html {
+    font-size: 16px; } }
+.lang-select {
+  position: relative;
+  background-color: #7f1020;
+  margin: 0;
+  height: 100%; }
+  .lang-select h1 {
+    font-family: "Big Noodle Titling";
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 56pt;
+    color: white;
+    margin-top: 0;
+    padding-top: 0.25em; }
+  .lang-select li.lang-item {
+    list-style: none;
+    text-align: center;
+    font-family: "Big Noodle Titling";
+    text-transform: uppercase;
+    font-size: 32pt;
+    color: #FDD; }
+
+.navbar {
+  margin: 0; }
+
+.navbar-padding {
+  height: 0;
+  padding: 0;
+  margin: 0;
+  height: 50px; }
+
+.anchor {
+  margin-top: -50px;
+  padding-top: 50px; }
+
+.the-team > .container-fluid {
+  padding: 0; }
+
+h1.full-header {
+  text-align: center;
+  font-family: "Big Noodle Titling";
+  font-size: 64px;
+  letter-spacing: 0.03em;
+  padding: 0.15em;
+  background: #7f1020;
+  color: #FDD;
+  text-shadow: 0 -1px 1px black; }
+  h1.full-header a, h1.full-header a:hover {
+    text-decoration: none;
+    color: inherit; }
+  h1.full-header:before, h1.full-header:after {
+    content: "—";
+    padding: 0.3em; }
+
+@media (max-width: 767px) {
+  h1.full-header {
+    font-size: 48px; } }
+h2 {
+  font-family: "Big Noodle Titling";
+  font-size: 48px;
+  font-variant: small-caps; }
+
+.navbar-brand {
+  color: white !important;
+  text-transform: uppercase;
+  font-family: "Big Noodle Titling", sans-serif;
+  font-size: 24pt; }
+
+.navbar-nav li {
+  text-transform: uppercase;
+  font-family: "Big Noodle Titling";
+  font-size: 18pt; }
+  .navbar-nav li a {
+    color: #BBB !important; }
+    .navbar-nav li a:hover {
+      color: white !important; }
+
+.first-screen {
+  position: relative;
+  height: 100%;
+  margin-top: -50px; }
+
+.character-header {
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 256px;
+  /* BIG SCREEN */
+  /* TINY SCREEN */ }
+  .character-header.character-header-red {
+    left: 5%;
+    bottom: 35%;
+    z-index: 80; }
+  .character-header.character-header-blue {
+    left: 15%;
+    bottom: 15%;
+    z-index: 90; }
+  .character-header.character-header-green {
+    right: 15%;
+    bottom: 15%;
+    z-index: 90; }
+  .character-header.character-header-yellow {
+    right: 5%;
+    bottom: 35%;
+    z-index: 80; }
+  @media (max-width: 767px) {
+    .character-header {
+      width: 128px;
+      height: 204.8px; }
+      .character-header.character-header-red {
+        left: 0;
+        bottom: 35%; }
+      .character-header.character-header-blue {
+        left: 5%;
+        bottom: 15%; }
+      .character-header.character-header-green {
+        right: 5%;
+        bottom: 15%; }
+      .character-header.character-header-yellow {
+        right: 0;
+        bottom: 35%; } }
+
+.the-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  /*
+  html.csstransforms3d & {
+              transform: translateZ(-1px) scale(2);
+      -webkit-transform: translateZ(-1px) scale(2);
+         -moz-transform: translateZ(-1px) scale(2);
+  }*/ }
+
+.logo {
+  position: absolute;
+  margin: 3em;
+  left: 50%;
+  top: 50%;
+  z-index: 150;
+  width: 350px;
+  height: 355px;
+  margin-left: -175px;
+  margin-top: -195.5px; }
+  @media (max-width: 767px) {
+    .logo {
+      width: 262.5px;
+      height: 266.25px;
+      margin-left: -131.25px;
+      margin-top: -151.125px; } }
+
+.logo-shine {
+  position: absolute;
+  margin: 3em;
+  left: 50%;
+  top: 50%;
+  z-index: 50;
+  width: 700px;
+  height: 700px;
+  margin-left: -350px;
+  margin-top: -368px;
+  /* Animation */
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 90s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-name: rotate;
+  animation-duration: 90s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; }
+  @media (max-width: 767px) {
+    .logo-shine {
+      width: 525px;
+      height: 525px;
+      margin-left: -262.5px;
+      margin-top: -276px; } }
+
+@-webkit-keyframes rotate {
+  from {
+    -webkit-transform: rotate(0deg); }
+  to {
+    -webkit-transform: rotate(360deg); } }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.languages {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  right: 0;
+  text-align: right;
+  padding: 8px;
+  z-index: 150; }
+  .languages li {
+    padding: 0;
+    display: inline-block; }
+
+.social-buttons {
+  position: absolute;
+  left: 50%;
+  bottom: 8px;
+  margin-left: -250px;
+  width: 500px;
+  text-align: center;
+  z-index: 300; }
+
+.first-screen .social-buttons {
+  bottom: 54px; }
+
+@media (max-width: 500px) {
+  .social-buttons {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+    right: 0; } }
+.the-quotes {
+  position: absolute;
+  height: 50px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: black;
+  text-align: center;
+  z-index: 300; }
+
+.character-quote {
+  display: inline-block;
+  color: white;
+  background: #333;
+  position: absolute;
+  width: 25%;
+  height: 100%;
+  line-height: 50px;
+  font-size: 16.66667px;
+  font-weight: bold; }
+
+.character-quote-hidden {
+  display: none; }
+
+.character-quote-first {
+  left: 0; }
+
+.character-quote-second {
+  left: 25%; }
+
+.character-quote-third {
+  left: 50%; }
+
+.character-quote-fourth {
+  left: 75%; }
+
+@media (max-width: 1199px) {
+  .character-quote {
+    width: 33.333333%; }
+
+  .character-quote-first {
+    left: 0; }
+
+  .character-quote-second {
+    left: 33.33333%; }
+
+  .character-quote-third {
+    left: 66.66667%; }
+
+  .character-quote-fourth {
+    display: none; } }
+@media (max-width: 991px) {
+  .character-quote {
+    width: 50%; }
+
+  .character-quote-first {
+    left: 0; }
+
+  .character-quote-second {
+    left: 50%; }
+
+  .character-quote-third, .character-quote-fourth {
+    display: none; } }
+@media (max-width: 767px) {
+  .character-quote {
+    width: 100%; }
+
+  .character-quote-first {
+    left: 0; }
+
+  .character-quote-second, .character-quote-third, .character-quote-fourth {
+    display: none; } }
+.character-quote-red {
+  background-color: #660000;
+  box-shadow: 0 0 2em -0.5em #cc0000 inset;
+  transition: box-shadow 200ms, text-shadow 200ms; }
+  .character-quote-red:hover {
+    text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 2em 0 red inset; }
+
+.character-quote-blue {
+  background-color: #004a88;
+  box-shadow: 0 0 2em -0.5em #0082ee inset;
+  transition: box-shadow 200ms, text-shadow 200ms; }
+  .character-quote-blue:hover {
+    text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 2em 0 #229bff inset; }
+
+.character-quote-green {
+  background-color: #0c6b0c;
+  box-shadow: 0 0 2em -0.5em #16c716 inset;
+  transition: box-shadow 200ms, text-shadow 200ms; }
+  .character-quote-green:hover {
+    text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 2em 0 #29e729 inset; }
+
+.character-quote-yellow {
+  background-color: #776b00;
+  box-shadow: 0 0 2em -0.5em #ddc700 inset;
+  transition: box-shadow 200ms, text-shadow 200ms; }
+  .character-quote-yellow:hover {
+    text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.85);
+    box-shadow: 0 0 2em 0 #ffe711 inset; }
+
+.the-game h1, .the-characters h1, .the-team h1, .the-store h1 {
+  margin-top: 0; }
+.the-game p, .the-characters p, .the-team p, .the-store p {
+  text-align: justify; }
+
+.the-characters, .the-team, .the-store {
+  margin-top: 3em; }
+
+.character-descriptions .character-title {
+  margin-top: 1em; }
+.character-descriptions .character-title-even {
+  text-align: right; }
+.character-descriptions .character-title-odd {
+  text-align: left; }
+@media (max-width: 767px) {
+  .character-descriptions .character-title, .character-descriptions .character-title-even, .character-descriptions .character-title-odd {
+    text-align: center; } }
+.character-descriptions a {
+  color: inherit;
+  font-weight: bold; }
+.character-descriptions .character-name {
+  font-size: 110%; }
+.character-descriptions .character-description-red .character-name {
+  color: maroon; }
+.character-descriptions .character-description-blue .character-name {
+  color: #0058a2; }
+.character-descriptions .character-description-green .character-name {
+  color: #0e820e; }
+.character-descriptions .character-description-yellow .character-name {
+  color: #908200; }
+
+.character-picture-container {
+  text-align: center;
+  padding: 1em 0; }
+
+.the-team h1 {
+  margin-bottom: 0; }
+
+.team-members {
+  padding: 0;
+  margin: 0; }
+  .team-members .member {
+    display: block;
+    position: relative;
+    min-height: 256px;
+    list-style: none;
+    margin: 0; }
+    .team-members .member .member-picture {
+      position: absolute;
+      top: 0;
+      width: 256px;
+      height: 256px;
+      overflow: hidden; }
+      .team-members .member .member-picture img {
+        width: 150%;
+        margin-left: -25%; }
+    .team-members .member .member-content {
+      padding-left: 1em;
+      padding-right: 1em; }
+    .team-members .member h2 {
+      margin-top: 0;
+      margin-bottom: 0;
+      padding-top: 0.1em; }
+    .team-members .member p {
+      margin-bottom: 0;
+      margin-top: 0.8em; }
+  .team-members .member-left .member-picture {
+    left: 0; }
+  .team-members .member-left .member-content {
+    margin-left: 256px; }
+  .team-members .member-right .member-picture {
+    right: 0; }
+  .team-members .member-right .member-content {
+    margin-right: 256px; }
+
+@media (max-width: 767px) {
+  .team-members .member {
+    min-height: 192px;
+    padding-bottom: 1em; }
+    .team-members .member .member-picture {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%;
+      height: 192px;
+      z-index: 0; }
+      .team-members .member .member-picture img {
+        margin-top: -20%;
+        margin-left: 0;
+        width: 100%; }
+    .team-members .member .member-content {
+      position: relative;
+      padding-left: 1em;
+      padding-right: 1em;
+      z-index: 200; }
+    .team-members .member h2 {
+      padding-top: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      text-align: center;
+      color: white;
+      font-size: 64px;
+      text-shadow: 0 0 0.5em black; }
+    .team-members .member p {
+      margin-bottom: 0;
+      margin-top: 0.8em; }
+  .team-members .member-left .member-content, .team-members .member-right .member-content {
+    padding-top: 128px;
+    margin: 0; } }
+.the-store {
+  overflow-x: hidden; }
+  .the-store .store-container {
+    position: relative; }
+  .the-store .store-item {
+    opacity: 0.5;
+    transition: opacity 500ms; }
+  .the-store .coming-soon-stamp {
+    position: absolute;
+    top: 50%;
+    height: 230px;
+    line-height: 72px;
+    margin-top: -115px;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    text-align: center;
+    overflow: visible;
+    font-size: 48pt;
+    font-family: "Big Noodle Titling";
+    color: #7f1020;
+    text-transform: uppercase;
+    border: 0.1em solid #7f1020;
+    border-radius: 0.3em;
+    background: white;
+    transform: rotate(-8deg);
+    opacity: 0.8;
+    transition: opacity 500ms; }
+    .the-store .coming-soon-stamp small {
+      font-size: 60%;
+      line-height: 32px;
+      position: relative;
+      top: -0.8em; }
+  .the-store .store-container:hover .store-item, .the-store .store-container-fade .store-item {
+    opacity: 1; }
+  .the-store .store-container:hover .coming-soon-stamp, .the-store .store-container-fade .coming-soon-stamp {
+    opacity: 0.15; }
+
+.kickstarter {
+  margin: 1em;
+  text-align: center; }
+  .kickstarter .ks-text, .kickstarter .ks-text-green {
+    font-weight: bold;
+    font-size: 32pt;
+    text-transform: uppercase;
+    color: #0f2105; }
+    @media (max-width: 767px) {
+      .kickstarter .ks-text, .kickstarter .ks-text-green {
+        font-size: 24pt; } }
+  .kickstarter .ks-text-green {
+    color: #2bde73; }
+  .kickstarter .ks-logo {
+    max-width: 100%; }
+
+/* === BLOG-SPECIFIC === */
+.blog-lang-warning, .post-lang-warning {
+  font-size: 12pt; }
+
+.blog-lang-warning {
+  margin-top: 1em; }
+
+hr {
+  margin: 0.5em; }
+
+.post-excerpt h1 {
+  font-family: "Big Noodle Titling", sans-serif;
+  font-size: 42pt;
+  color: black; }
+  .post-excerpt h1 a, .post-excerpt h1 a:hover {
+    color: inherit; }
+  .post-excerpt h1 small {
+    margin-left: 0.25em; }
+.post-excerpt .read-more::after {
+  content: "»";
+  padding-left: 0.3em; }
+
+.post-excerpt-short h1 {
+  margin-top: 0.1em; }
+
+.post {
+  font-size: 12pt; }
+  .post .full-header {
+    margin-top: 0;
+    font-size: 28pt; }
+  .post .social-share {
+    background: #EEE;
+    padding: 3px 0.5px;
+    border: 2px solid #CCC;
+    border-radius: 2px; }
+    .post .social-share .share-text {
+      background: #999;
+      color: white;
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: bold;
+      font-size: 14px;
+      text-transform: uppercase;
+      text-align: center;
+      margin: 0 2.5px 4px;
+      padding: 2px 5px;
+      border-radius: 2px; }
+
+.post img, .post-excerpt img {
+  max-width: 100%;
+  padding: 1em 3em; }
+
+.page-footer {
+  font-size: 11pt;
+  color: #777; }
+  .page-footer, .page-footer p {
+    text-align: center; }
+  .page-footer ul {
+    padding: 0; }
+  .page-footer li {
+    display: inline-block;
+    padding-left: 0.3em;
+    padding-right: 0.3em; }
+  .page-footer a {
+    font-size: 10pt;
+    font-weight: bold;
+    color: #777; }
+    .page-footer a:hover {
+      text-decoration: underline; }
+
+.media-player {
+  text-align: center;
+  padding: 1em; }
