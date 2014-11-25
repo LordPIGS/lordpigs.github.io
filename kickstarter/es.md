@@ -25,7 +25,7 @@ amigos adoptaréis los roles de los peces gordos de Meridia para luchar por la s
 a través de presentaciones públicas, sesiones de votos, enquestas de opinión, eventos inesperados y
 juego sucio.
 
-The Lord of the P.I.G.S. es un juego para hasta 4 jugadores, cuyas partidas duran unos 30 minutos.
+The Lord of the P.I.G.S. es un juego de 2 a 4 jugadores, cuyas partidas duran unos 30 minutos.
 
 
 ![Praise for the Lord]({{ site.baseurl }}/kickstarter/es-title-praise.png)
@@ -142,30 +142,37 @@ del juego, en formato PDF, al final del Kickstarter.
 
 ### Delegado Regional (£25)
 
-¡Comienza tu reinado! Con esta aportación, recibirás la ciudadanía de Meridia y una copia en papel
-de la versión básica de The Lord of the P.I.G.S. La caja contiene todos los elementos que necesitas
-para jugar:
+*¡Comienza tu reinado!* Con esta aportación, recibirás la ciudadanía de Meridia
+y una copia en papel de la versión básica de The Lord of the P.I.G.S.  La caja
+contiene todos los elementos que necesitas para jugar:
 
-  + 4 barajas de cartas de Acción diferente, una para cada personaje, con un total de 116 cartas.
+  + 4 barajas de cartas de Acción diferente, una para cada personaje, con un
+    total de 116 cartas.
   + 1 baraja de Eventos, con 20 cartas.
   + 5 tarjetas para la puntuación, con 5 marcadores.
-  + Esta versión no incluye el contenido extra desbloqueado durante esta campaña de Kickstarter.
 
+**Esta versión no incluye el contenido extra desbloqueado durante esta campaña
+de Kickstarter.**
+
+![](/kickstarter/es-pic-newcards.png)
 
 ### [OFERTA LIMITADA] Cacique Regional (£28, limitado a 25)
 
-¡Expande tu influencia! Con esta aportación, recibirás la ciudadanía de Meridia y una copia en
-papel de la versión exclusiva de Kickstarter de The Lord of the P.I.G.S. La caja contiene todos los
-elementos que necesitas para jugar:
+*¡Expande tu influencia!* Con esta aportación, recibirás la ciudadanía de
+Meridia y una copia en papel de la versión exclusiva de Kickstarter de The
+Lord of the P.I.G.S.  La caja contiene todos los elementos que necesitas para
+jugar:
 
-  + 4 barajas de cartas de Acción diferente, una para cada personaje, con un total de 116 cartas.
-    El número de cartas puede ampliarse en función del monto recaudado.  Estas cartas contienen el
-    arte alternativo exclusivo de Kickstarter.
-  + 1 baraja de Eventos, con 20 cartas, ampliable en función de los objetivos adicionales
-    desbloqueados con vuestro apoyo.
+  + 4 barajas de cartas de Acción diferente, una para cada personaje, con un
+    total de 116 cartas. El número de cartas puede ampliarse en función del
+    monto recaudado. Estas cartas contienen el arte alternativo exclusivo de
+    Kickstarter.
+  + 1 baraja de Eventos, con 20 cartas, ampliable en función de los objetivos
+    adicionales desbloqueados con vuestro apoyo.
   + 1 tablero, con 5 marcadores para las puntuaciones de los jugadores.
 
-Esta versión incluye el contenido extra desbloqueado durante esta campaña de Kickstarter
+**Esta versión SI incluye el contenido extra desbloqueado durante esta campaña
+de Kickstarter**
 
 
 ### [OFERTA LIMITADA] Pez Gordo con Clase (£48, limitado a 10)
