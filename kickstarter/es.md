@@ -107,7 +107,7 @@ un juego siempre cambiante.
   <img src="{{ site.baseurl }}/kickstarter/es-pic-events.jpg"/>
 </p>
 
-[Consulta las reglas completas del juego.](/extra/rules.pdf)
+[Consulta las reglas completas del juego.](/extra/rules-es.pdf)
 
 
 ![Rewards &amp; Add-Ons]({{ site.baseurl }}/kickstarter/es-title-rewards.png)

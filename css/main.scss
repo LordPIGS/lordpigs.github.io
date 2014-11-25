@@ -168,7 +168,7 @@ h2 {
     position: absolute;
     display: block;
 
-    width: 160px;
+    width: 180px;
     height: 256px;
 
     /* BIG SCREEN */
@@ -199,7 +199,7 @@ h2 {
 
     /* TINY SCREEN */
     @media (max-width: $screen-xs-max) {
-        width: (160px * 0.8);
+        width: (180px * 0.8);
         height: (256px * 0.8);
 
         &.character-header-red {
