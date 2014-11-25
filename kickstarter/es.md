@@ -59,7 +59,7 @@ gente"...
   ¡Pon tu cara cogiendo el nivel de aporte <em>Cabecilla</em>!
 </p>
 
-{% include youtube.html video='YyPbCkklEp0' %}
+{% include youtube.html video='jHp1kVo8Uuw' %}
 
 Los intereses de cada jugador son de naturaleza diferente (al Presidente, por ejemplo, le interesa
 la Opinión Pública), y cada uno se representa con una puntuación que va de 0 a 10.  El objetivo del
