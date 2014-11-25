@@ -17,7 +17,7 @@ permalink: /kickstarter/es/
 ¡Si has respondido que sí a alguna de las anteriores, estás en el lugar adecuado!
 </p>
 
-{% include youtube.html video='kZ8wRiqo9pE' %}
+{% include youtube.html video='di9XxFrvJYY' %}
 
 The Lord of the P.I.G.S. es un dinámico juego sobre la política y economía de la ficticia República
 de Meridia, un país que recoge las características de los países del sur de Europa.  Tú y tus
