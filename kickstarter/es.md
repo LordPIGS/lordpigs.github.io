@@ -3,7 +3,7 @@ layout: kickstarter
 permalink: /kickstarter/es/
 ---
 
-{% include youtube.html video='R3i4dyt_mco' %}
+{% include youtube.html video='yPeGtUca0yg' %}
 
 <p class="ks-intro-question">
 ¿Alguna vez te has preguntado cómo sería convertirte en un pez gordo de la economía?
@@ -59,7 +59,7 @@ gente"...
   ¡Pon tu cara cogiendo el nivel de aporte <em>Cabecilla</em>!
 </p>
 
-{% include youtube.html video='jHp1kVo8Uuw' %}
+{% include youtube.html video='7ajfJVtFBJ8' %}
 
 Los intereses de cada jugador son de naturaleza diferente (al Presidente, por ejemplo, le interesa
 la Opinión Pública), y cada uno se representa con una puntuación que va de 0 a 10.  El objetivo del
