@@ -181,7 +181,7 @@ de Kickstarter**
 de una exclusiva y elegante camiseta de The Lord of the P.I.G.S.
 
 
-### [OFERTA LIMITADA] Filántropo Adinerado (£70, limitado a 10)
+### [OFERTA LIMITADA] Filántropo Adinerado (£58, limitado a 10)
 
 ¡Patrocina las Artes! Con esta aportación, recibirás las recompensas del nivel Cacique Regional
 además de una copia en papel de la exclusiva edición de la Guía de Arte de The Lord of the P.I.G.S.
