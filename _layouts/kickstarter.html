@@ -40,6 +40,11 @@ img {
 .ks-pic img {
   margin-bottom: 1em;
 }
+.ks-widget {
+  position: fixed;
+  top: 55px;
+  right: 5px;
+}
 h3 {
   font-weight: bold;
 }
@@ -66,9 +71,17 @@ h3 {
 
 <div class="container">
   <div class="row">
-    <div class="ks-content col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-<h1>The Lord of the P.I.G.S.</h1>
-{{ content }}
+    <div class="ks-content col-lg-8 col-lg-offset-2 col-md-1 col-md-offset-1">
+      <h1>The Lord of the P.I.G.S.</h1>
+
+      <div class="ks-widget hidden-sm hidden-xs">
+        <iframe
+          frameborder="0" height="420" width="220" scrolling="no"
+          src="https://www.kickstarter.com/projects/1031232934/the-lord-of-the-pigs/widget/card.html?v=2">
+        </iframe>
+      </div>
+
+      {{ content }}
     </div>
   </div>
 </div>
