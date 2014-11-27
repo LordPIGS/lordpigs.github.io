@@ -1,22 +1,22 @@
 sections:
-  game: Juego
-  characters: Personajes
-  store: Tienda
+  game: Joc
+  characters: Personatges
+  store: Botiga
   blog: Blog
 
 titles:
   game: El Joc
   characters: Els Personatges
-  store: La Tienda
+  store: La Botiga
   blog: El Blog
 
 
 support:
-  support: Apóyanos
-  us_on: en
+  support: Ajuda'ns
+  us_on: a
 
 stamp:
-  on_ks_pre: Disponible tras<br/>nuestra campaña de
+  on_ks_pre: Disponible després<br/>de la campanya de
   on_ks_post:
 
 blogWarn: |
@@ -196,18 +196,11 @@ characters:
       mercat".  O quasi...
 
 storeInfo: |
-  The Lord of The P.I.G.S. viene en una cómoda caja para que puedas juegar
-  donde quieras y cuando quieras, que contiene:
-  
-  - 1 mazo de cartas del **Presidente de la República** con 29 cartas.
-  - 1 mazo de cartas del **Director Corporativo** con 29 cartas.
-  - 1 mazo de cartas del **Banquero Jefe** con 29 cartas.
-  - 1 mazo de cartas del **Magnate Energético** con 29 cartas.
-  - 1 mazo de cartas de **Eventos** con 20 cartas.
-  - 1 tablero y 5 marcadores de puntuación.
-  
-  Todas las cartas son de tamaño 2.5&times;3,5 pulgadas (6.35&times;8.8 cm).
-  El tablero es de 20&times;20 pulgadas (50.8&times;50.8 cm) y se puede doblar
-  para guardar en la caja, de 10.7&times;10.7&times;1.5 pulgadas
-  (27.18&times;27.18&times;3.81 cm).  Los marcadores de puntuación son
-  circulares, de unas 1.5 pulgadas (3.81 cm) de diámetro.
+  The Lord of the P.I.G.S. ve en una commode capsa per a que puguis jugar on i quan vulguis, que conté:
+
+    - 1 baralla de cartes d’Acció del **President del Govern**, amb 29 cartes.
+    - 1 baralla de cartes d’Acció del **Banquer**, amb 29 cartes.
+    - 1 baralla de cartes d’Acció del **Director Corporatiu**, amb 29 cartes.
+    - 1 baralla de cartes d’Acció del **Magnat Energètic**, amb 29 cartes.
+    - 1 baralla de cartes d’Event, amb 20 cartes.
+    - 1 taulell i cinc marcadors de puntuació.
