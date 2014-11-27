@@ -16,6 +16,7 @@ social:
     disqus: thelordofthepigs
 
 langs:
+  ca: Català
   en: English
   es: Español
   it: Italiano
@@ -63,6 +64,8 @@ prose:
           label: Post Language
           help: Language in which the post it written.
           options:
+            - name: Catalan
+              value: ca
             - name: English
               value: en
             - name: Italian
@@ -71,12 +74,14 @@ prose:
               value: pt
             - name: Spanish
               value: es
+
       - name: is_main
         field:
           element: checkbox
           label: Main Post
           help: Check if this post should be the main of the group.
           value: false
+
       - name: permalink
         field:
           element: text
@@ -106,6 +111,16 @@ prose:
             If this is the Spanish version or the post does not have
             an Spanish version, leave blank. ALWAYS ADD A TRAILING SLASH.
           placeholder: /es/posts/__________/
+
+      - name: lang_ca_link
+        field:
+          element: text
+          label: Catalan Version Permalink
+          help: |
+            The permalink of the Catalan version of this post.
+            If this is the Catalan version or the post does not have
+            an Catalan version, leave blank. ALWAYS ADD A TRAILING SLASH.
+          placeholder: /ca/posts/__________/
 
       - name: lang_pt_link
         field:

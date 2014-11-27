@@ -1,0 +1,212 @@
+sections:
+  game: Juego
+  characters: Personajes
+  store: Tienda
+  blog: Blog
+
+titles:
+  game: El Joc
+  characters: Els Personatges
+  store: La Tienda
+  blog: El Blog
+
+
+support:
+  support: Apóyanos
+  us_on: en
+
+stamp:
+  on_ks_pre: Disponible tras<br/>nuestra campaña de
+  on_ks_post:
+
+blogWarn: |
+  **Nota**: Esta página muestra las publicaciones escritas en *Español*, pero
+  algunas pueden no estar disponibles y se mostrarán en otro idioma.
+
+postLangs: |
+  Esta publicación está escrita en **Español**, pero también está disponible
+  en los siguientes idiomas:
+
+share_this: Comparte esta publicación
+
+quotes:
+  red:
+    - ¡Adapta las leyes!
+    - ¡Calma a las masas!
+    - ¡Planea nuevas infraestructuras!
+    - ¡Establece alianzas!
+  blue:
+    - ¡Crea nuevos productos!
+    - ¡Aumenta la producción!
+    - ¡Elige nuevos CEOs!
+    - ¡Obtén contratos públicos!
+  green:
+    - ¡Cambia los tipos de interés!
+    - ¡Apuesta en futuros!
+    - ¡Compra y vende acciones!
+    - ¡Financia campañas!
+  yellow:
+    - ¡Regula los mercados!
+    - ¡Encuentra nuevas energías!
+    - ¡Presiona para subir los precios!
+
+gameDescription: |
+  BENVINGUT A MERIDIA
+  -------------------
+
+  *Les prediccions dels gurus econòmics i dels col.laboradors televisius més
+  pessimistes s'han complert: La crisi econòmica global ha arribat a Meridia!
+  I les seves consequències han estat tant greus que la majoria de les fortunes
+  del país han emigrat cap als seus paradisos fiscals preferits.  La societat,
+  sense líders que la dirigeixin, s'està desintegrant...*
+
+  *I aquí és on entres tú.  Conseguiràs reactivar l'economia del país i
+  millorar la qualitat de vida de la població? O utlitzaràs la teva posició
+  privilegiada per augmentar la teva fortuna i influència?*
+
+  <center><em><strong>Tú tries!</strong></em></center>
+  
+  -----
+  
+  The Lord of the P.I.G.S. és un joc de simulació econòmica i política per a
+  fins a 4 jugadors, ambientat en la fictícia república de Meridia.  Aquest
+  bonic país és una fusió dels països del sud d'Europa, coneguts com a P.IG.S.
+  (Portugal+Itàlia+Grècia+eSpanya) a la resta del món.
+
+  Tú i els teus amics ecollireu entre un dels líders de l'economia de Meridia
+  amb l'objectiu de lluitar per la dominància econòmica.  Qualsevol mitjà és
+  bo: llançar companyes de comunicació, fer lobby, forjar (i trencar) aliances,
+  manipular enquestes... tot això enmig d'una situació econòmica delicada!
+
+  El joc encara no està disponible per a la venda, donat que esperem conseguir
+  la financiació necessària a través de Kickstarter (link).  Pots ajudar-nos a
+  que es converteixi en una realitat i de pas conseguir una còpia del joc amb
+  mooolt de contigut extra!
+
+gameGameplay: |
+  EL JOC
+  ------
+  
+  The Lord of the PIGS és un joc de taula per a 4 jugadors, amb una durada
+  mitjana de partida d'al voltant de 30 minuts.  El joc està dintre d'una capsa
+  amb tot el que necessites per jugar:
+
+    + 4 baralles d'Accions (1 per cada jugador), amb 29 cartes per baralla
+    + 1 baralla d'Events, amb 20 cartes
+    + 1 taulell i 5 marcadors de puntuació
+
+  Cada jugador escull un dels 4 personatges del joc: President de la República,
+  Banquer Central, Director Corporatiu i Magnat Energètic.  Cada personatge té
+  una variable associada que representa els seus interessos.  Adicionalment, hi
+  ha una 5a variable no jugable que representa l'estabilitat social del país.
+  L'objectiu del joc és simple:
+  
+  <center><strong><em>Cuida els teus interessos mentres decideixes el destí de
+  les masses de Meridia!</em></strong></center>
+  
+  -----
+  
+  El joc es desenvolupa a través de dues mecàniques principals:
+
+  + **PROPOSAR ACCIONS**: Els jugadors proposen actuacions que altereran
+    l'economia i, per tant, les puntuacions de cada un dels personatges i de
+    l'estabilitat social.  Cada actuació, o Acció, necessita d'una sèrie de
+    vots per a que s'activi el seu efecte.
+  + **VOTAR ACCIONS**: Els jugadors escullen a quina de les Accions proposades
+    volen donar el seu suport mitjançant votacions.  Quan una Acció rep el
+    nombre de vots necessaris, el seu efecte s'activa, modificant les
+    puntacions.
+
+  El joc també disposa de dues mecàniques suplementàries que afegiran moltes
+  sorpreses, i potser també alguna decepció...
+
+  + **CARTES D'ACCIÓ ESPECIALS**: Algunes cartes d'Acció poden ser utilitzades
+    per a realitzar efectes especials (a més de proposar i votar).  Algunes et
+    permeten alterar el resultat de les votacions, mentres que d'altres et
+    permeten modificar els efectes d'una Acció activada. A disfrutar!
+  + **CARTES D'EVENT**: La baralla d'Events conté cartes que representen
+    successos imprevisibles de la política i de l'economia, tant de Meridia
+    com de la resta del món.  Aquests Events  poden modificar algunes
+    puntuacions i altres elements del joc.
+
+  Pots [descarregar les regles completes del joc](/extra/rules-es.pdf).
+
+characters:
+  intro: |
+    A The Lord of the P.I.G.S. actuaràs com un dels poders fàctics de Meridia.
+    Però abans d'escollir amb quin personatge jugaràs, potser t'interessi
+    conèixer una mica més sobre la seva història i els seus plans per al
+    futur...
+    
+    _**DESCÀRREC DE RESPONSABILITAT**: Tots els personatges que apareixen en
+    aquest joc són ficticis.  Qualsevol semblança amb persones reals, vives o
+    mortes, és purament coincidència... ¿O no?_
+
+  red:
+    title: el President de la República
+    text: |
+      No hi ha res al món que t'agradi més que les càmeres i els focus.
+      Et recorden als bons vells temps, quan eres una estrella del cinema i
+      cantant d'èxit.  Però des que vas guanyar les eleccions has trobat una
+      cosa encara millor: les masses corejant el teu nom.  En conseqüència, la
+      teva màxima prioritat és assegurar-te la reelecció; per sort saps com
+      conseguir-ho.  Bones dosis de populisme, combinades amb roba
+      impecablement triada i els teus millors actius: un bronzejat permanent i
+      el teu somriure cristal-lí.  Si jugues bé les teves cartes, la reelecció
+      serà un passeig.
+
+  blue:
+    title: el Director Corporatiu
+    text: |
+      Encara recordes el que dèien: *"No ho conseguirà, ningú pot salvar el
+      holding familiar més conegut de Meridia"*... i malgrat tot, vas salvar el
+      negoci familiar i el vas expandir i diversificar.  Naturalment, va ser
+      necessari fer algun sacrifici, però que van afectar principalment a
+      altres: pèrdues acceptables, en definitiva.  El teu plà pel futur és
+      simple: més productes, des de cotxes a embotits, de construcció
+      d'autopistes a serveis de consultoria.  Les masses volen noves joguines i
+      tú estàs encantat de produir-les... a un preu just, és clar.
+
+  green:
+    title: el Banquer Central
+    text: |
+      Des de la teva infància, el teu pare repetia: *"Qui controla els diners,
+      controla el país; i la clau dels diners són les finances"*.  Des de
+      llavors, aquesta frase s'ha convertit en el teu lema i encara que alguns
+      qüestionin les teves pràctiques, està clar que funcionen.  El teu imperi
+      financier creix dia rere dia, i els teus tentacles arriben molt més enllà
+      del que molts creuen.  La gent li tenia pànic a la crisis; en canvi tú
+      sabies com aprofitar les oportunitats que va portar amb ella.  Perquè al
+      final les finances no són només la clau, sinó la palanca per forçar la
+      porta d'un futur encara més profitós...
+
+  yellow:
+    title: el Magnat Energètic
+    text: |
+      Meridia és plena d'envejosos!  Critiquen les teves mansions, els teus
+      iots, els teus cotxes... i fins i tot les teves festes amb els famosos a
+      Eivissa.  Podries ignorar aquestes enveges, però el que no acceptes és
+      que diguin que tot això no t'ho mereixes!  Parlen d'informació
+      privilegiada, d'abusos en les facturacions o de situacions quasi
+      monopolístiques!  El negoci és així, home!!  Però no et treu la son: el
+      futur es perfila millor que mai ara que la gent s'ha oblidat de les
+      manies de l'eficiència energètica en favor de la seguretat en
+      l'abastament... que per suposat asseguraràs a un preu "just" i "de
+      mercat".  O quasi...
+
+storeInfo: |
+  The Lord of The P.I.G.S. viene en una cómoda caja para que puedas juegar
+  donde quieras y cuando quieras, que contiene:
+  
+  - 1 mazo de cartas del **Presidente de la República** con 29 cartas.
+  - 1 mazo de cartas del **Director Corporativo** con 29 cartas.
+  - 1 mazo de cartas del **Banquero Jefe** con 29 cartas.
+  - 1 mazo de cartas del **Magnate Energético** con 29 cartas.
+  - 1 mazo de cartas de **Eventos** con 20 cartas.
+  - 1 tablero y 5 marcadores de puntuación.
+  
+  Todas las cartas son de tamaño 2.5&times;3,5 pulgadas (6.35&times;8.8 cm).
+  El tablero es de 20&times;20 pulgadas (50.8&times;50.8 cm) y se puede doblar
+  para guardar en la caja, de 10.7&times;10.7&times;1.5 pulgadas
+  (27.18&times;27.18&times;3.81 cm).  Los marcadores de puntuación son
+  circulares, de unas 1.5 pulgadas (3.81 cm) de diámetro.
