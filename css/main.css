@@ -226,6 +226,23 @@ h2 {
   .languages li {
     padding: 0;
     display: inline-block; }
+  .languages .language {
+    padding: 1px 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.15);
+    border-radius: 3px; }
+    .languages .language, .languages .language a {
+      color: #333; }
+    .languages .language:hover {
+      background: rgba(0, 0, 0, 0.25); }
+      .languages .language:hover, .languages .language:hover a {
+        color: black; }
+  .languages .language-selected, .languages .language-selected:hover {
+    background: rgba(0, 0, 0, 0.6); }
+    .languages .language-selected, .languages .language-selected a, .languages .language-selected:hover, .languages .language-selected:hover a {
+      color: white; }
 
 .social-buttons {
   position: absolute;
