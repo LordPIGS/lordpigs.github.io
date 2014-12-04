@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "Good news: The Lords Go Global!"
 lang: en
 is_main: true
@@ -8,11 +8,11 @@ permalink: "/en/posts/the-lords-go-global"
 
 Hi!
 
-Phew! The 1st week of our Kickstarter is over and it has been a nice one! We would like to start this 1st update with a big "thumbs up" for all the people that has checked out our campaign, and with a very special thanks to our BACKERS: Without YOU none of this could have possible!
+Phew! The 1st week of our Kickstarter is over and it has been a nice one! We would like to start this 1st update with a big "thumbs up" for all the people that has checked out our campaign, and with a very special thanks to our **BACKERS: Without YOU none of this could have possible**!
 
-To celebrate, we announce that Meridia's Document Agency has started its presses! The Meridian Citizenship documents will be sent shortly to the first week backers, and with a nice surprise…They will be awarded a special title, that they've won on their own right: The Lordship of Meridia! This honor is limited to the backers of this 1st week, as recognition and gratitude for their support. You are awesome!
+To celebrate, we announce that Meridia's Document Agency has started its presses! The Meridian Citizenship documents will be sent shortly to the first week backers, and with a nice surprise…They will be awarded a special title, that they've won on their own right: **The Lordship of Meridia**! This honor is limited to the backers of this 1st week, as recognition and gratitude for their support. You are awesome!
 
-<!--IMAGE-->
+![2014-12-lordship-cert-example.png](/media/2014-12-lordship-cert-example.png)
 
 That said, we have news regarding the rewards. After gathering info from our dear backers, we’ve realized that we were focusing the campaign too much on the EU and Spain… **so we’ve decided to go global!** We have implemented two changes: 
 
