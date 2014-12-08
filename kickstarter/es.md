@@ -156,6 +156,7 @@ de Kickstarter.**
 
 ![](/kickstarter/es-pic-newcards.png)
 
+
 ### [OFERTA LIMITADA] Cacique Regional (£28, limitado a 25)
 
 *¡Expande tu influencia!* Con esta aportación, recibirás la ciudadanía de
@@ -173,6 +174,11 @@ jugar:
 
 **Esta versión SI incluye el contenido extra desbloqueado durante esta campaña
 de Kickstarter**
+
+
+### Cacique Internacional (₤35, envío gratis a todo el mundo)
+
+Idéntico al **Cacique Regional**, pero con precio único con gastos de envío incluidos
 
 
 ### [OFERTA LIMITADA] Pez Gordo con Clase (£48, limitado a 10)
@@ -193,6 +199,13 @@ hasta la versiones finales, con anotaciones y comentarios de los ilustradores y 
 
 ¡Presume de tu patrimonio! Con esta aportación, recibirás las recompensas del nivel Cacique
 Regional además de la camiseta y la Guía de Arte.
+
+
+### Coleccionista Pródigo (£145)
+
+Con esta aportación recibirás la ciudadanía de Meridia y 5 copias en papel de la versión exclusiva
+de Kickstarter de The Lord of the P.I.G.S., gastos de envío incluidos.
+
 
 
 ### Estratega Visionario (£150, limitado a 8)
