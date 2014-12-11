@@ -518,6 +518,8 @@ $social-width: 500px;
     p {
         text-align: justify;
     }
+
+    overflow-y: visible;
 }
 
 .the-characters, .the-team, .the-store {
@@ -728,7 +730,7 @@ $social-width: 500px;
         border-radius: 0.3em;
 
         background: white;
-        transform: rotate(-8deg);
+        transform: rotate(-4deg);
 
         //box-shadow: 0 0 1em 0.5em white;
         opacity: 0.8;
