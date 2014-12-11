@@ -366,10 +366,12 @@ h2 {
     text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.85);
     box-shadow: 0 0 2em 0 #ffe711 inset; }
 
-.the-game h1, .the-characters h1, .the-team h1, .the-store h1 {
-  margin-top: 0; }
-.the-game p, .the-characters p, .the-team p, .the-store p {
-  text-align: justify; }
+.the-game, .the-characters, .the-team, .the-store {
+  overflow-y: visible; }
+  .the-game h1, .the-characters h1, .the-team h1, .the-store h1 {
+    margin-top: 0; }
+  .the-game p, .the-characters p, .the-team p, .the-store p {
+    text-align: justify; }
 
 .the-characters, .the-team, .the-store {
   margin-top: 3em; }
@@ -501,7 +503,7 @@ h2 {
     border: 0.1em solid #7f1020;
     border-radius: 0.3em;
     background: white;
-    transform: rotate(-8deg);
+    transform: rotate(-4deg);
     opacity: 0.8;
     transition: opacity 500ms; }
     .the-store .coming-soon-stamp small {
