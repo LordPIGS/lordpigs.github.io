@@ -8,7 +8,7 @@ branches:
     - master
 
 script:
-  - bundle exec jekyll build -d "$TRAVIS_BUILD_DIR"/_site
+  - bundle exec jekyll build -d "$TRAVIS_BUILD_DIR"/_site --trace
 
 after_success: bash _scripts/deploy
 
