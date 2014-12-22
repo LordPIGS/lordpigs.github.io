@@ -1,0 +1,10 @@
+<ul class="languages">
+  {% for lang in site.langs %}
+    <li class="language language-{{ lang[0] }}{% if page.lang == lang[0] %} language-selected{% endif %}">
+      {% unless page.lang == lang[0] %}<a href="/{{ lang[0] }}" class="language-change" data-language="{{ lang[0] }}">{% endunless %}
+        <!--<img alt="{{ lang[1] }}" title="{{ lang[1] }}" src="{{ site.baseurl }}/img/lang-{{ lang[0] }}.png"/>-->
+        {{ lang[0] }}
+      {% unless page.lang == lang[0] %}</a>{% endunless %}
+    </li>
+  {% endfor %}
+</ul>

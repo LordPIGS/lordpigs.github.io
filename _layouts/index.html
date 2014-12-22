@@ -18,49 +18,21 @@ scripts:
 {% endfor %}
 
   <!-- Languages -->
-  <ul class="languages">
-  {% for lang in site.langs %}
-    <li class="language language-{{ lang[0] }}{% if page.lang == lang[0] %} language-selected{% endif %}">
-      {% unless page.lang == lang[0] %}<a href="/{{ lang[0] }}" class="language-change" data-language="{{ lang[0] }}">{% endunless %}
-        <!--<img alt="{{ lang[1] }}" title="{{ lang[1] }}" src="{{ site.baseurl }}/img/lang-{{ lang[0] }}.png"/>-->
-        {{ lang[0] }}
-      {% unless page.lang == lang[0] %}</a>{% endunless %}
-    </li>
-  {% endfor %}
-  </ul>
+  {% include language-select.html %}
 
   <!-- Social Buttons -->
   {% include social-buttons.html %}
 
   <!-- THINGS CHARACTERS SAY -->
-  <div class="container-fluid the-quotes">
-  {% for quote in site.data.texts[page.lang].quotes %}
-  {% for qtxt in quote[1] %}
-    <a href="#character-{{ quote[0] }}">
-      <div id="character-quote-{{ forloop.index0 }}" class="character-quote character-quote-{{ quote[0] }} character-quote-{% cycle 'first','second','third','fourth' %}">{{ qtxt }}</div>
-    </a>
-  {% endfor %}
-  {% endfor %}
-    </div>
+  {% include char-quotes.html %}
 
 </div>
 
 <!-- THE GAME -->
-<div class="the-game">
-  <h1 class="full-header"><a class="anchor" id="game">{{ site.data.texts[page.lang].titles.game }}</a></h1>
-  <div class="container">
-    {{ site.data.texts[page.lang].gameDescription | markdownify }}
-    {% include support-us-big.html %}
-    <hr/>
-    {{ site.data.texts[page.lang].gameGameplay | markdownify }}
-    </div>
-</div>
+{% include game.html %}
 
 <!-- THE CHARACTERS -->
 {% include characters.html %}
-
-<!-- THE TEAM -->
-<!--{% include team.html %}-->
 
 <!-- THE STORE -->
 {% include store.html %}
