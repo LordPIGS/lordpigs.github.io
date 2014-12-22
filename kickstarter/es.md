@@ -31,15 +31,49 @@ The Lord of the P.I.G.S. es un juego de 2 a 4 jugadores, cuyas partidas duran un
 ![Praise for the Lord]({{ site.baseurl }}/kickstarter/es-title-praise.png)
 ----------------------
 
-The Lord of the P.I.G.S. fue seleccionado finalista para un concurso
-internacional de juegos de mesa organizada por Korea Board Games en
-Board Game Geek:
+<center>
+<a href="http://kokoringames.com">
+<img alt="Kokorin Games" src="{{ site.baseurl }}/kickstarter/es-info-kokorin.png" />
+</a>
+</center>
+
+El diseñador de juegos Perepau Llistosella
+([@Perepau](http://twitter.com/Perepau)), de Kokorin Games y ganador del Premio
+Billancourt 2008 con el juego Sidibaba, jugó a nuestro juego ¡y lo recomienda!
+¡Qué honor!
+
+- - -
 
 <center>
 <a href="http://boardgamegeek.com/thread/1174850/kbg-design-contest-2014-1600-prize-pool/page/3">
 <img alt="Korea Board Games" src="{{ site.baseurl }}/kickstarter/es-info-kbg.png" />
 </a>
 </center>
+
+The Lord of the P.I.G.S. fue seleccionado finalista para un concurso
+internacional de juegos de mesa organizada por Korea Board Games en
+Board Game Geek.
+
+- - -
+
+<center>
+<a href="http://wethenerdy.com/">
+<img alt="We The Nerdy" src="{{ site.baseurl }}/kickstarter/es-info-nerdy.png" />
+</a>
+</center>
+
+*"El arte del juego tiene un carácter cómico, pero hay un montón de sátira
+seria mezclada con un mensaje de fondo sobre lo que realmente pasa en el mundo
+a nuestro alrededor"*
+
+Podéis leer la reseña entera [aquí](http://wethenerdy.com/kickstarter-tabletop-games-to-check-out-before-they-go/).
+
+- - -
+
+![Análisis de Juegos]({{ site.baseurl }}/kickstarter/es-info-adj.jpg)
+
+Si queréis saber más sobre nuestra historia, echadle un ojo a la
+[entrevista que nos hicieron en Análisis de Juegos](http://youtu.be/t76jI253dg8)
 
 
 ![Gameplay]({{ site.baseurl }}/kickstarter/es-title-gameplay.png)
@@ -48,6 +82,8 @@ Board Game Geek:
 El juego utiliza mecánicas muy simples para reflejar cómo los poderosos moldean la economía para
 ponerla al servicio de sus intereses... al tiempo que ocasionalmente se preocupan de las
 necesidades de la mayoría de la población.
+
+{% include youtube.html video='7ajfJVtFBJ8' %}
 
 The Lord of the P.I.G.S. enfrenta a 4 jugadores en una carrera todos contra todos hacia la gloria
 económica! Cada uno de los jugadores adopta el rol de uno de los jefes de Meridia, todos "buena
@@ -58,8 +94,6 @@ gente"...
   Arte exclusivo para la versión de Kickstarter.<br/>
   ¡Pon tu cara cogiendo el nivel de aporte <em>Cabecilla</em>!
 </p>
-
-{% include youtube.html video='7ajfJVtFBJ8' %}
 
 Los intereses de cada jugador son de naturaleza diferente (al Presidente, por ejemplo, le interesa
 la Opinión Pública), y cada uno se representa con una puntuación que va de 0 a 10.  El objetivo del
@@ -154,7 +188,7 @@ contiene todos los elementos que necesitas para jugar:
 **Esta versión no incluye el contenido extra desbloqueado durante esta campaña
 de Kickstarter.**
 
-![](/kickstarter/es-pic-newcards.png)
+![]({{ site.baseurl }}/kickstarter/es-pic-newcards.png)
 
 
 ### [OFERTA LIMITADA] Cacique Regional (£28, limitado a 25)
@@ -175,6 +209,8 @@ jugar:
 **Esta versión SI incluye el contenido extra desbloqueado durante esta campaña
 de Kickstarter**
 
+![]({{ site.baseurl }}/kickstarter/es-pic-board.png)
+
 
 ### Cacique Internacional (₤35, envío gratis a todo el mundo)
 
@@ -186,6 +222,8 @@ Idéntico al **Cacique Regional**, pero con precio único con gastos de envío i
 ¡Manda con estilo! Con esta aportación, recibirás las recompensas del nivel Cacique Regional además
 de una exclusiva y elegante camiseta de The Lord of the P.I.G.S.
 
+![]({{ site.baseurl }}/kickstarter/es-pic-tshirt.png)
+
 
 ### [OFERTA LIMITADA] Filántropo Adinerado (£58, limitado a 10)
 
@@ -193,6 +231,8 @@ de una exclusiva y elegante camiseta de The Lord of the P.I.G.S.
 además de una copia en papel de la exclusiva edición de la Guía de Arte de The Lord of the P.I.G.S.
 Este libro muestra la evolución de las ilustraciones y el diseño del juego, desde los conceptos
 hasta la versiones finales, con anotaciones y comentarios de los ilustradores y los diseñadores.
+
+![]({{ site.baseurl }}/kickstarter/es-info-artbookbanker.png)
 
 
 ### Oligarca Opulento  (£70, limitado a 10)
