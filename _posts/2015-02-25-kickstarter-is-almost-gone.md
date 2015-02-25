@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: Kickstarter is almost gone...
 lang: en
 is_main: true
