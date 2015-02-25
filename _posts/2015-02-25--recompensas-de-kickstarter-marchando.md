@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 title: "¿Recompensas de Kickstarter? ¡Marchando!"
 lang: es
 is_main: false
