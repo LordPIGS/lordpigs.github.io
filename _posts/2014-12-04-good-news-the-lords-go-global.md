@@ -4,6 +4,7 @@ title: "Good news: The Lords Go Global!"
 lang: en
 is_main: true
 permalink: "/en/posts/the-lords-go-global"
+lang_es_link: "/es/posts/kickstarter-se-acaba"
 ---
 
 Hi!
