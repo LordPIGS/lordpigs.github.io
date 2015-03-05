@@ -488,9 +488,9 @@ h2 {
   .the-store .coming-soon-stamp {
     position: absolute;
     top: 50%;
-    height: 230px;
-    line-height: 72px;
-    margin-top: -115px;
+    height: 100px;
+    line-height: 90px;
+    margin-top: -50px;
     left: 50%;
     width: 600px;
     margin-left: -300px;
