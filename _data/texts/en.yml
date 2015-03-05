@@ -14,9 +14,7 @@ support:
   support: Support
   us_on: us on
 
-stamp:
-  on_ks_pre: Available after our
-  on_ks_post: campaign
+stamp: Coming Soon
 
 blogWarn: |
   **Note**: This page is showing posts written in *English*, but some posts may
@@ -73,10 +71,6 @@ gameDescription: |
   leaders and will vie for economic supremacy through presentation meetings,
   voting sessions, public opinion polls, unexpected events and widespread
   backstabbing.
-
-  The game is not ready to ship yet, and it’s going to be funded soon via
-  **Kickstarter**, where you can help it become a reality and get your copy
-  of the game and many extra content!
 
 gameGameplay: |
   GAMEPLAY

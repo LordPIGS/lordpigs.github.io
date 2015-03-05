@@ -14,9 +14,7 @@ support:
   support: Apóyanos
   us_on: en
 
-stamp:
-  on_ks_pre: Disponible tras<br/>nuestra campaña de
-  on_ks_post:
+stamp: Próxima Apertura
 
 blogWarn: |
   **Nota**: Esta página muestra las publicaciones escritas en *Español*, pero
@@ -78,11 +76,6 @@ gameDescription: |
   bueno: lanzar campañas de comunicación, hacer lobby, forjar (y romper)
   alianzas, manipular encuestas…todo ello en medio de una situación económica
   delicada, con una elevadísima tasa de paro.
-
-  El juego no está disponible todavía para la venta, pues esperamos poder
-  conseguir la financiación necesaria a través de Kickstarter, donde puedes
-  ayudarnos a que se convierta en una realidad ¡y conseguir una copia del juego
-  con muuucho contenido extra!
 
 gameGameplay: |
   MECÁNICA
